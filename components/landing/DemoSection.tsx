@@ -96,15 +96,15 @@ export default function DemoSection() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-        {/* macOS title bar */}
-        <div className="relative flex items-center border-b border-white/10 px-6 py-5">
-          <div className="flex gap-2.5">
+        {/* title bar */}
+        <div className="relative flex items-center justify-center border-b border-white/10 px-6 py-5">
+          <div className="hidden gap-2.5 sm:absolute sm:left-6 sm:flex">
             <div className="h-3.5 w-3.5 rounded-full bg-red-500" />
             <div className="h-3.5 w-3.5 rounded-full bg-yellow-500" />
             <div className="h-3.5 w-3.5 rounded-full bg-green-500" />
           </div>
 
-          <div className="absolute left-1/2 flex -translate-x-1/2 items-center gap-3">
+          <div className="flex items-center gap-3">
             {tabs.map((tab, index) => (
               <div key={tab.id} className="flex items-center gap-3">
                 {index > 0 && <span className="text-base text-zinc-600">|</span>}

@@ -6,30 +6,24 @@ const testimonials = [
     profession: "Software Developer",
     description:
       "Zepa UI saved us days on our landing page. Copied a hero and navbar, tweaked the motion, and shipped the same afternoon.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179912/yash_ffaqpk.png",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179904/yas_jgjwjr.png",
+    avatar: "/yash.png",
+    image: "/l1.png",
   },
   {
     name: "Han Lee",
     profession: "SWE Intern",
     description:
       "The components feel premium out of the box. Motion is already dialed in — I just drop them in and focus on product.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179972/han_mq9jdt.jpg",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179991/han_tha4oj.png",
+    avatar: "/han.jpeg",
+    image: "/l4.png",
   },
   {
     name: "Ananad Vardhan",
     profession: ".net Developer",
     description:
       "Copy-paste workflow is exactly what I wanted. Heroes, sections, UI blocks — all ready for Next.js without fighting setup.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781180252/anaad_tgb9d4.png",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781180062/ana_ipghfy.png",
+    avatar: "/anaad.png",
+    image: "/l6.png",
   },
   {
     name: "Bhavana V",
@@ -38,38 +32,31 @@ const testimonials = [
       "Finally a component library that cares about animation. Our marketing site went from wireframe to polished in a weekend.",
     avatar:
       "https://assets.basehub.com/fa068a12/uXVXN7g1Fc2EjO8OWn0HG/09.png?width=64&quality=90&format=auto",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781176412/dbbs_vftys7.png",
+    image: "/l5.png",
   },
   {
     name: "Sam Evans",
     profession: "Analyst",
     description:
       "I use Zepa UI for every new side project. Pick a hero, paste the code, and it actually looks like a real product.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179792/samevans_l2pubt.jpg",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179781/samm_yl1rcq.png",
+    avatar: "/samevans.jpeg",
+    image: "/l3.png",
   },
   {
     name: "vivek kommareddy",
     profession: "Software Engineer",
     description:
       "Clean React components with thoughtful motion. Easy to customize and impossible to tell they started as copy-paste.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781179721/vivek_jtysik.png",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781176729/core_dgrrad.png",
+    avatar: "/vivek.png",
+    image: "/core.png",
   },
   {
     name: "Avinash T",
     profession: "Software Developer",
     description:
       "Clean React components with thoughtful motion. Easy to customize and impossible to tell they started as copy-paste.",
-    avatar:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781257566/Screenshot_2026-06-12_at_3.11.14_PM_ntchub.png",
-    image:
-      "https://res.cloudinary.com/dy4bqxt8p/image/upload/v1781257542/compass_ynxqk9.png",
+    avatar: "/avi.jpeg",
+    image: "/compass.png",
   },
 ]
 
