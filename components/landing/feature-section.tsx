@@ -49,7 +49,7 @@ export function FeatureSection() {
                 muted
                 loop
                 playsInline
-                preload={isInView ? "metadata" : "none"}
+                preload="none"
                 draggable={false}
                 controls={false}
                 disablePictureInPicture
