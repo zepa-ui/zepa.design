@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "zepa",
-  "homepage": "https://zepadesign.netlify.app",
+  "homepage": "https://zepa.design",
   "items": [
     {
       "slug": "amero-hero",
@@ -17,7 +17,7 @@
         "interactive",
         "landing"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/amero-hero.json"
+      "installUrl": "https://zepa.design/r/amero-hero.json"
     },
     {
       "slug": "brutal-hero",
@@ -34,7 +34,7 @@
         "landing",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/brutal-hero.json"
+      "installUrl": "https://zepa.design/r/brutal-hero.json"
     },
     {
       "slug": "caledera",
@@ -50,7 +50,7 @@
         "blockchain",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/caledera.json"
+      "installUrl": "https://zepa.design/r/caledera.json"
     },
     {
       "slug": "dataanalytics-hero",
@@ -66,7 +66,7 @@
         "landing",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/dataanalytics-hero.json"
+      "installUrl": "https://zepa.design/r/dataanalytics-hero.json"
     },
     {
       "slug": "glean-hero",
@@ -82,7 +82,7 @@
         "cta",
         "light"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/glean-hero.json"
+      "installUrl": "https://zepa.design/r/glean-hero.json"
     },
     {
       "slug": "glsl-hills-hero",
@@ -97,7 +97,7 @@
         "shader",
         "animated"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/glsl-hills-hero.json"
+      "installUrl": "https://zepa.design/r/glsl-hills-hero.json"
     },
     {
       "slug": "mainframe-hero",
@@ -113,7 +113,7 @@
         "landing",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/mainframe-hero.json"
+      "installUrl": "https://zepa.design/r/mainframe-hero.json"
     },
     {
       "slug": "new-hero",
@@ -128,7 +128,7 @@
         "glow",
         "mockup"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/new-hero.json"
+      "installUrl": "https://zepa.design/r/new-hero.json"
     },
     {
       "slug": "posterscroll-hero",
@@ -145,7 +145,7 @@
         "scroll",
         "streaming"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/posterscroll-hero.json"
+      "installUrl": "https://zepa.design/r/posterscroll-hero.json"
     },
     {
       "slug": "vault-hero",
@@ -161,7 +161,7 @@
         "landing",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/vault-hero.json"
+      "installUrl": "https://zepa.design/r/vault-hero.json"
     },
     {
       "slug": "vercel-hero",
@@ -178,7 +178,7 @@
         "landing",
         "cta"
       ],
-      "installUrl": "https://zepadesign.netlify.app/r/vercel-hero.json"
+      "installUrl": "https://zepa.design/r/vercel-hero.json"
     }
   ]
 }

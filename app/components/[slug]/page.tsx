@@ -5,6 +5,7 @@ import { ComponentDetailClient } from "@/components/showcase/component-detail-cl
 import { getComponentCode } from "@/lib/registry/code"
 import { highlightCodeFiles } from "@/lib/registry/highlight"
 import { getAllSlugs, getRegistryItem } from "@/lib/registry/helpers"
+import { buildComponentKeywords, buildMetadata } from "@/lib/seo"
 import { getMetaStats } from "@/lib/stats/meta-seeds"
 
 interface ComponentDetailPageProps {
@@ -25,7 +26,12 @@ export async function generateMetadata({
     return { title: "Component" }
   }
 
-  return { title: item.title }
+  return buildMetadata({
+    title: item.title,
+    description: item.description,
+    keywords: buildComponentKeywords(item.tags),
+    path: `/components/${slug}`,
+  })
 }
 
 export default async function ComponentDetailPage({

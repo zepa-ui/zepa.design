@@ -116,7 +116,7 @@ export function ContributorBuildFlow() {
 
       <FlowCard icon={Globe} title="After deploy" accent="text-amber-400">
         <code className="block text-zinc-300">
-          npx shadcn@latest add https://zepadesign.netlify.app/r/your-slug.json
+          npx shadcn@latest add https://zepa.design/r/your-slug.json
         </code>
       </FlowCard>
     </div>

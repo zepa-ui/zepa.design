@@ -5,6 +5,7 @@ import { useState } from "react"
 import { ArrowLeft, Check, Copy } from "lucide-react"
 
 import { getInstallCommand } from "@/lib/registry/helpers"
+import { getShadcnInstallCommand } from "@/lib/site-url"
 import type { HighlightedCodeFile } from "@/lib/registry/highlight"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -69,7 +70,7 @@ export function ComponentDetail({
   onInstallCopy,
 }: ComponentDetailProps) {
   const installCommand = getInstallCommand(dependencies)
-  const shadcnInstallCommand = `npx shadcn@latest add https://zepadesign.netlify.app/r/${slug}.json`
+  const shadcnInstallCommand = getShadcnInstallCommand(slug)
   const codeEntries = Object.entries(code)
   const defaultCodeKey = codeEntries[0]?.[0] ?? ""
   const [activeCodeKey, setActiveCodeKey] = useState(defaultCodeKey)

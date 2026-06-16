@@ -13,6 +13,10 @@ import {
 } from "lucide-react"
 import { Navbar } from "@/components/landing/navbar"
 import { Footer } from "@/components/landing/footer"
+import { getShadcnInstallCommand } from "@/lib/site-url"
+
+const EXAMPLE_SLUG = "amero-hero"
+const SHADCN_INSTALL_COMMAND = getShadcnInstallCommand(EXAMPLE_SLUG)
 
 const QUICK_CHECKLIST = [
   "Added meta.ts",
@@ -261,6 +265,22 @@ public/previews/
             <div className="space-y-4">
               <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
                 <p className="mb-2 text-xs uppercase tracking-wider text-zinc-500">
+                  Install component (shadcn CLI)
+                </p>
+                <pre className="overflow-x-auto text-sm text-zinc-300">
+                  {SHADCN_INSTALL_COMMAND}
+                </pre>
+              </div>
+              <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
+                <p className="mb-2 text-xs uppercase tracking-wider text-zinc-500">
+                  Install dependencies (if listed in meta.ts)
+                </p>
+                <pre className="overflow-x-auto text-sm text-zinc-300">
+                  npm install framer-motion lucide-react
+                </pre>
+              </div>
+              <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
+                <p className="mb-2 text-xs uppercase tracking-wider text-zinc-500">
                   After adding or updating a component
                 </p>
                 <pre className="text-sm text-zinc-300">npm run build:registry</pre>
@@ -343,7 +363,7 @@ npm run test`}</pre>
               <code className="text-zinc-300">public/r/your-slug.json</code> is deployed:
             </p>
             <pre className="mt-4 overflow-x-auto rounded-lg border border-zinc-800 bg-zinc-900/40 p-4 text-sm text-zinc-300">
-              npx shadcn@latest add https://zepadesign.netlify.app/r/sameer-hero.json
+              {SHADCN_INSTALL_COMMAND}
             </pre>
           </section>
         </div>

@@ -1,7 +1,9 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
+import Script from "next/script"
 import { Analytics } from "@vercel/analytics/next"
+import { buildMetadata } from "@/lib/seo"
 import "./globals.css"
 
 const manrope = Manrope({
@@ -9,14 +11,15 @@ const manrope = Manrope({
   variable: "--font-manrope",
 })
 
+const GA_MEASUREMENT_ID = "G-WKFXLLRGNV"
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://zepa.design"),
+  ...buildMetadata(),
   title: {
     default: "zepa ui - UI Components",
-    template: "%s",
+    template: "%s | zepa ui",
   },
-  description:
-    "The modern platform for UI components and libraries who ship fast. Built for scale, designed for speed.",
-  applicationName: "Zepa",
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
@@ -24,9 +27,6 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon-48.png",
     apple: "/apple-touch-icon.png",
-  },
-  openGraph: {
-    images: [{ url: "/zz.png", width: 512, height: 512, alt: "Zepa" }],
   },
 }
 
@@ -59,6 +59,18 @@ export default function RootLayout({
       <body className={`${manrope.variable} font-sans antialiased`}>
         <div className="noise-overlay" aria-hidden="true" />
         {children}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <Analytics />
       </body>
     </html>

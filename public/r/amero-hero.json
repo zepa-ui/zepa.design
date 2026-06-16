@@ -5,7 +5,10 @@
   "title": "Amero Hero",
   "description": "AI design-reference finder hero with animated pixel-grid backgrounds, typewriter prompt, folder stack reveal, and floating reference cards.",
   "github": "vij-sameerb5",
-  "dependencies": [],
+  "dependencies": [
+    "framer-motion",
+    "lucide-react"
+  ],
   "registryDependencies": [],
   "files": [
     {

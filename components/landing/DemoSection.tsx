@@ -83,6 +83,7 @@ export default function DemoSection() {
             width={180}
             height={48}
             className="h-10 w-auto shrink-0 sm:h-12"
+            style={{ width: "auto", height: "auto" }}
           />
           <span className="text-3xl sm:text-4xl">in Action</span>
         </h2>
@@ -97,20 +98,22 @@ export default function DemoSection() {
         onMouseLeave={() => setPaused(false)}
       >
         {/* title bar */}
-        <div className="relative flex items-center justify-center border-b border-white/10 px-6 py-5">
+        <div className="relative flex items-center justify-center border-b border-white/10 px-2.5 py-3.5 sm:px-6 sm:py-5">
           <div className="hidden gap-2.5 sm:absolute sm:left-6 sm:flex">
             <div className="h-3.5 w-3.5 rounded-full bg-red-500" />
             <div className="h-3.5 w-3.5 rounded-full bg-yellow-500" />
             <div className="h-3.5 w-3.5 rounded-full bg-green-500" />
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex max-w-full items-center justify-center gap-1 overflow-x-auto sm:gap-3">
             {tabs.map((tab, index) => (
-              <div key={tab.id} className="flex items-center gap-3">
-                {index > 0 && <span className="text-base text-zinc-600">|</span>}
+              <div key={tab.id} className="flex shrink-0 items-center gap-1 sm:gap-3">
+                {index > 0 && (
+                  <span className="hidden text-base text-zinc-600 sm:inline">|</span>
+                )}
                 <button
                   onClick={() => setActiveTab(tab.id)}
-                  className={`rounded-xl px-5 py-2.5 text-base font-medium transition-all duration-300 ${
+                  className={`rounded-md px-3 py-2.5 text-sm font-medium leading-tight transition-all duration-300 sm:rounded-xl sm:px-5 sm:py-2.5 sm:text-base sm:leading-normal ${
                     activeTab === tab.id
                       ? "border border-white/15 bg-white/10 text-white"
                       : "text-zinc-500 hover:bg-white/5 hover:text-zinc-200"

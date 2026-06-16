@@ -21,7 +21,7 @@ export const meta = {
     "landing",
   ],
 
-  dependencies: [],
+  dependencies: ["framer-motion", "lucide-react"],
 
   registryDependencies: [],
 

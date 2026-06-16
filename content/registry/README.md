@@ -27,11 +27,11 @@ This generates:
 ## Install via shadcn CLI
 
 ```bash
-npx shadcn@latest add https://zepadesign.netlify.app/r/<slug>.json
+npx shadcn@latest add https://zepa.design/r/<slug>.json
 ```
 
 Example:
 
 ```bash
-npx shadcn@latest add https://zepadesign.netlify.app/r/glsl-hills-hero.json
+npx shadcn@latest add https://zepa.design/r/glsl-hills-hero.json
 ```
