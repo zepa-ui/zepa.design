@@ -20,6 +20,22 @@
       "installUrl": "https://zepa.design/r/amero-hero.json"
     },
     {
+      "slug": "amind-hero",
+      "title": "Amind Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the mymind website — purely as a creative reference for fellow developers, no affiliation or commercial intent. Features a blurred radial gradient backdrop, white circle overlay, colorful tag bubbles, animated entrance transitions, app store buttons, and an auto-playing product video.",
+      "github": "riyo3sen",
+      "tags": [
+        "hero",
+        "landing",
+        "gradient",
+        "minimal",
+        "video",
+        "animation"
+      ],
+      "installUrl": "https://zepa.design/r/amind-hero.json"
+    },
+    {
       "slug": "brutal-hero",
       "title": "Brutal Hero",
       "category": "hero-sections",

@@ -14,6 +14,9 @@ export const registryLoaders: Record<
   "amero-hero": {
     demo: () => import("./hero-sections/amero-hero/demo"),
   },
+  "amind-hero": {
+    demo: () => import("./hero-sections/amind-hero/demo"),
+  },
   "brutal-hero": {
     demo: () => import("./hero-sections/brutal-hero/demo"),
   },

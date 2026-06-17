@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --brand-orange: #FF5924;
+}
+/* Scoped to wrapper class so zepa globals.css (Manrope) can't override */
+.amind-hero-root {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+.amind-hero-root .font-serif-display {
+  font-family: 'Newsreader', serif;
+}
+/* White circle sitting on top of the gradient backdrop */
+.hero-circle {
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 68%, rgba(255, 255, 255, 0.9) 82%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* ── Keyframes ─────────────────────────────────────────────────────── */
+
+@keyframes amind-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes amind-rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes amind-blur-rise {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+}
+
+@keyframes amind-bg-fade {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) scale(1.06);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+/* Circle drops in from above — carries translateX(-50%) so centering holds */
+@keyframes amind-circle-drop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-48px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+/* ── Animation classes (scoped so they don't bleed into zepa) ──────── */
+
+.amind-hero-root .amind-fade {
+  animation: amind-fade 0.7s ease both;
+}
+.amind-hero-root .amind-rise {
+  animation: amind-rise 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.amind-hero-root .amind-blur-rise {
+  animation: amind-blur-rise 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.amind-hero-root .amind-bg-fade {
+  animation: amind-bg-fade 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.amind-hero-root .amind-circle-drop {
+  animation: amind-circle-drop 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ── Delay steps ───────────────────────────────────────────────────── */
+
+.amind-hero-root .amind-d1 { animation-delay: 0.1s; }
+.amind-hero-root .amind-d2 { animation-delay: 0.25s; }
+.amind-hero-root .amind-d3 { animation-delay: 0.4s; }
+.amind-hero-root .amind-d4 { animation-delay: 0.55s; }
+.amind-hero-root .amind-d5 { animation-delay: 0.7s; }
+.amind-hero-root .amind-d6 { animation-delay: 0.9s; }

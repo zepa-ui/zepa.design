@@ -1,7 +1,7 @@
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Change this slug or use `?slug=your-hero` in the URL to test another component. */
-const DEFAULT_PLAYGROUND_SLUG = "amero-hero"
+const DEFAULT_PLAYGROUND_SLUG = "amind-hero"
 
 interface HeroPlaygroundPageProps {
   searchParams: Promise<{ slug?: string }>

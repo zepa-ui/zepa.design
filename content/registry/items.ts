@@ -2,6 +2,7 @@
 // Run: npm run build:registry
 
 import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
+import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
 import { meta as heroSectionsBrutalHero } from "./hero-sections/brutal-hero/meta"
 import { meta as heroSectionsCaledera } from "./hero-sections/caledera/meta"
 import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanalytics-hero/meta"
@@ -15,6 +16,7 @@ import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta
 
 export const registryItems = [
   heroSectionsAmeroHero,
+  heroSectionsAmindHero,
   heroSectionsBrutalHero,
   heroSectionsCaledera,
   heroSectionsDataanalyticsHero,

@@ -5,6 +5,13 @@ export const codePaths: Record<string, string[]> = {
   "amero-hero": [
     "hero-sections/amero-hero/demo.tsx",
   ],
+  "amind-hero": [
+    "hero-sections/amind-hero/demo.tsx",
+    "hero-sections/amind-hero/ui/Reviewband.tsx",
+    "hero-sections/amind-hero/ui/header.tsx",
+    "hero-sections/amind-hero/ui/hero.tsx",
+    "hero-sections/amind-hero/ui/videosection.tsx",
+  ],
   "brutal-hero": [
     "hero-sections/brutal-hero/demo.tsx",
     "hero-sections/brutal-hero/ui/navbar.tsx",
