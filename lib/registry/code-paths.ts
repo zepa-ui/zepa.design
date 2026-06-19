@@ -21,6 +21,9 @@ export const codePaths: Record<string, string[]> = {
   "caledera": [
     "hero-sections/caledera/demo.tsx",
   ],
+  "crnacura-hero": [
+    "hero-sections/crnacura-hero/demo.tsx",
+  ],
   "dataanalytics-hero": [
     "hero-sections/dataanalytics-hero/demo.tsx",
   ],

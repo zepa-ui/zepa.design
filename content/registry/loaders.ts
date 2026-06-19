@@ -23,6 +23,9 @@ export const registryLoaders: Record<
   "caledera": {
     demo: () => import("./hero-sections/caledera/demo"),
   },
+  "crnacura-hero": {
+    demo: () => import("./hero-sections/crnacura-hero/demo"),
+  },
   "dataanalytics-hero": {
     demo: () => import("./hero-sections/dataanalytics-hero/demo"),
   },

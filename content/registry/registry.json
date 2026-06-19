@@ -69,6 +69,24 @@
       "installUrl": "https://zepa.design/r/caledera.json"
     },
     {
+      "slug": "crnacura-hero",
+      "title": "Crnacura Hero",
+      "category": "hero-sections",
+      "description": "Editorial menu hero with 3D letter hover reveals, GSAP image previews on menu items, custom cursor, Zepa logo header, and centered body copy on a warm off-white canvas.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "menu",
+        "hover",
+        "gsap",
+        "splitting",
+        "typography",
+        "landing",
+        "cursor"
+      ],
+      "installUrl": "https://zepa.design/r/crnacura-hero.json"
+    },
+    {
       "slug": "dataanalytics-hero",
       "title": "Data Analytics Hero",
       "category": "hero-sections",

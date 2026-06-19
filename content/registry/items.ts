@@ -5,6 +5,7 @@ import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
 import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
 import { meta as heroSectionsBrutalHero } from "./hero-sections/brutal-hero/meta"
 import { meta as heroSectionsCaledera } from "./hero-sections/caledera/meta"
+import { meta as heroSectionsCrnacuraHero } from "./hero-sections/crnacura-hero/meta"
 import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanalytics-hero/meta"
 import { meta as heroSectionsGleanHero } from "./hero-sections/glean-hero/meta"
 import { meta as heroSectionsGlslHillsHero } from "./hero-sections/glsl-hills-hero/meta"
@@ -20,6 +21,7 @@ export const registryItems = [
   heroSectionsAmindHero,
   heroSectionsBrutalHero,
   heroSectionsCaledera,
+  heroSectionsCrnacuraHero,
   heroSectionsDataanalyticsHero,
   heroSectionsGleanHero,
   heroSectionsGlslHillsHero,
