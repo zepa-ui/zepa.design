@@ -29,6 +29,9 @@ export const registryLoaders: Record<
   "dataanalytics-hero": {
     demo: () => import("./hero-sections/dataanalytics-hero/demo"),
   },
+  "drops-hero": {
+    demo: () => import("./hero-sections/drops-hero/demo"),
+  },
   "glean-hero": {
     demo: () => import("./hero-sections/glean-hero/demo"),
   },
@@ -52,5 +55,8 @@ export const registryLoaders: Record<
   },
   "vercel-hero": {
     demo: () => import("./hero-sections/vercel-hero/demo"),
+  },
+  "zoom-hero": {
+    demo: () => import("./hero-sections/zoom-hero/demo"),
   },
 }

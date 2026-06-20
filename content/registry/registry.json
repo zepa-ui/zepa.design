@@ -103,6 +103,24 @@
       "installUrl": "https://zepa.design/r/dataanalytics-hero.json"
     },
     {
+      "slug": "drops-hero",
+      "title": "Drops Hero",
+      "category": "hero-sections",
+      "description": "Dark fullscreen hero with GSAP mouse trail — images fall and bounce as the cursor moves. Zepa logo header, centered headline, and ten Cloudinary trail assets.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "gsap",
+        "cursor",
+        "trail",
+        "animation",
+        "landing",
+        "interactive",
+        "mouse"
+      ],
+      "installUrl": "https://zepa.design/r/drops-hero.json"
+    },
+    {
       "slug": "glean-hero",
       "title": "Glean Hero",
       "category": "hero-sections",
@@ -230,6 +248,24 @@
         "cta"
       ],
       "installUrl": "https://zepa.design/r/vercel-hero.json"
+    },
+    {
+      "slug": "zoom-hero",
+      "title": "Zoom Hero",
+      "category": "hero-sections",
+      "description": "Light fullscreen hero with GSAP ScrollSmoother and ScrollTrigger — layered mask zoom on scroll, split heading, and ten thumbnail images that fly off into depth.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "gsap",
+        "scroll",
+        "zoom",
+        "mask",
+        "animation",
+        "landing",
+        "scrolltrigger"
+      ],
+      "installUrl": "https://zepa.design/r/zoom-hero.json"
     }
   ]
 }
