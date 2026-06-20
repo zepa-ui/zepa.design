@@ -7,6 +7,7 @@ import { meta as heroSectionsBrutalHero } from "./hero-sections/brutal-hero/meta
 import { meta as heroSectionsCaledera } from "./hero-sections/caledera/meta"
 import { meta as heroSectionsCrnacuraHero } from "./hero-sections/crnacura-hero/meta"
 import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanalytics-hero/meta"
+import { meta as heroSectionsDropsHero } from "./hero-sections/drops-hero/meta"
 import { meta as heroSectionsGleanHero } from "./hero-sections/glean-hero/meta"
 import { meta as heroSectionsGlslHillsHero } from "./hero-sections/glsl-hills-hero/meta"
 import { meta as heroSectionsMainframeHero } from "./hero-sections/mainframe-hero/meta"
@@ -15,6 +16,7 @@ import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscro
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
+import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 
 export const registryItems = [
   heroSectionsAmeroHero,
@@ -23,6 +25,7 @@ export const registryItems = [
   heroSectionsCaledera,
   heroSectionsCrnacuraHero,
   heroSectionsDataanalyticsHero,
+  heroSectionsDropsHero,
   heroSectionsGleanHero,
   heroSectionsGlslHillsHero,
   heroSectionsMainframeHero,
@@ -31,6 +34,7 @@ export const registryItems = [
   heroSectionsSliderHero,
   heroSectionsVaultHero,
   heroSectionsVercelHero,
+  heroSectionsZoomHero,
 ] as const
 
 export type RegistryItem = (typeof registryItems)[number]

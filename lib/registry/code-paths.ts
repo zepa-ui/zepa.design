@@ -27,6 +27,11 @@ export const codePaths: Record<string, string[]> = {
   "dataanalytics-hero": [
     "hero-sections/dataanalytics-hero/demo.tsx",
   ],
+  "drops-hero": [
+    "hero-sections/drops-hero/demo.tsx",
+    "hero-sections/drops-hero/ui/gsap-image-trail.tsx",
+    "hero-sections/drops-hero/ui/index.ts",
+  ],
   "glean-hero": [
     "hero-sections/glean-hero/demo.tsx",
   ],
@@ -59,5 +64,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "vercel-hero": [
     "hero-sections/vercel-hero/demo.tsx",
+  ],
+  "zoom-hero": [
+    "hero-sections/zoom-hero/demo.tsx",
+    "hero-sections/zoom-hero/ui/telescope-zoom.tsx",
   ],
 }
