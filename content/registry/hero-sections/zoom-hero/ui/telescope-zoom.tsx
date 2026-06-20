@@ -40,22 +40,33 @@ export function TelescopeZoom({
     if (!wrapper || !content || !section) return;
 
     const sectionEl = section;
+    const contentEl = content;
+    const embedded = Boolean(wrapper.closest(".demo-embed-root"));
     const frontImages = sectionEl.querySelectorAll<HTMLElement>(".tz-media-front");
     const smallImgEls = sectionEl.querySelectorAll<HTMLElement>(".tz-images img");
 
     let smoother: ScrollSmoother | undefined;
     let timeline: gsap.core.Timeline | undefined;
+    let scrollSpacer: HTMLDivElement | null = null;
 
     function start() {
       setLoading(false);
 
-      smoother = ScrollSmoother.create({
-        wrapper,
-        content,
-        smooth: 1.5,
-        effects: true,
-        normalizeScroll: true,
-      });
+      // ScrollSmoother pins the wrapper to the viewport and resizes body — breaks registry embeds.
+      if (!embedded) {
+        smoother = ScrollSmoother.create({
+          wrapper,
+          content: contentEl,
+          smooth: 1.5,
+          effects: true,
+          normalizeScroll: true,
+        });
+      } else {
+        scrollSpacer = document.createElement("div");
+        scrollSpacer.className = "tz-scroll-spacer";
+        scrollSpacer.setAttribute("aria-hidden", "true");
+        contentEl.appendChild(scrollSpacer);
+      }
 
       gsap.set(smallImgEls, {
         transformStyle: "preserve-3d",
@@ -70,6 +81,7 @@ export function TelescopeZoom({
           end: "bottom top",
           scrub: true,
           pin: true,
+          invalidateOnRefresh: true,
           onUpdate: (self) => {
             const easedProgress = gsap.parseEase("power1.inOut")(self.progress);
             sectionEl.style.setProperty("--progress", String(easedProgress));
@@ -101,6 +113,8 @@ export function TelescopeZoom({
         },
         0.6
       );
+
+      ScrollTrigger.refresh();
     }
 
     const imgs = Array.from(wrapper.querySelectorAll("img"));
@@ -132,6 +146,8 @@ export function TelescopeZoom({
       timeline?.scrollTrigger?.kill();
       timeline?.kill();
       smoother?.kill();
+      scrollSpacer?.remove();
+      ScrollTrigger.refresh();
     };
   }, [bigImage, smallImages, maskImage]);
 
