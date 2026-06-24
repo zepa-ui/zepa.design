@@ -1,0 +1,18 @@
+.cohort-navbar-demo {
+  width: 100%;
+  min-height: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f3f3f3;
+  color: #111111;
+}
+
+.cohort-navbar-demo .cohort-navbar {
+  position: relative;
+  z-index: 50;
+  width: 100%;
+}
+
+.cohort-navbar-demo .cohort-navbar__mega {
+  z-index: 60;
+}

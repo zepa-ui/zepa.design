@@ -59,4 +59,10 @@ export const registryLoaders: Record<
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
   },
+  "cohort-navbar": {
+    demo: () => import("./navbar-sections/cohort-navbar/demo"),
+  },
+  "curved-navbar": {
+    demo: () => import("./navbar-sections/curved-navbar/demo"),
+  },
 }

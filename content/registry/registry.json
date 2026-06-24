@@ -266,6 +266,41 @@
         "scrolltrigger"
       ],
       "installUrl": "https://zepa.design/r/zoom-hero.json"
+    },
+    {
+      "slug": "cohort-navbar",
+      "title": "Cohort Navbar",
+      "category": "navbar-sections",
+      "description": "Light navbar with Zepa logo, text-scramble hover on links, products mega-menu with alternating Cloudinary thumbnails, mobile accordion submenu, and hash placeholder routes.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "mega-menu",
+        "text-scramble",
+        "dropdown",
+        "mobile",
+        "landing",
+        "responsive"
+      ],
+      "installUrl": "https://zepa.design/r/cohort-navbar.json"
+    },
+    {
+      "slug": "curved-navbar",
+      "title": "Curved Navbar",
+      "category": "navbar-sections",
+      "description": "Dark glassy pill-shaped navbar with a smooth framer-motion sliding active indicator, logo with diamond icon, and subtle backdrop blur.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "pill",
+        "glassmorphism",
+        "framer-motion",
+        "animated",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/curved-navbar.json"
     }
   ]
 }

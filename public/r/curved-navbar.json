@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "curved-navbar",
+  "type": "registry:block",
+  "title": "Curved Navbar",
+  "description": "Dark glassy pill-shaped navbar with a smooth framer-motion sliding active indicator, logo with diamond icon, and subtle backdrop blur.",
+  "github": "vij-sameerb5",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "demo.tsx",
+      "content": "\"use client\";\n\nimport { useState } from \"react\";\nimport { motion } from \"framer-motion\";\n\nconst ZEPA_LOGO =\n  \"https://res.cloudinary.com/dakrfj1oh/image/upload/v1781973374/zzepa_fur8kl.png\";\n\nconst navItems = [\"Technology\", \"About Us\", \"Our Thoughts\", \"Contact\"];\n\nexport default function CurvedNavbar() {\n  const [active, setActive] = useState(\"Technology\");\n\n  return (\n    <div className=\"min-h-screen bg-gradient-to-br from-[#c8c4e8] via-[#ddd8ee] to-[#b8c8e8] flex flex-col items-center pt-12 px-4\">\n      {/* NAV PILL */}\n      <nav className=\"relative flex items-center gap-1 rounded-full bg-[#1a1a1f]/90 backdrop-blur-md border border-white/10 shadow-[0_12px_40px_rgba(0,0,0,0.45)] px-3 py-2.5\">\n\n        {/* LOGO */}\n        <div className=\"flex items-center pl-2 pr-5 mr-1\">\n          <img\n            src={ZEPA_LOGO}\n            alt=\"Zepa\"\n            className=\"h-9 w-auto object-contain\"\n          />\n        </div>\n\n        {/* DIVIDER */}\n        <div className=\"w-px h-6 bg-white/10 mr-2\" />\n\n        {/* NAV ITEMS */}\n        {navItems.map((item) => (\n          <button\n            key={item}\n            onClick={() => setActive(item)}\n            className=\"relative px-5 py-2 text-[14px] font-medium rounded-full transition-colors duration-200 outline-none\"\n          >\n            {/* ACTIVE PILL */}\n            {active === item && (\n              <motion.span\n                layoutId=\"active-pill\"\n                className=\"absolute inset-0 rounded-full bg-white/90 shadow-sm\"\n                transition={{ type: \"spring\", stiffness: 400, damping: 35 }}\n              />\n            )}\n            <span\n              className={`relative z-10 transition-colors duration-200 whitespace-nowrap ${\n                active === item ? \"text-[#1a1a1f]\" : \"text-white/60 hover:text-white/90\"\n              }`}\n            >\n              {item}\n            </span>\n          </button>\n        ))}\n      </nav>\n    </div>\n  );\n}\n",
+      "type": "registry:example",
+      "target": "components/curved-navbar/demo.tsx"
+    }
+  ]
+}

@@ -69,4 +69,12 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/zoom-hero/demo.tsx",
     "hero-sections/zoom-hero/ui/telescope-zoom.tsx",
   ],
+  "cohort-navbar": [
+    "navbar-sections/cohort-navbar/demo.tsx",
+    "navbar-sections/cohort-navbar/ui/demo-shell.tsx",
+    "navbar-sections/cohort-navbar/ui/text-scramble.tsx",
+  ],
+  "curved-navbar": [
+    "navbar-sections/curved-navbar/demo.tsx",
+  ],
 }
