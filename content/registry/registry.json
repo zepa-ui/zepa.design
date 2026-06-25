@@ -301,6 +301,41 @@
         "dark"
       ],
       "installUrl": "https://zepa.design/r/curved-navbar.json"
+    },
+    {
+      "slug": "ramp-unicorn",
+      "title": "Ramp Unicorn",
+      "category": "unicorn-section",
+      "description": "Dithered WebGL background from Unicorn Studio with a cycling text hero — four Zepa taglines blur-transition every 4s over a blue-gradient dither scene.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "dither",
+        "hero",
+        "dark",
+        "cycling-text",
+        "blur"
+      ],
+      "installUrl": "https://zepa.design/r/ramp-unicorn.json"
+    },
+    {
+      "slug": "rigel-unicorn",
+      "title": "Rigel Unicorn",
+      "category": "unicorn-section",
+      "description": "Rigel-inspired WebGL scene built with Unicorn Studio — animated dithered background with layered effects and a centered Zepa text overlay.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "dark",
+        "rigel",
+        "dither",
+        "saas"
+      ],
+      "installUrl": "https://zepa.design/r/rigel-unicorn.json"
     }
   ]
 }

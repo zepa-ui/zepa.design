@@ -18,7 +18,7 @@ describe("Component Metadata", () => {
   })
 
   it("should have valid categories", () => {
-    const validCategories = ["hero-sections", "cards", "buttons", "navbar-sections"]
+    const validCategories = ["hero-sections", "cards", "buttons", "navbar-sections", "unicorn-section"]
     registryItems.forEach((item) => {
       expect(validCategories).toContain(item.category)
     })

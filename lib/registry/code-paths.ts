@@ -77,4 +77,12 @@ export const codePaths: Record<string, string[]> = {
   "curved-navbar": [
     "navbar-sections/curved-navbar/demo.tsx",
   ],
+  "ramp-unicorn": [
+    "unicorn-section/ramp-unicorn/demo.tsx",
+    "unicorn-section/ramp-unicorn/ui/scene.json",
+  ],
+  "rigel-unicorn": [
+    "unicorn-section/rigel-unicorn/demo.tsx",
+    "unicorn-section/rigel-unicorn/ui/scene.json",
+  ],
 }
