@@ -19,6 +19,8 @@ import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 import { meta as navbarSectionsCohortNavbar } from "./navbar-sections/cohort-navbar/meta"
 import { meta as navbarSectionsCurvedNavbar } from "./navbar-sections/curved-navbar/meta"
+import { meta as unicornSectionRampUnicorn } from "./unicorn-section/ramp-unicorn/meta"
+import { meta as unicornSectionRigelUnicorn } from "./unicorn-section/rigel-unicorn/meta"
 
 export const registryItems = [
   heroSectionsAmeroHero,
@@ -39,6 +41,8 @@ export const registryItems = [
   heroSectionsZoomHero,
   navbarSectionsCohortNavbar,
   navbarSectionsCurvedNavbar,
+  unicornSectionRampUnicorn,
+  unicornSectionRigelUnicorn,
 ] as const
 
 export type RegistryItem = (typeof registryItems)[number]
