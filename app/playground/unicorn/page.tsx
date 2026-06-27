@@ -1,15 +1,21 @@
+import HandUnicorn from "@/content/registry/unicorn-section/hand-unicorn/demo"
 import RampUnicorn from "@/content/registry/unicorn-section/ramp-unicorn/demo"
 import RigelUnicorn from "@/content/registry/unicorn-section/rigel-unicorn/demo"
+import VoidUnicorn from "@/content/registry/unicorn-section/void-unicorn/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 const LOCAL_PLAYGROUND_SLUGS = {
+  "hand-unicorn": HandUnicorn,
   "ramp-unicorn": RampUnicorn,
   "rigel-unicorn": RigelUnicorn,
+  "void-unicorn": VoidUnicorn,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
+  "hand-unicorn": "#000000",
   "ramp-unicorn": "#000024",
   "rigel-unicorn": "#000000",
+  "void-unicorn": "#000000",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
