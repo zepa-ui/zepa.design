@@ -303,6 +303,26 @@
       "installUrl": "https://zepa.design/r/curved-navbar.json"
     },
     {
+      "slug": "hand-unicorn",
+      "title": "Hand Unicorn",
+      "category": "unicorn-section",
+      "description": "3D marble hand WebGL scene built with Unicorn Studio — gradient-mapped dither animation with mouse trail effects and a centered text overlay.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "hand",
+        "dither",
+        "gradient",
+        "dark",
+        "mouse",
+        "open-source"
+      ],
+      "installUrl": "https://zepa.design/r/hand-unicorn.json"
+    },
+    {
       "slug": "ramp-unicorn",
       "title": "Ramp Unicorn",
       "category": "unicorn-section",
@@ -336,6 +356,27 @@
         "saas"
       ],
       "installUrl": "https://zepa.design/r/rigel-unicorn.json"
+    },
+    {
+      "slug": "void-unicorn",
+      "title": "Void Unicorn",
+      "category": "unicorn-section",
+      "description": "Deep-space WebGL scene built with Unicorn Studio — dual 3D models with wisps, bloom, vignette, and mouse trail effects. Text overlays fade in after the sphere appear animation completes.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "dark",
+        "bloom",
+        "void",
+        "mouse",
+        "wisps",
+        "vignette",
+        "appear"
+      ],
+      "installUrl": "https://zepa.design/r/void-unicorn.json"
     }
   ]
 }

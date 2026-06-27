@@ -65,10 +65,16 @@ export const registryLoaders: Record<
   "curved-navbar": {
     demo: () => import("./navbar-sections/curved-navbar/demo"),
   },
+  "hand-unicorn": {
+    demo: () => import("./unicorn-section/hand-unicorn/demo"),
+  },
   "ramp-unicorn": {
     demo: () => import("./unicorn-section/ramp-unicorn/demo"),
   },
   "rigel-unicorn": {
     demo: () => import("./unicorn-section/rigel-unicorn/demo"),
+  },
+  "void-unicorn": {
+    demo: () => import("./unicorn-section/void-unicorn/demo"),
   },
 }

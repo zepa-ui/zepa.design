@@ -168,7 +168,8 @@ function PixelGrid({ side }: { side: "left" | "right" }) {
     let pointerRaf = 0;
     let pendingPt: { x: number; y: number } | null = null;
     function reconcile(px: number, py: number) {
-      const rect = wrapRef.current!.getBoundingClientRect();
+      if (!wrapRef.current) return;
+      const rect = wrapRef.current.getBoundingClientRect();
       const lx = px - rect.left;
       const ly = py - rect.top;
       const cellW = TILE + GAP;
