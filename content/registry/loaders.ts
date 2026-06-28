@@ -65,6 +65,12 @@ export const registryLoaders: Record<
   "curved-navbar": {
     demo: () => import("./navbar-sections/curved-navbar/demo"),
   },
+  "supaste-navbar": {
+    demo: () => import("./navbar-sections/supaste-navbar/demo"),
+  },
+  "updated-navbar": {
+    demo: () => import("./navbar-sections/updated-navbar/demo"),
+  },
   "hand-unicorn": {
     demo: () => import("./unicorn-section/hand-unicorn/demo"),
   },
