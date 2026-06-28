@@ -23,6 +23,7 @@ export const codePaths: Record<string, string[]> = {
   ],
   "crnacura-hero": [
     "hero-sections/crnacura-hero/demo.tsx",
+    "hero-sections/crnacura-hero/splitting.d.ts",
   ],
   "dataanalytics-hero": [
     "hero-sections/dataanalytics-hero/demo.tsx",
@@ -76,6 +77,12 @@ export const codePaths: Record<string, string[]> = {
   ],
   "curved-navbar": [
     "navbar-sections/curved-navbar/demo.tsx",
+  ],
+  "supaste-navbar": [
+    "navbar-sections/supaste-navbar/demo.tsx",
+  ],
+  "updated-navbar": [
+    "navbar-sections/updated-navbar/demo.tsx",
   ],
   "hand-unicorn": [
     "unicorn-section/hand-unicorn/demo.tsx",

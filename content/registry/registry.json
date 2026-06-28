@@ -303,6 +303,43 @@
       "installUrl": "https://zepa.design/r/curved-navbar.json"
     },
     {
+      "slug": "supaste-navbar",
+      "title": "Supaste Navbar",
+      "category": "navbar-sections",
+      "description": "Dark frosted-glass navbar with an app icon, brand name, centered nav links, and an Apple-style Download CTA — inspired by Supaste.com.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "dark",
+        "frosted",
+        "glassmorphism",
+        "apple",
+        "macos",
+        "landing",
+        "cta"
+      ],
+      "installUrl": "https://zepa.design/r/supaste-navbar.json"
+    },
+    {
+      "slug": "updated-navbar",
+      "title": "Updated Navbar",
+      "category": "navbar-sections",
+      "description": "Dark pill navbar with a white icon circle, centered nav links, and a white email CTA pill — on a clean white hero layout.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "pill",
+        "dark",
+        "minimal",
+        "email",
+        "cta",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/updated-navbar.json"
+    },
+    {
       "slug": "hand-unicorn",
       "title": "Hand Unicorn",
       "category": "unicorn-section",
