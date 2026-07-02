@@ -1,3 +1,5 @@
+import BlurUnicorn from "@/content/registry/unicorn-section/blur-unicorn/demo"
+import CubeUnicorn from "@/content/registry/unicorn-section/cube-unicorn/demo"
 import HandUnicorn from "@/content/registry/unicorn-section/hand-unicorn/demo"
 import RampUnicorn from "@/content/registry/unicorn-section/ramp-unicorn/demo"
 import RigelUnicorn from "@/content/registry/unicorn-section/rigel-unicorn/demo"
@@ -5,6 +7,8 @@ import VoidUnicorn from "@/content/registry/unicorn-section/void-unicorn/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 const LOCAL_PLAYGROUND_SLUGS = {
+  "blur-unicorn": BlurUnicorn,
+  "cube-unicorn": CubeUnicorn,
   "hand-unicorn": HandUnicorn,
   "ramp-unicorn": RampUnicorn,
   "rigel-unicorn": RigelUnicorn,
@@ -12,6 +16,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
+  "blur-unicorn": "#000000",
+  "cube-unicorn": "#000000",
   "hand-unicorn": "#000000",
   "ramp-unicorn": "#000024",
   "rigel-unicorn": "#000000",
@@ -24,7 +30,7 @@ function isLocalPlaygroundSlug(slug: string): slug is LocalPlaygroundSlug {
   return slug in LOCAL_PLAYGROUND_SLUGS
 }
 
-const DEFAULT_PLAYGROUND_SLUG = "ramp-unicorn"
+const DEFAULT_PLAYGROUND_SLUG = "blur-unicorn"
 
 interface UnicornPlaygroundPageProps {
   searchParams: Promise<{ slug?: string }>

@@ -1,6 +1,5 @@
 /**
- * This Zepa scene is created with: Unicorn Studio
- * My Remix scene: https://unicorn.studio/remix/uADuQdbYY5O9WTN5LucV
+ * This Original Zepa scene created with: Unicorn Studio
  * React implementation: zepa
  * Used with permission.
  */
@@ -16,11 +15,11 @@ const fadeUp = (delay: number) => ({
   transition: { duration: 1.1, ease: "easeOut", delay } as Transition,
 });
 
-export default function HandUnicorn() {
+export default function CubeUnicorn() {
   return (
     <div className="relative w-full h-screen">
       <UnicornScene
-        jsonFilePath="/unicorn/hand-unicorn.json"
+        jsonFilePath="/unicorn/cube-unicorn.json"
         sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.5/dist/unicornStudio.umd.js"
         width="100%"
         height="100%"
@@ -35,22 +34,24 @@ export default function HandUnicorn() {
           className="h-20 w-auto object-contain"
           {...fadeUp(0.2)}
         />
-        
       </div>
 
       {/* Text overlay — bottom left */}
       <div className="absolute bottom-20 left-20 flex flex-col gap-1 pointer-events-none select-none">
         <motion.p
-          className="text-white text-6xl font-semibold tracking-[0.15em] uppercase"
+          className="text-6xl font-semibold tracking-[0.04em] uppercase"
+          style={{ color: "#0349ac" }}
           {...fadeUp(0.3)}
         >
-          zepa hand
+          zepa cube
         </motion.p>
         <motion.p
-          className="text-white/50 text-base font-medium max-w-sm leading-snug"
+          className="text-white/70 text-base font-medium max-w-sm leading-snug pb-6"
           {...fadeUp(0.5)}
         >
-          growing react and next components , curated ui library and built for developers who care about details.
+          growing react and next components, curated ui library built for developers who care about details.
+          <br />
+          zepa — crafting interfaces people remember.
         </motion.p>
       </div>
     </div>

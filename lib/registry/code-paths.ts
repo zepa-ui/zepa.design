@@ -84,6 +84,14 @@ export const codePaths: Record<string, string[]> = {
   "updated-navbar": [
     "navbar-sections/updated-navbar/demo.tsx",
   ],
+  "blur-unicorn": [
+    "unicorn-section/blur-unicorn/demo.tsx",
+    "unicorn-section/blur-unicorn/ui/scene.json",
+  ],
+  "cube-unicorn": [
+    "unicorn-section/cube-unicorn/demo.tsx",
+    "unicorn-section/cube-unicorn/ui/cube_scene.json",
+  ],
   "hand-unicorn": [
     "unicorn-section/hand-unicorn/demo.tsx",
     "unicorn-section/hand-unicorn/ui/scene.json",

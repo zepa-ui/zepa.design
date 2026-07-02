@@ -56,7 +56,18 @@ export function FinalCTA() {
           </Button>
         </div>
 
-        <p className="mt-8 text-sm text-zinc-500">100% free and open source. Built for developers who care about details.</p>
+        {/* <div className="flex justify-center">
+          <video
+            src="/111.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full max-w-5xl rounded-2xl"
+          />
+        </div> */}
+
+        <p className="mt-4 text-sm text-zinc-500">100% free and open source. Built for developers who care about details.</p>
       </motion.div>
     </section>
   )

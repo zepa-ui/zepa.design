@@ -71,6 +71,12 @@ export const registryLoaders: Record<
   "updated-navbar": {
     demo: () => import("./navbar-sections/updated-navbar/demo"),
   },
+  "blur-unicorn": {
+    demo: () => import("./unicorn-section/blur-unicorn/demo"),
+  },
+  "cube-unicorn": {
+    demo: () => import("./unicorn-section/cube-unicorn/demo"),
+  },
   "hand-unicorn": {
     demo: () => import("./unicorn-section/hand-unicorn/demo"),
   },
