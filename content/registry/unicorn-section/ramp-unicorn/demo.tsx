@@ -1,6 +1,6 @@
 /**
- * Original scene created with: Unicorn Studio
- * Remix: https://unicorn.studio/community
+ * This Original Zepa scene created with: Unicorn Studio
+ * you can Remix at: https://unicorn.studio/community
  * React implementation: zepa
  * Used with permission.
  */

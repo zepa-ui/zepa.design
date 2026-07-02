@@ -340,6 +340,39 @@
       "installUrl": "https://zepa.design/r/updated-navbar.json"
     },
     {
+      "slug": "blur-unicorn",
+      "title": "Blur Unicorn",
+      "category": "unicorn-section",
+      "description": "Cinematic WebGL scene built with Unicorn Studio — soft blur aesthetic with botanical visuals, slow fade-in text overlays, and a full-bleed immersive layout.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "blur",
+        "cinematic",
+        "dark",
+        "fade"
+      ],
+      "installUrl": "https://zepa.design/r/blur-unicorn.json"
+    },
+    {
+      "slug": "cube-unicorn",
+      "title": "Cube Unicorn",
+      "category": "unicorn-section",
+      "description": "3D cube WebGL scene built with Unicorn Studio — animated cube with dynamic lighting and a centered text overlay.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "cube",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/cube-unicorn.json"
+    },
+    {
       "slug": "hand-unicorn",
       "title": "Hand Unicorn",
       "category": "unicorn-section",
