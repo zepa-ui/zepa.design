@@ -58,6 +58,14 @@ const testimonials = [
     avatar: "/avi.jpeg",
     image: "/compass.png",
   },
+  {
+    name: "Manohar L",
+    profession: "Full Stack Developer",
+    description:
+      "Zepa completely changed how I approach landing pages. The motion design is already baked in — I spend zero time on animations and ship polished UIs in hours.",
+    avatar: "/M.jpeg",
+    image: "/f.png",
+  },
 ]
 
 const duplicatedTestimonials = [...testimonials, ...testimonials]
