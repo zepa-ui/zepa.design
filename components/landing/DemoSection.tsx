@@ -6,20 +6,20 @@ import { AnimatePresence, motion, useInView } from "framer-motion"
 import Image from "next/image"
 import type { ComponentType } from "react"
 
-const MainframeHero = dynamic(
-  () => import("@/content/registry/hero-sections/mainframe-hero/demo"),
+const DropsHero = dynamic(
+  () => import("@/content/registry/hero-sections/drops-hero/demo"),
   { ssr: false }
 )
 const VercelHero = dynamic(
   () => import("@/content/registry/hero-sections/vercel-hero/demo"),
   { ssr: false }
 )
-const PosterScrollHero = dynamic(
-  () => import("@/content/registry/hero-sections/posterscroll-hero/demo"),
+const RampUnicorn = dynamic(
+  () => import("@/content/registry/unicorn-section/ramp-unicorn/demo"),
   { ssr: false }
 )
-const DataAnalyticsHero = dynamic(
-  () => import("@/content/registry/hero-sections/dataanalytics-hero/demo"),
+const BlurUnicorn = dynamic(
+  () => import("@/content/registry/unicorn-section/blur-unicorn/demo"),
   { ssr: false }
 )
 
@@ -28,20 +28,20 @@ const tabs: {
   label: string
   component: ComponentType
 }[] = [
-  { id: "mainframe", label: "Mainframe", component: MainframeHero },
+  { id: "drops", label: "Drops", component: DropsHero },
   { id: "vercel", label: "Vercel", component: VercelHero },
-  { id: "peacock", label: "Peacock", component: PosterScrollHero },
-  { id: "analytics", label: "Analytics", component: DataAnalyticsHero },
+  { id: "ramp", label: "Ramp", component: RampUnicorn },
+  { id: "blur", label: "Blur", component: BlurUnicorn },
 ]
 
 export default function DemoSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const isInView = useInView(sectionRef, { margin: "200px 0px", amount: 0.1 })
-  const [activeTab, setActiveTab] = useState("mainframe")
+  const [activeTab, setActiveTab] = useState("drops")
   const [paused, setPaused] = useState(false)
 
   const ActiveComponent =
-    tabs.find((tab) => tab.id === activeTab)?.component ?? MainframeHero
+    tabs.find((tab) => tab.id === activeTab)?.component ?? DropsHero
 
   useEffect(() => {
     if (!isInView || paused) return
@@ -59,10 +59,10 @@ export default function DemoSection() {
   useEffect(() => {
     if (!isInView) return
 
-    void import("@/content/registry/hero-sections/mainframe-hero/demo")
+    void import("@/content/registry/hero-sections/drops-hero/demo")
     void import("@/content/registry/hero-sections/vercel-hero/demo")
-    void import("@/content/registry/hero-sections/posterscroll-hero/demo")
-    void import("@/content/registry/hero-sections/dataanalytics-hero/demo")
+    void import("@/content/registry/unicorn-section/ramp-unicorn/demo")
+    void import("@/content/registry/unicorn-section/blur-unicorn/demo")
   }, [isInView])
 
   return (
@@ -127,7 +127,7 @@ export default function DemoSection() {
         </div>
 
         {/* Demo Area */}
-        <div className="relative isolate h-[640px] overflow-hidden [transform:translateZ(0)] sm:h-[720px] lg:h-[800px]">
+        <div className="relative isolate h-[720px] overflow-hidden [transform:translateZ(0)] sm:h-[820px] lg:h-[920px]">
           {isInView ? (
             <AnimatePresence mode="wait">
               <motion.div
