@@ -115,6 +115,14 @@ export function useComponentStats(
   }, [slug, liked])
 
   const recordInstall = useCallback(async () => {
+    // Fire GA4 event so we can track install copies in analytics
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "install_copy", {
+        component_slug: slug,
+        event_category: "engagement",
+      })
+    }
+
     const response = await fetch(`/api/install/${slug}`, { method: "POST" })
     if (response.ok) {
       setStats((await response.json()) as ComponentStats)
