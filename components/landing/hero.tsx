@@ -146,7 +146,7 @@ export function Hero() {
             ))}
           </div>
           <p className="text-sm text-zinc-500">
-            Trusted by <span className="text-zinc-300 font-medium">2,000+</span> Developers worldwide
+            Trusted by <span className="text-zinc-300 font-medium">200+</span> Developers worldwide
           </p>
         </motion.div>
       </div>

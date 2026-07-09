@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react"
 import { GitHubLink } from "@/components/landing/github-link"
 
 const navItems = [
-  { label: "Features", href: "#features" },
+  { label: "Demo", href: "/#demo" },
   { label: "Components", href: "/components" },
   { label: "Templates", href: "https://github.com/zepa-ui/zepa.design" },
   { label: "Docs", href: "/docs" },
