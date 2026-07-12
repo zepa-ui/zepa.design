@@ -77,6 +77,9 @@ export const registryLoaders: Record<
   "cube-unicorn": {
     demo: () => import("./unicorn-section/cube-unicorn/demo"),
   },
+  "earth-unicorn": {
+    demo: () => import("./unicorn-section/earth-unicorn/demo"),
+  },
   "glass-unicorn": {
     demo: () => import("./unicorn-section/glass-unicorn/demo"),
   },

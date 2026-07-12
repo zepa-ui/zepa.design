@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useRef } from "react"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import UnicornScene from "unicornstudio-react/next"
 
 export function FinalCTA() {
   const ref = useRef(null)
@@ -69,6 +70,26 @@ export function FinalCTA() {
 
         <p className="mt-4 text-sm text-zinc-500">100% free and open source. Built for developers who care about details.</p>
       </motion.div>
+
+      {/* Unicorn Studio scene */}
+      <div className="max-w-6xl mx-auto px-4">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : {}}
+          transition={{ duration: 1.2, delay: 0.5 }}
+          className="mt-12 w-full rounded-2xl overflow-hidden"
+          style={{ height: "700px" }}
+        >
+          <UnicornScene
+            projectId="KNn6dlWqGKdy8LDpWCWy"
+            width="100%"
+            height="100%"
+            scale={1}
+            dpi={1.5}
+            sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.6/dist/unicornStudio.umd.js"
+          />
+        </motion.div>
+      </div>
     </section>
   )
 }

@@ -1,5 +1,6 @@
 import BlurUnicorn from "@/content/registry/unicorn-section/blur-unicorn/demo"
 import CubeUnicorn from "@/content/registry/unicorn-section/cube-unicorn/demo"
+import EarthUnicorn from "@/content/registry/unicorn-section/earth-unicorn/demo"
 import GlassUnicorn from "@/content/registry/unicorn-section/glass-unicorn/demo"
 import TreeUnicorn from "@/content/registry/unicorn-section/tree-unicorn/demo"
 import HandUnicorn from "@/content/registry/unicorn-section/hand-unicorn/demo"
@@ -11,6 +12,7 @@ import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 const LOCAL_PLAYGROUND_SLUGS = {
   "blur-unicorn": BlurUnicorn,
   "cube-unicorn": CubeUnicorn,
+  "earth-unicorn": EarthUnicorn,
   "glass-unicorn": GlassUnicorn,
   "hand-unicorn": HandUnicorn,
   "tree-unicorn": TreeUnicorn,
@@ -22,6 +24,7 @@ const LOCAL_PLAYGROUND_SLUGS = {
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
   "blur-unicorn": "#000000",
   "cube-unicorn": "#000000",
+  "earth-unicorn": "#000000",
   "glass-unicorn": "#000000",
   "hand-unicorn": "#000000",
   "tree-unicorn": "#000000",

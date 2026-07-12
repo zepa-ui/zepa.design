@@ -92,6 +92,10 @@ export const codePaths: Record<string, string[]> = {
     "unicorn-section/cube-unicorn/demo.tsx",
     "unicorn-section/cube-unicorn/ui/cube_scene.json",
   ],
+  "earth-unicorn": [
+    "unicorn-section/earth-unicorn/demo.tsx",
+    "unicorn-section/earth-unicorn/ui/scene.json",
+  ],
   "glass-unicorn": [
     "unicorn-section/glass-unicorn/demo.tsx",
     "unicorn-section/glass-unicorn/ui/scene.json",
