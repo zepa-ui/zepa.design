@@ -373,6 +373,28 @@
       "installUrl": "https://zepa.design/r/cube-unicorn.json"
     },
     {
+      "slug": "earth-unicorn",
+      "title": "Earth Unicorn",
+      "category": "unicorn-section",
+      "description": "Surveillance-themed WebGL hero with a rotating 3D earth, global tracking aesthetic, and editorial typography.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "earth",
+        "globe",
+        "tracking",
+        "dark",
+        "hero",
+        "editorial",
+        "surveillance",
+        "motion"
+      ],
+      "installUrl": "https://zepa.design/r/earth-unicorn.json"
+    },
+    {
       "slug": "glass-unicorn",
       "title": "Glass Unicorn",
       "category": "unicorn-section",
