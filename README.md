@@ -11,7 +11,7 @@ Built for developers who care about details.
 - Copy & paste components
 - Motion-first interactions
 - Modern design patterns
-- Free & open source
+- Free to use
 
 Shipping new components every day.
 
@@ -39,3 +39,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) or [zepa.design/docs](https://zepa.design/docs) for the full contributor guide.
+
+## License
+
+Free to use in your own projects. [MIT + Commons Clause](./LICENSE).
