@@ -373,6 +373,26 @@
       "installUrl": "https://zepa.design/r/cube-unicorn.json"
     },
     {
+      "slug": "glass-unicorn",
+      "title": "Glass Unicorn",
+      "category": "unicorn-section",
+      "description": "Glass morphism WebGL hero built with Unicorn Studio — fluid glass distortion with motion blur effects. Zepa logo top-left, large MOTION DESIGN text bottom-right.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "glass",
+        "morphism",
+        "dark",
+        "hero",
+        "motion",
+        "blur"
+      ],
+      "installUrl": "https://zepa.design/r/glass-unicorn.json"
+    },
+    {
       "slug": "hand-unicorn",
       "title": "Hand Unicorn",
       "category": "unicorn-section",
@@ -426,6 +446,28 @@
         "saas"
       ],
       "installUrl": "https://zepa.design/r/rigel-unicorn.json"
+    },
+    {
+      "slug": "tree-unicorn",
+      "title": "Tree Unicorn",
+      "category": "unicorn-section",
+      "description": "Editorial nature WebGL hero built with Unicorn Studio — ancient oak tree with a neon pixel mouse-reveal effect. Awwwards-style layout with specimen annotation panel.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "nature",
+        "tree",
+        "neon",
+        "dark",
+        "hero",
+        "mouse",
+        "reveal",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/tree-unicorn.json"
     },
     {
       "slug": "void-unicorn",

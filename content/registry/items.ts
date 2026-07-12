@@ -23,9 +23,11 @@ import { meta as navbarSectionsSupasteNavbar } from "./navbar-sections/supaste-n
 import { meta as navbarSectionsUpdatedNavbar } from "./navbar-sections/updated-navbar/meta"
 import { meta as unicornSectionBlurUnicorn } from "./unicorn-section/blur-unicorn/meta"
 import { meta as unicornSectionCubeUnicorn } from "./unicorn-section/cube-unicorn/meta"
+import { meta as unicornSectionGlassUnicorn } from "./unicorn-section/glass-unicorn/meta"
 import { meta as unicornSectionHandUnicorn } from "./unicorn-section/hand-unicorn/meta"
 import { meta as unicornSectionRampUnicorn } from "./unicorn-section/ramp-unicorn/meta"
 import { meta as unicornSectionRigelUnicorn } from "./unicorn-section/rigel-unicorn/meta"
+import { meta as unicornSectionTreeUnicorn } from "./unicorn-section/tree-unicorn/meta"
 import { meta as unicornSectionVoidUnicorn } from "./unicorn-section/void-unicorn/meta"
 
 export const registryItems = [
@@ -51,9 +53,11 @@ export const registryItems = [
   navbarSectionsUpdatedNavbar,
   unicornSectionBlurUnicorn,
   unicornSectionCubeUnicorn,
+  unicornSectionGlassUnicorn,
   unicornSectionHandUnicorn,
   unicornSectionRampUnicorn,
   unicornSectionRigelUnicorn,
+  unicornSectionTreeUnicorn,
   unicornSectionVoidUnicorn,
 ] as const
 
