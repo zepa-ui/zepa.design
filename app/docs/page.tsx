@@ -10,6 +10,8 @@ import {
   Video,
   Zap,
   AlertTriangle,
+  Scale,
+  XCircle,
 } from "lucide-react"
 import { Navbar } from "@/components/landing/navbar"
 import { Footer } from "@/components/landing/footer"
@@ -365,6 +367,73 @@ npm run test`}</pre>
             <pre className="mt-4 overflow-x-auto rounded-lg border border-zinc-800 bg-zinc-900/40 p-4 text-sm text-zinc-300">
               {SHADCN_INSTALL_COMMAND}
             </pre>
+          </section>
+
+          {/* License — prominent, unmissable */}
+          <section className="rounded-3xl border-2 border-emerald-500/40 bg-gradient-to-b from-emerald-500/10 to-zinc-950 p-8 md:p-12">
+            <h2 className="mb-4 flex items-center gap-3 text-4xl font-bold tracking-tight md:text-5xl">
+              <Scale className="h-9 w-9 text-emerald-400 md:h-11 md:w-11" />
+              License
+            </h2>
+            <p className="mb-10 max-w-3xl text-2xl font-medium leading-snug text-zinc-200 md:text-3xl">
+              Build anything you want with Zepa. Just{" "}
+              <span className="text-emerald-400">don&apos;t repackage Zepa itself.</span>
+            </p>
+
+            <div className="grid gap-6 md:grid-cols-2">
+              <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-6">
+                <h3 className="mb-4 flex items-center gap-2 text-xl font-semibold text-emerald-400">
+                  <CheckCircle className="h-6 w-6" />
+                  You can
+                </h3>
+                <ul className="space-y-3 text-lg leading-7 text-zinc-200">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="mt-1 h-5 w-5 shrink-0 text-emerald-400" />
+                    Use Zepa in unlimited personal & commercial projects
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="mt-1 h-5 w-5 shrink-0 text-emerald-400" />
+                    Ship it in websites, apps, SaaS, and client work
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="mt-1 h-5 w-5 shrink-0 text-emerald-400" />
+                    Copy, modify, and customize the components freely
+                  </li>
+                </ul>
+              </div>
+
+              <div className="rounded-2xl border border-red-500/30 bg-red-500/5 p-6">
+                <h3 className="mb-4 flex items-center gap-2 text-xl font-semibold text-red-400">
+                  <XCircle className="h-6 w-6" />
+                  You can&apos;t
+                </h3>
+                <ul className="space-y-3 text-lg leading-7 text-zinc-200">
+                  <li className="flex items-start gap-3">
+                    <XCircle className="mt-1 h-5 w-5 shrink-0 text-red-400" />
+                    Sell or redistribute the components themselves
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <XCircle className="mt-1 h-5 w-5 shrink-0 text-red-400" />
+                    Republish them — alone, bundled, or as a ported version
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <XCircle className="mt-1 h-5 w-5 shrink-0 text-red-400" />
+                    Include them in another component library, kit, or template
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="mt-8 text-base text-zinc-400">
+              Licensed under{" "}
+              <a
+                href="https://github.com/zepa-ui/zepa.design/blob/main/LICENSE"
+                className="font-medium text-emerald-400 underline decoration-emerald-400/40 underline-offset-4 hover:decoration-emerald-400"
+              >
+                MIT + Commons Clause
+              </a>
+              . Free to use, not to resell.
+            </p>
           </section>
         </div>
       </div>
