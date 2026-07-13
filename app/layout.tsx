@@ -13,7 +13,10 @@ const GA_MEASUREMENT_ID = "G-SE8GZDHQTT"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zepa.design"),
-  ...buildMetadata(),
+  ...buildMetadata({
+    video:
+      "https://res.cloudinary.com/dakrfj1oh/video/upload/v1783870699/ss_l3xle4.mp4",
+  }),
   title: {
     default: "zepa ui - UI Components",
     template: "%s | zepa ui",

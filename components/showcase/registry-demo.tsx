@@ -5,6 +5,8 @@ import { useEffect, useState } from "react"
 import type { ComponentType } from "react"
 import { registryLoaders } from "@/content/registry/loaders"
 
+import { DemoErrorBoundary } from "./demo-error-boundary"
+
 interface RegistryDemoProps {
   slug: string
   refreshKey?: number
@@ -60,5 +62,9 @@ function DemoComponent({ slug }: { slug: string }) {
 }
 
 export function RegistryDemo({ slug, refreshKey = 0 }: RegistryDemoProps) {
-  return <DemoComponent key={refreshKey} slug={slug} />
+  return (
+    <DemoErrorBoundary resetKey={`${slug}-${refreshKey}`}>
+      <DemoComponent key={refreshKey} slug={slug} />
+    </DemoErrorBoundary>
+  )
 }

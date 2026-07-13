@@ -57,6 +57,7 @@ export default function MenuHover({ items = DEFAULT_ITEMS }: MenuHoverProps) {
 
   useEffect(() => {
     const initToken = ++initTokenRef.current;
+    const menuRootEl = menuRef.current;
     let disposed = false;
 
     // Dynamically import Splitting so it only runs client-side
@@ -391,7 +392,7 @@ export default function MenuHover({ items = DEFAULT_ITEMS }: MenuHoverProps) {
       menuItemCleanups.forEach(fn => fn());
       menuItemCleanups.length = 0;
 
-      menuRef.current?.querySelectorAll('[data-splitting]').forEach((el) => {
+      menuRootEl?.querySelectorAll('[data-splitting]').forEach((el) => {
         delete (el as HTMLElement).dataset.splittingDone;
       });
     };

@@ -11,6 +11,7 @@ interface MobileSidebarProps {
   categories: string[]
   activeCategory: string
   onSelect: (category: string) => void
+  counts?: Record<string, number>
 }
 
 export function MobileSidebar({
@@ -19,6 +20,7 @@ export function MobileSidebar({
   categories,
   activeCategory,
   onSelect,
+  counts,
 }: MobileSidebarProps) {
   useEffect(() => {
     if (!open) return
@@ -59,6 +61,7 @@ export function MobileSidebar({
           activeCategory={activeCategory}
           onSelect={onSelect}
           onNavigate={onClose}
+          counts={counts}
         />
       </aside>
     </div>

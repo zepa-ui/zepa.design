@@ -26,10 +26,12 @@ import { meta as unicornSectionCubeUnicorn } from "./unicorn-section/cube-unicor
 import { meta as unicornSectionEarthUnicorn } from "./unicorn-section/earth-unicorn/meta"
 import { meta as unicornSectionGlassUnicorn } from "./unicorn-section/glass-unicorn/meta"
 import { meta as unicornSectionHandUnicorn } from "./unicorn-section/hand-unicorn/meta"
+import { meta as unicornSectionPlaneUnicorn } from "./unicorn-section/plane-unicorn/meta"
 import { meta as unicornSectionRampUnicorn } from "./unicorn-section/ramp-unicorn/meta"
 import { meta as unicornSectionRigelUnicorn } from "./unicorn-section/rigel-unicorn/meta"
 import { meta as unicornSectionTreeUnicorn } from "./unicorn-section/tree-unicorn/meta"
 import { meta as unicornSectionVoidUnicorn } from "./unicorn-section/void-unicorn/meta"
+import { meta as unicornSectionWalkingUnicorn } from "./unicorn-section/walking-unicorn/meta"
 
 export const registryItems = [
   heroSectionsAmeroHero,
@@ -57,10 +59,12 @@ export const registryItems = [
   unicornSectionEarthUnicorn,
   unicornSectionGlassUnicorn,
   unicornSectionHandUnicorn,
+  unicornSectionPlaneUnicorn,
   unicornSectionRampUnicorn,
   unicornSectionRigelUnicorn,
   unicornSectionTreeUnicorn,
   unicornSectionVoidUnicorn,
+  unicornSectionWalkingUnicorn,
 ] as const
 
 export type RegistryItem = (typeof registryItems)[number]

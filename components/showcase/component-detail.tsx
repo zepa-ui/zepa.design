@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button"
 import { CodeBlock } from "./code-block"
 import { ComponentDemo } from "./component-demo"
 import { DemoToolbar, type DemoTheme } from "./demo-toolbar"
+import { InstallCommandBlock, usePackageManager } from "./install-tabs"
 
 export interface ComponentDetailProps {
   slug: string
@@ -76,6 +77,7 @@ export function ComponentDetail({
   const [activeCodeKey, setActiveCodeKey] = useState(defaultCodeKey)
   const [demoTheme, setDemoTheme] = useState<DemoTheme>("dark")
   const [refreshKey, setRefreshKey] = useState(0)
+  const [pm, setPm] = usePackageManager()
   const activeCode = code[activeCodeKey]
 
   return (
@@ -99,23 +101,24 @@ export function ComponentDetail({
             <h2 className="text-xs font-medium uppercase tracking-wider text-white/40">
               Install
             </h2>
-            <p className="text-xs text-white/45">shadcn CLI</p>
-            <pre className="scrollbar-hidden overflow-x-auto rounded-lg border border-white/10 bg-zinc-950 p-3 text-xs text-white/80">
-              {shadcnInstallCommand}
-            </pre>
-            <CopyButton
-              value={shadcnInstallCommand}
-              label="Copy command"
+            <InstallCommandBlock
+              label="shadcn CLI"
+              command={shadcnInstallCommand}
+              pm={pm}
+              onPmChange={setPm}
+              copyLabel="Copy command"
               onCopied={onInstallCopy}
             />
             {installCommand ? (
-              <>
-                <p className="pt-2 text-xs text-white/45">Dependencies</p>
-                <pre className="scrollbar-hidden overflow-x-auto rounded-lg border border-white/10 bg-zinc-950 p-3 text-xs text-white/80">
-                  {installCommand}
-                </pre>
-                <CopyButton value={installCommand} label="Copy npm install" />
-              </>
+              <div className="pt-2">
+                <InstallCommandBlock
+                  label="Dependencies"
+                  command={installCommand}
+                  pm={pm}
+                  onPmChange={setPm}
+                  copyLabel="Copy install"
+                />
+              </div>
             ) : null}
           </section>
 
