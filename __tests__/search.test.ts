@@ -70,7 +70,7 @@ describe("Sidebar & Search Filtering", () => {
         acc[item.category].push(item)
         return acc
       },
-      {} as Record<string, typeof registryItems>
+      {} as Record<string, Array<(typeof registryItems)[number]>>
     )
 
     expect(Object.keys(groupedByCategory).length).toBeGreaterThan(0)

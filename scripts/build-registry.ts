@@ -3,9 +3,15 @@ import { mkdir, readdir, readFile, writeFile } from "fs/promises"
 import path from "path"
 import { pathToFileURL } from "url"
 
+import {
+  applyFingerprint,
+  componentFingerprint,
+} from "../lib/registry/fingerprint"
+
 const ROOT = process.cwd()
 const REGISTRY_ROOT = path.join(ROOT, "content/registry")
 const PUBLIC_R_DIR = path.join(ROOT, "public/r")
+const PUBLISHED_DATES_PATH = path.join(ROOT, "data/published-dates.json")
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") ??
@@ -134,7 +140,9 @@ async function loadMeta(metaPath: string): Promise<ScannedComponent> {
 
     registryFiles.push({
       path: relativeInComponent,
-      content,
+      // Banner + hidden canary injected into distributed code only —
+      // the source file on disk stays untouched.
+      content: applyFingerprint(content, meta.slug, relativeInComponent),
       type,
     })
   }
@@ -234,6 +242,50 @@ export { registryLoaders } from "./loaders"
 `
 }
 
+/**
+ * Loads data/published-dates.json, stamps any slug seen for the first time
+ * with the current date, and persists it. Existing dates are never touched,
+ * so a component's "published" date is set once and stays permanent.
+ */
+async function stampPublishedDates(components: ScannedComponent[]) {
+  let dates: Record<string, string> = {}
+
+  if (existsSync(PUBLISHED_DATES_PATH)) {
+    dates = JSON.parse(await readFile(PUBLISHED_DATES_PATH, "utf-8"))
+  }
+
+  let stamped = 0
+  for (const component of components) {
+    if (!dates[component.meta.slug]) {
+      dates[component.meta.slug] = new Date().toISOString()
+      stamped += 1
+    }
+  }
+
+  if (stamped > 0 || !existsSync(PUBLISHED_DATES_PATH)) {
+    await writeFile(
+      PUBLISHED_DATES_PATH,
+      `${JSON.stringify(dates, null, 2)}\n`,
+      "utf-8"
+    )
+    console.log(`  ✓ data/published-dates.json (${stamped} new stamp(s))`)
+  }
+
+  return dates
+}
+
+function generatePublishedTs(dates: Record<string, string>) {
+  const entries = Object.entries(dates)
+    .map(([slug, date]) => `  "${slug}": "${date}",`)
+    .join("\n")
+
+  return `${GENERATED_HEADER}
+export const publishedDates: Record<string, string> = {
+${entries}
+}
+`
+}
+
 function generateCodePathsTs(components: ScannedComponent[]) {
   const entries = components
     .map((c) => {
@@ -306,6 +358,12 @@ async function main() {
 
   await mkdir(PUBLIC_R_DIR, { recursive: true })
 
+  const publishedDates = await stampPublishedDates(components)
+
+  await writeGeneratedFile(
+    path.join(REGISTRY_ROOT, "published.ts"),
+    generatePublishedTs(publishedDates)
+  )
   await writeGeneratedFile(
     path.join(REGISTRY_ROOT, "items.ts"),
     generateItemsTs(components)
@@ -334,6 +392,16 @@ async function main() {
       `${JSON.stringify(shadcnJson, null, 2)}\n`
     )
   }
+
+  // Canary lookup — slug → fingerprint hash, for hunting copies on
+  // grep.app / GitHub code search / publicwww.com.
+  const canaryMap = Object.fromEntries(
+    components.map((c) => [c.meta.slug, componentFingerprint(c.meta.slug)])
+  )
+  await writeGeneratedFile(
+    path.join(ROOT, "data/canary-map.json"),
+    `${JSON.stringify(canaryMap, null, 2)}\n`
+  )
 
   console.log(`\nDone. Registered ${components.length} component(s).`)
 }

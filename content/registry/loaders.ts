@@ -86,6 +86,9 @@ export const registryLoaders: Record<
   "hand-unicorn": {
     demo: () => import("./unicorn-section/hand-unicorn/demo"),
   },
+  "plane-unicorn": {
+    demo: () => import("./unicorn-section/plane-unicorn/demo"),
+  },
   "ramp-unicorn": {
     demo: () => import("./unicorn-section/ramp-unicorn/demo"),
   },
@@ -97,5 +100,8 @@ export const registryLoaders: Record<
   },
   "void-unicorn": {
     demo: () => import("./unicorn-section/void-unicorn/demo"),
+  },
+  "walking-unicorn": {
+    demo: () => import("./unicorn-section/walking-unicorn/demo"),
   },
 }

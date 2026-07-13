@@ -435,6 +435,30 @@
       "installUrl": "https://zepa.design/r/hand-unicorn.json"
     },
     {
+      "slug": "plane-unicorn",
+      "title": "Plane Unicorn",
+      "category": "unicorn-section",
+      "description": "3D interactive aircraft hero built with Unicorn Studio — cursor-tracked Airbus A380 against a deep space backdrop with red light trail, animated telemetry ticker, and SKYWINKS editorial branding.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "plane",
+        "aviation",
+        "interactive",
+        "cursor",
+        "mouse",
+        "dark",
+        "hero",
+        "ticker",
+        "editorial",
+        "space"
+      ],
+      "installUrl": "https://zepa.design/r/plane-unicorn.json"
+    },
+    {
       "slug": "ramp-unicorn",
       "title": "Ramp Unicorn",
       "category": "unicorn-section",
@@ -511,6 +535,28 @@
         "appear"
       ],
       "installUrl": "https://zepa.design/r/void-unicorn.json"
+    },
+    {
+      "slug": "walking-unicorn",
+      "title": "Walking Unicorn",
+      "category": "unicorn-section",
+      "description": "Architectural WebGL hero shot from below a glass floor — silhouettes walk above you through frosted glass. POV perspective with editorial overlay and luxury elevation branding.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "glass",
+        "floor",
+        "architecture",
+        "pov",
+        "dark",
+        "hero",
+        "light",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/walking-unicorn.json"
     }
   ]
 }

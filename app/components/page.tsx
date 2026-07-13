@@ -5,23 +5,40 @@ import Link from "next/link"
 import { Menu } from "lucide-react"
 
 import { registry } from "@/content/registry"
+import { featuredSlugs } from "@/content/featured"
 import { formatCategory } from "@/lib/format-category"
 
 import { MobileSidebar } from "@/components/sidebar/mobile-sidebar"
 import { Sidebar } from "@/components/sidebar/sidebar"
 import { ShowcaseGrid } from "@/components/showcase/showcase-grid"
 
+const FEATURED_CATEGORY = "featured-section"
+
 export default function ComponentsPage() {
-  const [activeCategory, setActiveCategory] = useState("hero-sections")
+  const [activeCategory, setActiveCategory] = useState(FEATURED_CATEGORY)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const categories = useMemo(() => {
-    return [...new Set(registry.map((item) => item.category))]
+    return [FEATURED_CATEGORY, ...new Set(registry.map((item) => item.category))]
   }, [])
 
-  const filteredItems = registry.filter(
-    (item) => item.category === activeCategory
-  )
+  // Components per category — derived from the registry, so it updates
+  // automatically after `npm run build:registry`. Featured intentionally
+  // has no count.
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = {}
+    for (const item of registry) {
+      counts[item.category] = (counts[item.category] ?? 0) + 1
+    }
+    return counts
+  }, [])
+
+  const filteredItems =
+    activeCategory === FEATURED_CATEGORY
+      ? featuredSlugs
+          .map((slug) => registry.find((item) => item.slug === slug))
+          .filter((item) => item !== undefined)
+      : registry.filter((item) => item.category === activeCategory)
 
   return (
     <main className="flex min-h-screen bg-black text-white">
@@ -29,6 +46,7 @@ export default function ComponentsPage() {
         categories={categories}
         activeCategory={activeCategory}
         onSelect={setActiveCategory}
+        counts={categoryCounts}
       />
 
       <MobileSidebar
@@ -37,6 +55,7 @@ export default function ComponentsPage() {
         categories={categories}
         activeCategory={activeCategory}
         onSelect={setActiveCategory}
+        counts={categoryCounts}
       />
 
       <div className="flex min-h-screen flex-1 flex-col">

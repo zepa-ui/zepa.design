@@ -43,7 +43,7 @@ export function GsapImageTrail({ images, children, className }: GsapImageTrailPr
     const clampX = gsap.utils.clamp(0, window.innerWidth);
     const clampY = gsap.utils.clamp(0, window.innerHeight);
 
-    function createMedia(x: number, y: number, deltaX: number, deltaY: number) {
+    function createMedia(x: number, y: number, deltaX: number) {
       const H = window.innerHeight;
       if (!root || y > H - 200) return;
 
@@ -142,8 +142,7 @@ export function GsapImageTrail({ images, children, className }: GsapImageTrailPr
         createMedia(
           valX,
           valY - root.getBoundingClientRect().top,
-          valX - oldIncrX,
-          valY - oldIncrY
+          valX - oldIncrX
         );
       }
 

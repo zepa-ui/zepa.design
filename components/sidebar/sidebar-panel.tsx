@@ -5,12 +5,15 @@ import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { formatCategory } from "@/lib/format-category"
 
+import { SidebarSearch } from "./sidebar-search"
+
 interface SidebarPanelProps {
   categories: string[]
   activeCategory: string
   onSelect: (category: string) => void
   onNavigate?: () => void
   showLogo?: boolean
+  counts?: Record<string, number>
 }
 
 export function SidebarPanel({
@@ -19,6 +22,7 @@ export function SidebarPanel({
   onSelect,
   onNavigate,
   showLogo = true,
+  counts,
 }: SidebarPanelProps) {
   return (
     <>
@@ -36,9 +40,12 @@ export function SidebarPanel({
         </Link>
       ) : null}
 
+      <SidebarSearch onNavigate={onNavigate} />
+
       <div className="space-y-1">
         {categories.map((category) => {
           const active = activeCategory === category
+          const count = counts?.[category]
 
           return (
             <button
@@ -49,13 +56,23 @@ export function SidebarPanel({
                 onNavigate?.()
               }}
               className={cn(
-                "flex w-full rounded-lg px-3 py-2 text-left text-sm transition",
+                "flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2 text-left text-sm transition",
                 active
                   ? "bg-white font-medium text-black"
                   : "text-white/60 hover:bg-white/5 hover:text-white"
               )}
             >
-              {formatCategory(category)}
+              <span>{formatCategory(category)}</span>
+              {count !== undefined ? (
+                <span
+                  className={cn(
+                    "font-mono text-xs tabular-nums",
+                    active ? "text-black/50" : "text-white/30"
+                  )}
+                >
+                  {count}
+                </span>
+              ) : null}
             </button>
           )
         })}
