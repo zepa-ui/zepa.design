@@ -357,6 +357,28 @@
       "installUrl": "https://zepa.design/r/blur-unicorn.json"
     },
     {
+      "slug": "cat-unicorn",
+      "title": "Cat Unicorn",
+      "category": "unicorn-section",
+      "description": "Music-driven WebGL hero featuring a 3D cat with animated EQ bars, scanlines, a live audio ticker, and a glass-shimmer headline. Autoplay background track with toggle control.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "cat",
+        "music",
+        "audio",
+        "dark",
+        "hero",
+        "scanlines",
+        "ticker",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/cat-unicorn.json"
+    },
+    {
       "slug": "cube-unicorn",
       "title": "Cube Unicorn",
       "category": "unicorn-section",
@@ -492,6 +514,28 @@
         "saas"
       ],
       "installUrl": "https://zepa.design/r/rigel-unicorn.json"
+    },
+    {
+      "slug": "ring-unicorn",
+      "title": "Ring Unicorn",
+      "category": "unicorn-section",
+      "description": "Deep-space WebGL hero built with Unicorn Studio — glowing ring or portal structure with pulse animation and dark editorial overlay.",
+      "github": "GeorgeHastings",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "3d",
+        "ring",
+        "portal",
+        "dark",
+        "hero",
+        "glow",
+        "pulse",
+        "space",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/ring-unicorn.json"
     },
     {
       "slug": "tree-unicorn",

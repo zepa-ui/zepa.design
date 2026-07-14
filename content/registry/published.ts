@@ -33,4 +33,6 @@ export const publishedDates: Record<string, string> = {
   "void-unicorn": "2026-06-28T12:00:00.000Z",
   "plane-unicorn": "2026-07-13T16:40:53.942Z",
   "walking-unicorn": "2026-07-13T16:40:53.942Z",
+  "cat-unicorn": "2026-07-14T18:32:42.642Z",
+  "ring-unicorn": "2026-07-14T18:32:42.643Z",
 }

@@ -74,6 +74,9 @@ export const registryLoaders: Record<
   "blur-unicorn": {
     demo: () => import("./unicorn-section/blur-unicorn/demo"),
   },
+  "cat-unicorn": {
+    demo: () => import("./unicorn-section/cat-unicorn/demo"),
+  },
   "cube-unicorn": {
     demo: () => import("./unicorn-section/cube-unicorn/demo"),
   },
@@ -94,6 +97,9 @@ export const registryLoaders: Record<
   },
   "rigel-unicorn": {
     demo: () => import("./unicorn-section/rigel-unicorn/demo"),
+  },
+  "ring-unicorn": {
+    demo: () => import("./unicorn-section/ring-unicorn/demo"),
   },
   "tree-unicorn": {
     demo: () => import("./unicorn-section/tree-unicorn/demo"),

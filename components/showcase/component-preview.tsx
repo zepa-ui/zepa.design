@@ -42,21 +42,38 @@ export function ComponentPreview({
   const linkRef = useRef<HTMLAnchorElement>(null)
   const [isVideoReady, setIsVideoReady] = useState(false)
 
-  // If the video is already cached/decoded on mount, the loadeddata event
-  // may have fired before React attached the listener — check readyState.
-  // Safety net: some mobile browsers (iOS low-power mode) never fire
-  // loadeddata without a play() — drop the skeleton after 4s regardless
-  // so it can never get stuck.
+  // Skeleton stays until the video has a displayable frame (readyState >= 2).
+  // No blind timeout — with many cards loading in parallel the browser queues
+  // requests and slow cards can take a while; those are exactly the ones the
+  // skeleton exists for. Multiple events + a readyState poll cover browsers
+  // that fire events before React attaches listeners (cached videos, iOS).
   useEffect(() => {
+    if (isVideoReady) return
+
     const video = videoRef.current
-    if (video && video.readyState >= 2) {
+    if (!video) return
+
+    if (video.readyState >= 2) {
       setIsVideoReady(true)
       return
     }
 
-    const timeout = window.setTimeout(() => setIsVideoReady(true), 4000)
-    return () => window.clearTimeout(timeout)
-  }, [])
+    const markReady = () => setIsVideoReady(true)
+    video.addEventListener("loadeddata", markReady)
+    video.addEventListener("canplay", markReady)
+    video.addEventListener("playing", markReady)
+
+    const poll = window.setInterval(() => {
+      if (video.readyState >= 2) markReady()
+    }, 500)
+
+    return () => {
+      video.removeEventListener("loadeddata", markReady)
+      video.removeEventListener("canplay", markReady)
+      video.removeEventListener("playing", markReady)
+      window.clearInterval(poll)
+    }
+  }, [isVideoReady])
   const isTouch = useSyncExternalStore(
     subscribeToHoverNone,
     getHoverNoneSnapshot,
@@ -120,7 +137,6 @@ export function ComponentPreview({
           loop
           playsInline
           preload="metadata"
-          onLoadedData={() => setIsVideoReady(true)}
           className={`h-full w-full object-cover transition duration-300 group-hover:scale-[1.02] ${
             isVideoReady ? "opacity-100" : "opacity-0"
           }`}
