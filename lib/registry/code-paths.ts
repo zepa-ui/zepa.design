@@ -96,6 +96,10 @@ export const codePaths: Record<string, string[]> = {
     "unicorn-section/cube-unicorn/demo.tsx",
     "unicorn-section/cube-unicorn/ui/cube_scene.json",
   ],
+  "dove-unicorn": [
+    "unicorn-section/dove-unicorn/demo.tsx",
+    "unicorn-section/dove-unicorn/ui/scene.json",
+  ],
   "earth-unicorn": [
     "unicorn-section/earth-unicorn/demo.tsx",
     "unicorn-section/earth-unicorn/ui/scene.json",
@@ -115,6 +119,10 @@ export const codePaths: Record<string, string[]> = {
   "ramp-unicorn": [
     "unicorn-section/ramp-unicorn/demo.tsx",
     "unicorn-section/ramp-unicorn/ui/scene.json",
+  ],
+  "reveal-unicorn": [
+    "unicorn-section/reveal-unicorn/demo.tsx",
+    "unicorn-section/reveal-unicorn/ui/scene.json",
   ],
   "rigel-unicorn": [
     "unicorn-section/rigel-unicorn/demo.tsx",

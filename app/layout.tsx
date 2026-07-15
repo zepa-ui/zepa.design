@@ -2,6 +2,12 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
 import { buildMetadata } from "@/lib/seo"
+import { JsonLd } from "@/lib/marketing/json-ld"
+import {
+  organizationSchema,
+  softwareApplicationSchema,
+  webSiteSchema,
+} from "@/lib/marketing/structured-data"
 import "./globals.css"
 
 const manrope = Manrope({
@@ -18,8 +24,8 @@ export const metadata: Metadata = {
       "https://res.cloudinary.com/dakrfj1oh/video/upload/v1783870699/ss_l3xle4.mp4",
   }),
   title: {
-    default: "zepa ui - UI Components",
-    template: "%s | zepa ui",
+    default: "Zepa UI — Free React Components & Hero Sections | zepa.design",
+    template: "%s | Zepa UI",
   },
   icons: {
     icon: [
@@ -39,6 +45,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark preloading" suppressHydrationWarning>
       <head>
+        {/* Structured data — teaches Google what "Zepa UI" is (lib/marketing/) */}
+        <JsonLd data={softwareApplicationSchema()} />
+        <JsonLd data={organizationSchema()} />
+        <JsonLd data={webSiteSchema()} />
+
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

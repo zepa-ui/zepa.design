@@ -24,11 +24,13 @@ import { meta as navbarSectionsUpdatedNavbar } from "./navbar-sections/updated-n
 import { meta as unicornSectionBlurUnicorn } from "./unicorn-section/blur-unicorn/meta"
 import { meta as unicornSectionCatUnicorn } from "./unicorn-section/cat-unicorn/meta"
 import { meta as unicornSectionCubeUnicorn } from "./unicorn-section/cube-unicorn/meta"
+import { meta as unicornSectionDoveUnicorn } from "./unicorn-section/dove-unicorn/meta"
 import { meta as unicornSectionEarthUnicorn } from "./unicorn-section/earth-unicorn/meta"
 import { meta as unicornSectionGlassUnicorn } from "./unicorn-section/glass-unicorn/meta"
 import { meta as unicornSectionHandUnicorn } from "./unicorn-section/hand-unicorn/meta"
 import { meta as unicornSectionPlaneUnicorn } from "./unicorn-section/plane-unicorn/meta"
 import { meta as unicornSectionRampUnicorn } from "./unicorn-section/ramp-unicorn/meta"
+import { meta as unicornSectionRevealUnicorn } from "./unicorn-section/reveal-unicorn/meta"
 import { meta as unicornSectionRigelUnicorn } from "./unicorn-section/rigel-unicorn/meta"
 import { meta as unicornSectionRingUnicorn } from "./unicorn-section/ring-unicorn/meta"
 import { meta as unicornSectionTreeUnicorn } from "./unicorn-section/tree-unicorn/meta"
@@ -59,11 +61,13 @@ export const registryItems = [
   unicornSectionBlurUnicorn,
   unicornSectionCatUnicorn,
   unicornSectionCubeUnicorn,
+  unicornSectionDoveUnicorn,
   unicornSectionEarthUnicorn,
   unicornSectionGlassUnicorn,
   unicornSectionHandUnicorn,
   unicornSectionPlaneUnicorn,
   unicornSectionRampUnicorn,
+  unicornSectionRevealUnicorn,
   unicornSectionRigelUnicorn,
   unicornSectionRingUnicorn,
   unicornSectionTreeUnicorn,

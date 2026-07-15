@@ -11,6 +11,8 @@ import CatUnicorn from "@/content/registry/unicorn-section/cat-unicorn/demo"
 import RingUnicorn from "@/content/registry/unicorn-section/ring-unicorn/demo"
 import PlaneUnicorn from "@/content/registry/unicorn-section/plane-unicorn/demo"
 import WalkingUnicorn from "@/content/registry/unicorn-section/walking-unicorn/demo"
+import RevealUnicorn from "@/content/registry/unicorn-section/reveal-unicorn/demo"
+import DoveUnicorn from "@/content/registry/unicorn-section/dove-unicorn/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 const LOCAL_PLAYGROUND_SLUGS = {
@@ -27,6 +29,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "plane-unicorn": PlaneUnicorn,
   "cat-unicorn": CatUnicorn,
   "ring-unicorn": RingUnicorn,
+  "reveal-unicorn": RevealUnicorn,
+  "dove-unicorn": DoveUnicorn,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -43,6 +47,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "plane-unicorn": "#000000",
   "cat-unicorn": "#000000",
   "ring-unicorn": "#08111a",
+  "reveal-unicorn": "#000000",
+  "dove-unicorn": "#f5f3ef",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS

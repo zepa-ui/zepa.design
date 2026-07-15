@@ -80,6 +80,9 @@ export const registryLoaders: Record<
   "cube-unicorn": {
     demo: () => import("./unicorn-section/cube-unicorn/demo"),
   },
+  "dove-unicorn": {
+    demo: () => import("./unicorn-section/dove-unicorn/demo"),
+  },
   "earth-unicorn": {
     demo: () => import("./unicorn-section/earth-unicorn/demo"),
   },
@@ -94,6 +97,9 @@ export const registryLoaders: Record<
   },
   "ramp-unicorn": {
     demo: () => import("./unicorn-section/ramp-unicorn/demo"),
+  },
+  "reveal-unicorn": {
+    demo: () => import("./unicorn-section/reveal-unicorn/demo"),
   },
   "rigel-unicorn": {
     demo: () => import("./unicorn-section/rigel-unicorn/demo"),
