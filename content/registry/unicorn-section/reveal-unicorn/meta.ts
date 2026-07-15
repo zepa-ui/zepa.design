@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "reveal-unicorn",
+  title: "Reveal Unicorn",
+  description:
+    "Cinematic Spartan hover-reveal hero — move the cursor over the warrior and a bronze helmet materializes around his head. WebGL scene with battle-etching backdrop, editorial overlays, and a war-drum aesthetic.",
+  category: "unicorn-section",
+  preview: "/previews/unicorn-sections/reveal-unicorn/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "unicorn",
+    "webgl",
+    "animated",
+    "hover",
+    "reveal",
+    "spartan",
+    "warrior",
+    "dark",
+    "hero",
+    "cinematic",
+    "editorial",
+  ],
+  dependencies: ["unicornstudio-react", "framer-motion"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -6,6 +6,8 @@
  * or a removed component never breaks the page.
  */
 export const featuredSlugs: string[] = [
+  "dove-unicorn",
+  "amind-hero",
   "cat-unicorn",
   "ramp-unicorn",
   "drops-hero",

@@ -395,6 +395,28 @@
       "installUrl": "https://zepa.design/r/cube-unicorn.json"
     },
     {
+      "slug": "dove-unicorn",
+      "title": "Dove Unicorn",
+      "category": "unicorn-section",
+      "description": "Gallery-white hover-reveal hero — a porcelain dove relief hides under a blank canvas until the cursor brushes it back into view. Museum-label typography, serif italic accents, and a hairline passe-partout frame.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "hover",
+        "reveal",
+        "dove",
+        "light",
+        "white",
+        "minimal",
+        "editorial",
+        "gallery",
+        "hero"
+      ],
+      "installUrl": "https://zepa.design/r/dove-unicorn.json"
+    },
+    {
       "slug": "earth-unicorn",
       "title": "Earth Unicorn",
       "category": "unicorn-section",
@@ -497,6 +519,27 @@
         "blur"
       ],
       "installUrl": "https://zepa.design/r/ramp-unicorn.json"
+    },
+    {
+      "slug": "reveal-unicorn",
+      "title": "Reveal Unicorn",
+      "category": "unicorn-section",
+      "description": "Cinematic Spartan hover-reveal hero — move the cursor over the warrior and a bronze helmet materializes around his head. WebGL scene with battle-etching backdrop, editorial overlays, and a war-drum aesthetic.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "unicorn",
+        "webgl",
+        "animated",
+        "hover",
+        "reveal",
+        "spartan",
+        "warrior",
+        "dark",
+        "hero",
+        "cinematic",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/reveal-unicorn.json"
     },
     {
       "slug": "rigel-unicorn",

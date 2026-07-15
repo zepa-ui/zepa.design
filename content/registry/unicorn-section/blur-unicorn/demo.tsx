@@ -1,7 +1,8 @@
 /*
  This zepa scene is a custom scene created in the unicorn studio with the permission if you want to use it you can  
  want to change the video - change the videos here in https://unicorn.studio/remix/ZZIXxTp0JyrWqVcvcYCJ
-*/
+ remix it from here: https://unicorn.studio/remix/ZZIXxTp0JyrWqVcvcYCJ
+ */
 
 "use client";
 
