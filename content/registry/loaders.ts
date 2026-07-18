@@ -38,11 +38,17 @@ export const registryLoaders: Record<
   "glsl-hills-hero": {
     demo: () => import("./hero-sections/glsl-hills-hero/demo"),
   },
+  "lena-hero": {
+    demo: () => import("./hero-sections/lena-hero/demo"),
+  },
   "mainframe-hero": {
     demo: () => import("./hero-sections/mainframe-hero/demo"),
   },
   "new-hero": {
     demo: () => import("./hero-sections/new-hero/demo"),
+  },
+  "osmos-hero": {
+    demo: () => import("./hero-sections/osmos-hero/demo"),
   },
   "posterscroll-hero": {
     demo: () => import("./hero-sections/posterscroll-hero/demo"),

@@ -152,6 +152,26 @@
       "installUrl": "https://zepa.design/r/glsl-hills-hero.json"
     },
     {
+      "slug": "lena-hero",
+      "title": "Lena Hero",
+      "category": "hero-sections",
+      "description": "Fashion photographer portfolio hero with a counting preloader, draggable 3D spiral gallery that rotates on scroll, grayscale-to-color hover reveals, spiral/list view switch with image peek, rotating showreel badge, and a giant blend-mode serif title.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "3d",
+        "spiral",
+        "gallery",
+        "portfolio",
+        "preloader",
+        "hover",
+        "drag",
+        "typography",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/lena-hero.json"
+    },
+    {
       "slug": "mainframe-hero",
       "title": "Mainframe Hero",
       "category": "hero-sections",
@@ -181,6 +201,27 @@
         "mockup"
       ],
       "installUrl": "https://zepa.design/r/new-hero.json"
+    },
+    {
+      "slug": "osmos-hero",
+      "title": "Osmos Hero",
+      "category": "hero-sections",
+      "description": "Infinite auto-rotating curved card wheel hero — Osmo-style layout with a bold headline, pill tags, and a pure CSS 360° card carousel. Zero JavaScript animation, zero npm dependencies.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "animated",
+        "cards",
+        "wheel",
+        "carousel",
+        "light",
+        "css",
+        "editorial",
+        "motion",
+        "infinite",
+        "loop"
+      ],
+      "installUrl": "https://zepa.design/r/osmos-hero.json"
     },
     {
       "slug": "posterscroll-hero",

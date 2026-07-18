@@ -1,5 +1,7 @@
 import CrnacuraHero from "@/content/registry/hero-sections/crnacura-hero/demo"
 import DropsHero from "@/content/registry/hero-sections/drops-hero/demo"
+import LenaHero from "@/content/registry/hero-sections/lena-hero/demo"
+import OsmosHero from "@/content/registry/hero-sections/osmos-hero/demo"
 import ZoomHero from "@/content/registry/hero-sections/zoom-hero/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
@@ -7,12 +9,16 @@ import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 const LOCAL_PLAYGROUND_SLUGS = {
   "crnacura-hero": CrnacuraHero,
   "drops-hero": DropsHero,
+  "lena-hero": LenaHero,
+  "osmos-hero": OsmosHero,
   "zoom-hero": ZoomHero,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
   "crnacura-hero": "#f7f5f0",
   "drops-hero": "#121212",
+  "lena-hero": "#0c0b0a",
+  "osmos-hero": "#efeeec",
   "zoom-hero": "#f7f5f0",
 }
 
@@ -23,7 +29,7 @@ function isLocalPlaygroundSlug(slug: string): slug is LocalPlaygroundSlug {
 }
 
 /** Change this slug or use `?slug=your-hero` in the URL to test another component. */
-const DEFAULT_PLAYGROUND_SLUG = "zoom-hero"
+const DEFAULT_PLAYGROUND_SLUG = "osmos-hero"
 
 interface HeroPlaygroundPageProps {
   searchParams: Promise<{ slug?: string }>

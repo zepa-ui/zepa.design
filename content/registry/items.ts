@@ -10,8 +10,10 @@ import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanaly
 import { meta as heroSectionsDropsHero } from "./hero-sections/drops-hero/meta"
 import { meta as heroSectionsGleanHero } from "./hero-sections/glean-hero/meta"
 import { meta as heroSectionsGlslHillsHero } from "./hero-sections/glsl-hills-hero/meta"
+import { meta as heroSectionsLenaHero } from "./hero-sections/lena-hero/meta"
 import { meta as heroSectionsMainframeHero } from "./hero-sections/mainframe-hero/meta"
 import { meta as heroSectionsNewHero } from "./hero-sections/new-hero/meta"
+import { meta as heroSectionsOsmosHero } from "./hero-sections/osmos-hero/meta"
 import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscroll-hero/meta"
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
@@ -47,8 +49,10 @@ export const registryItems = [
   heroSectionsDropsHero,
   heroSectionsGleanHero,
   heroSectionsGlslHillsHero,
+  heroSectionsLenaHero,
   heroSectionsMainframeHero,
   heroSectionsNewHero,
+  heroSectionsOsmosHero,
   heroSectionsPosterscrollHero,
   heroSectionsSliderHero,
   heroSectionsVaultHero,
