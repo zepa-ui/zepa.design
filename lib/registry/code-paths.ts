@@ -40,6 +40,9 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/glsl-hills-hero/demo.tsx",
     "hero-sections/glsl-hills-hero/ui/glsl-hills.tsx",
   ],
+  "lena-hero": [
+    "hero-sections/lena-hero/demo.tsx",
+  ],
   "mainframe-hero": [
     "hero-sections/mainframe-hero/demo.tsx",
     "hero-sections/mainframe-hero/useTypewriter.ts",
@@ -50,6 +53,9 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/new-hero/ui/button.tsx",
     "hero-sections/new-hero/ui/glow.tsx",
     "hero-sections/new-hero/ui/mockup.tsx",
+  ],
+  "osmos-hero": [
+    "hero-sections/osmos-hero/demo.tsx",
   ],
   "posterscroll-hero": [
     "hero-sections/posterscroll-hero/demo.tsx",

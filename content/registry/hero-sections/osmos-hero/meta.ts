@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "osmos-hero",
+  title: "Osmos Hero",
+  description:
+    "Infinite auto-rotating curved card wheel hero — Osmo-style layout with a bold headline, pill tags, and a pure CSS 360° card carousel. Zero JavaScript animation, zero npm dependencies.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/osmos-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "animated",
+    "cards",
+    "wheel",
+    "carousel",
+    "light",
+    "css",
+    "editorial",
+    "motion",
+    "infinite",
+    "loop",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

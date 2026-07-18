@@ -37,4 +37,6 @@ export const publishedDates: Record<string, string> = {
   "ring-unicorn": "2026-07-14T18:32:42.643Z",
   "dove-unicorn": "2026-07-15T04:54:21.706Z",
   "reveal-unicorn": "2026-07-15T04:54:21.707Z",
+  "lena-hero": "2026-07-16T08:33:35.229Z",
+  "osmos-hero": "2026-07-18T09:38:31.863Z",
 }
