@@ -224,6 +224,47 @@
       "installUrl": "https://zepa.design/r/osmos-hero.json"
     },
     {
+      "slug": "paper-hero",
+      "title": "Paper Hero",
+      "category": "hero-sections",
+      "description": "Studio-style hero with a WebGL video card that chases the cursor and bends like a sheet of paper — massive black typography on a light canvas, live clock, and a paper-thin 3D plane with velocity-driven curvature.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "webgl",
+        "three",
+        "video",
+        "paper",
+        "cursor",
+        "3d",
+        "light",
+        "typography",
+        "studio",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/paper-hero.json"
+    },
+    {
+      "slug": "pop-hero",
+      "title": "Pop Hero",
+      "category": "hero-sections",
+      "description": "Inspired by pop.site — thanks to F. Albert for this amazing design. SaaS landing hero with a claim-your-domain input, centered iPhone mockup, and six floating UI cards fanned out at ±15° — extra-tall stage so the full phone reveals on scroll, soft gradient footer.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "saas",
+        "landing",
+        "phone",
+        "mockup",
+        "cards",
+        "light",
+        "clean",
+        "product",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/pop-hero.json"
+    },
+    {
       "slug": "posterscroll-hero",
       "title": "Poster Scroll Hero",
       "category": "hero-sections",

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "pop-hero",
+  title: "Pop Hero",
+  description:
+    "Inspired by pop.site — thanks to F. Albert for this amazing design. SaaS landing hero with a claim-your-domain input, centered iPhone mockup, and six floating UI cards fanned out at ±15° — extra-tall stage so the full phone reveals on scroll, soft gradient footer.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/pop-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "saas",
+    "landing",
+    "phone",
+    "mockup",
+    "cards",
+    "light",
+    "clean",
+    "product",
+    "animated",
+  ],
+  dependencies: ["framer-motion"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
