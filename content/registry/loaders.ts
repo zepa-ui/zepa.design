@@ -50,6 +50,12 @@ export const registryLoaders: Record<
   "osmos-hero": {
     demo: () => import("./hero-sections/osmos-hero/demo"),
   },
+  "paper-hero": {
+    demo: () => import("./hero-sections/paper-hero/demo"),
+  },
+  "pop-hero": {
+    demo: () => import("./hero-sections/pop-hero/demo"),
+  },
   "posterscroll-hero": {
     demo: () => import("./hero-sections/posterscroll-hero/demo"),
   },

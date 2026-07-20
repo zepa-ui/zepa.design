@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "paper-hero",
+  title: "Paper Hero",
+  description:
+    "Studio-style hero with a WebGL video card that chases the cursor and bends like a sheet of paper — massive black typography on a light canvas, live clock, and a paper-thin 3D plane with velocity-driven curvature.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/paper-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "webgl",
+    "three",
+    "video",
+    "paper",
+    "cursor",
+    "3d",
+    "light",
+    "typography",
+    "studio",
+    "animated",
+  ],
+  dependencies: ["three"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

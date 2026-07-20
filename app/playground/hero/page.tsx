@@ -2,6 +2,8 @@ import CrnacuraHero from "@/content/registry/hero-sections/crnacura-hero/demo"
 import DropsHero from "@/content/registry/hero-sections/drops-hero/demo"
 import LenaHero from "@/content/registry/hero-sections/lena-hero/demo"
 import OsmosHero from "@/content/registry/hero-sections/osmos-hero/demo"
+import PaperHero from "@/content/registry/hero-sections/paper-hero/demo"
+import PopHero from "@/content/registry/hero-sections/pop-hero/demo"
 import ZoomHero from "@/content/registry/hero-sections/zoom-hero/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
@@ -11,6 +13,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "drops-hero": DropsHero,
   "lena-hero": LenaHero,
   "osmos-hero": OsmosHero,
+  "paper-hero": PaperHero,
+  "pop-hero": PopHero,
   "zoom-hero": ZoomHero,
 } as const
 
@@ -19,6 +23,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "drops-hero": "#121212",
   "lena-hero": "#0c0b0a",
   "osmos-hero": "#efeeec",
+  "paper-hero": "#e4e4e4",
+  "pop-hero": "#ffffff",
   "zoom-hero": "#f7f5f0",
 }
 

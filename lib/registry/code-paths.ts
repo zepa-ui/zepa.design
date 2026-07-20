@@ -57,6 +57,13 @@ export const codePaths: Record<string, string[]> = {
   "osmos-hero": [
     "hero-sections/osmos-hero/demo.tsx",
   ],
+  "paper-hero": [
+    "hero-sections/paper-hero/demo.tsx",
+    "hero-sections/paper-hero/ui/paper-card.tsx",
+  ],
+  "pop-hero": [
+    "hero-sections/pop-hero/demo.tsx",
+  ],
   "posterscroll-hero": [
     "hero-sections/posterscroll-hero/demo.tsx",
     "hero-sections/posterscroll-hero/ui/peacock-logo.tsx",
