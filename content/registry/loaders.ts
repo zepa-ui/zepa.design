@@ -71,11 +71,17 @@ export const registryLoaders: Record<
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
   },
+  "clipped-navbar": {
+    demo: () => import("./navbar-sections/clipped-navbar/demo"),
+  },
   "cohort-navbar": {
     demo: () => import("./navbar-sections/cohort-navbar/demo"),
   },
   "curved-navbar": {
     demo: () => import("./navbar-sections/curved-navbar/demo"),
+  },
+  "photo-navbar": {
+    demo: () => import("./navbar-sections/photo-navbar/demo"),
   },
   "supaste-navbar": {
     demo: () => import("./navbar-sections/supaste-navbar/demo"),

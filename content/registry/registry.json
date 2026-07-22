@@ -350,6 +350,27 @@
       "installUrl": "https://zepa.design/r/zoom-hero.json"
     },
     {
+      "slug": "clipped-navbar",
+      "title": "Clipped Navbar",
+      "category": "navbar-sections",
+      "description": "Full-bleed hero image with a floating white navbar card clipped into the top — small side and top gap lets the background bleed through all four corners. Centered logo, left nav links, email capture CTA, and a scrolling logo marquee at the bottom.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "hero",
+        "clipped",
+        "floating",
+        "email",
+        "cta",
+        "marquee",
+        "landing",
+        "fullscreen",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/clipped-navbar.json"
+    },
+    {
       "slug": "cohort-navbar",
       "title": "Cohort Navbar",
       "category": "navbar-sections",
@@ -383,6 +404,26 @@
         "dark"
       ],
       "installUrl": "https://zepa.design/r/curved-navbar.json"
+    },
+    {
+      "slug": "photo-navbar",
+      "title": "Photo Navbar",
+      "category": "navbar-sections",
+      "description": "Sticky navbar with a mega-dropdown featuring a photo card grid — grid-dot logo, centered nav links with animated chevrons, rounded white dropdown panel with a category list on the left and two photo cards on the right. Dark hero background with overlay.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "navbar",
+        "navigation",
+        "dropdown",
+        "mega-menu",
+        "photo",
+        "cards",
+        "light",
+        "rounded",
+        "landing",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/photo-navbar.json"
     },
     {
       "slug": "supaste-navbar",

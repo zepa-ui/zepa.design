@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "clipped-navbar",
+  title: "Clipped Navbar",
+  description:
+    "Full-bleed hero image with a floating white navbar card clipped into the top — small side and top gap lets the background bleed through all four corners. Centered logo, left nav links, email capture CTA, and a scrolling logo marquee at the bottom.",
+  category: "navbar-sections",
+  preview: "/previews/navbar-sections/clipped-navbar/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "navbar",
+    "navigation",
+    "hero",
+    "clipped",
+    "floating",
+    "email",
+    "cta",
+    "marquee",
+    "landing",
+    "fullscreen",
+    "dark",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
