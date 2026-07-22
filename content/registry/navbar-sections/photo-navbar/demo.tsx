@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, type Transition } from "framer-motion";
 
 /* ─── Data ─── */
 const CATEGORIES = ["Agency", "Startup", "Enterprise", "Professional Services", "E-commerce"];
@@ -39,7 +39,7 @@ const DROP = {
   initial: { opacity: 0, y: -8, scale: 0.97 },
   animate: { opacity: 1, y: 0, scale: 1 },
   exit:    { opacity: 0, y: -8, scale: 0.97 },
-  transition: { duration: 0.17, ease: [0.16, 1, 0.3, 1] },
+  transition: { duration: 0.17, ease: [0.16, 1, 0.3, 1] } as Transition,
 };
 
 /* ─── Icons ─── */
