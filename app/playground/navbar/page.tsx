@@ -2,6 +2,8 @@ import CohortNavbar from "@/content/registry/navbar-sections/cohort-navbar/demo"
 import CurvedNavbar from "@/content/registry/navbar-sections/curved-navbar/demo"
 import UpdatedNavbar from "@/content/registry/navbar-sections/updated-navbar/demo"
 import SupasteNavbar from "@/content/registry/navbar-sections/supaste-navbar/demo"
+import PhotoNavbar from "@/content/registry/navbar-sections/photo-navbar/demo"
+import ClippedNavbar from "@/content/registry/navbar-sections/clipped-navbar/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -10,6 +12,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "curved-navbar": CurvedNavbar,
   "updated-navbar": UpdatedNavbar,
   "supaste-navbar": SupasteNavbar,
+  "photo-navbar": PhotoNavbar,
+  "clipped-navbar": ClippedNavbar,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -17,6 +21,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "curved-navbar": "#c8c4e8",
   "updated-navbar": "#ffffff",
   "supaste-navbar": "#1a6cf5",
+  "photo-navbar": "#1a1a1a",
+  "clipped-navbar": "#0a0a0a",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
@@ -26,7 +32,7 @@ function isLocalPlaygroundSlug(slug: string): slug is LocalPlaygroundSlug {
 }
 
 /** Change this slug or use `?slug=your-navbar` in the URL to test another component. */
-const DEFAULT_PLAYGROUND_SLUG = "supaste-navbar"
+const DEFAULT_PLAYGROUND_SLUG = "clipped-navbar"
 
 interface NavbarPlaygroundPageProps {
   searchParams: Promise<{ slug?: string }>

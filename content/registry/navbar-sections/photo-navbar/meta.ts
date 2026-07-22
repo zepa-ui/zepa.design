@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "photo-navbar",
+  title: "Photo Navbar",
+  description:
+    "Sticky navbar with a mega-dropdown featuring a photo card grid — grid-dot logo, centered nav links with animated chevrons, rounded white dropdown panel with a category list on the left and two photo cards on the right. Dark hero background with overlay.",
+  category: "navbar-sections",
+  preview: "/previews/navbar-sections/photo-navbar/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "navbar",
+    "navigation",
+    "dropdown",
+    "mega-menu",
+    "photo",
+    "cards",
+    "light",
+    "rounded",
+    "landing",
+    "animated",
+  ],
+  dependencies: ["framer-motion"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

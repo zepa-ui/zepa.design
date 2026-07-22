@@ -21,8 +21,10 @@ import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
+import { meta as navbarSectionsClippedNavbar } from "./navbar-sections/clipped-navbar/meta"
 import { meta as navbarSectionsCohortNavbar } from "./navbar-sections/cohort-navbar/meta"
 import { meta as navbarSectionsCurvedNavbar } from "./navbar-sections/curved-navbar/meta"
+import { meta as navbarSectionsPhotoNavbar } from "./navbar-sections/photo-navbar/meta"
 import { meta as navbarSectionsSupasteNavbar } from "./navbar-sections/supaste-navbar/meta"
 import { meta as navbarSectionsUpdatedNavbar } from "./navbar-sections/updated-navbar/meta"
 import { meta as unicornSectionBlurUnicorn } from "./unicorn-section/blur-unicorn/meta"
@@ -62,8 +64,10 @@ export const registryItems = [
   heroSectionsVaultHero,
   heroSectionsVercelHero,
   heroSectionsZoomHero,
+  navbarSectionsClippedNavbar,
   navbarSectionsCohortNavbar,
   navbarSectionsCurvedNavbar,
+  navbarSectionsPhotoNavbar,
   navbarSectionsSupasteNavbar,
   navbarSectionsUpdatedNavbar,
   unicornSectionBlurUnicorn,
