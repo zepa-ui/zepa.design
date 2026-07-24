@@ -5,6 +5,7 @@ import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
 import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
 import { meta as heroSectionsBrutalHero } from "./hero-sections/brutal-hero/meta"
 import { meta as heroSectionsCaledera } from "./hero-sections/caledera/meta"
+import { meta as heroSectionsCardHero } from "./hero-sections/card-hero/meta"
 import { meta as heroSectionsCrnacuraHero } from "./hero-sections/crnacura-hero/meta"
 import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanalytics-hero/meta"
 import { meta as heroSectionsDropsHero } from "./hero-sections/drops-hero/meta"
@@ -20,6 +21,7 @@ import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscro
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
+import { meta as heroSectionsWaveHero } from "./hero-sections/wave-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 import { meta as navbarSectionsClippedNavbar } from "./navbar-sections/clipped-navbar/meta"
 import { meta as navbarSectionsCohortNavbar } from "./navbar-sections/cohort-navbar/meta"
@@ -48,6 +50,7 @@ export const registryItems = [
   heroSectionsAmindHero,
   heroSectionsBrutalHero,
   heroSectionsCaledera,
+  heroSectionsCardHero,
   heroSectionsCrnacuraHero,
   heroSectionsDataanalyticsHero,
   heroSectionsDropsHero,
@@ -63,6 +66,7 @@ export const registryItems = [
   heroSectionsSliderHero,
   heroSectionsVaultHero,
   heroSectionsVercelHero,
+  heroSectionsWaveHero,
   heroSectionsZoomHero,
   navbarSectionsClippedNavbar,
   navbarSectionsCohortNavbar,

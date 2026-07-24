@@ -1,30 +1,36 @@
+import CardHero from "@/content/registry/hero-sections/card-hero/demo"
 import CrnacuraHero from "@/content/registry/hero-sections/crnacura-hero/demo"
 import DropsHero from "@/content/registry/hero-sections/drops-hero/demo"
 import LenaHero from "@/content/registry/hero-sections/lena-hero/demo"
 import OsmosHero from "@/content/registry/hero-sections/osmos-hero/demo"
 import PaperHero from "@/content/registry/hero-sections/paper-hero/demo"
 import PopHero from "@/content/registry/hero-sections/pop-hero/demo"
+import WaveHero from "@/content/registry/hero-sections/wave-hero/demo"
 import ZoomHero from "@/content/registry/hero-sections/zoom-hero/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
 const LOCAL_PLAYGROUND_SLUGS = {
+  "card-hero": CardHero,
   "crnacura-hero": CrnacuraHero,
   "drops-hero": DropsHero,
   "lena-hero": LenaHero,
   "osmos-hero": OsmosHero,
   "paper-hero": PaperHero,
   "pop-hero": PopHero,
+  "wave-hero": WaveHero,
   "zoom-hero": ZoomHero,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
+  "card-hero": "#000000",
   "crnacura-hero": "#f7f5f0",
   "drops-hero": "#121212",
   "lena-hero": "#0c0b0a",
   "osmos-hero": "#efeeec",
   "paper-hero": "#e4e4e4",
   "pop-hero": "#ffffff",
+  "wave-hero": "#808080",
   "zoom-hero": "#f7f5f0",
 }
 
@@ -35,7 +41,7 @@ function isLocalPlaygroundSlug(slug: string): slug is LocalPlaygroundSlug {
 }
 
 /** Change this slug or use `?slug=your-hero` in the URL to test another component. */
-const DEFAULT_PLAYGROUND_SLUG = "osmos-hero"
+const DEFAULT_PLAYGROUND_SLUG = "card-hero"
 
 interface HeroPlaygroundPageProps {
   searchParams: Promise<{ slug?: string }>

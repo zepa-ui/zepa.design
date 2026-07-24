@@ -21,6 +21,9 @@ export const codePaths: Record<string, string[]> = {
   "caledera": [
     "hero-sections/caledera/demo.tsx",
   ],
+  "card-hero": [
+    "hero-sections/card-hero/demo.tsx",
+  ],
   "crnacura-hero": [
     "hero-sections/crnacura-hero/demo.tsx",
     "hero-sections/crnacura-hero/splitting.d.ts",
@@ -78,6 +81,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "vercel-hero": [
     "hero-sections/vercel-hero/demo.tsx",
+  ],
+  "wave-hero": [
+    "hero-sections/wave-hero/demo.tsx",
   ],
   "zoom-hero": [
     "hero-sections/zoom-hero/demo.tsx",

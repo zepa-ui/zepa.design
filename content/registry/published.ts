@@ -43,4 +43,6 @@ export const publishedDates: Record<string, string> = {
   "pop-hero": "2026-07-20T14:00:21.446Z",
   "photo-navbar": "2026-07-22T04:50:07.076Z",
   "clipped-navbar": "2026-07-22T09:05:07.152Z",
+  "card-hero": "2026-07-24T14:09:49.960Z",
+  "wave-hero": "2026-07-24T14:09:49.961Z",
 }

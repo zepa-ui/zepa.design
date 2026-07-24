@@ -23,6 +23,9 @@ export const registryLoaders: Record<
   "caledera": {
     demo: () => import("./hero-sections/caledera/demo"),
   },
+  "card-hero": {
+    demo: () => import("./hero-sections/card-hero/demo"),
+  },
   "crnacura-hero": {
     demo: () => import("./hero-sections/crnacura-hero/demo"),
   },
@@ -67,6 +70,9 @@ export const registryLoaders: Record<
   },
   "vercel-hero": {
     demo: () => import("./hero-sections/vercel-hero/demo"),
+  },
+  "wave-hero": {
+    demo: () => import("./hero-sections/wave-hero/demo"),
   },
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
