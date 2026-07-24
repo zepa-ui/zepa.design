@@ -69,6 +69,28 @@
       "installUrl": "https://zepa.design/r/caledera.json"
     },
     {
+      "slug": "card-hero",
+      "title": "Card Hero",
+      "category": "hero-sections",
+      "description": "Full-screen video hero with a centered glassmorphism pill navbar, large editorial headline, and a 3D tilt story card that follows the cursor via framer-motion springs. The card cycles two slides with progress bar animations, a person image with a sea-blue soft-light overlay, and frosted-glass action buttons.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "video",
+        "card",
+        "3d",
+        "tilt",
+        "glassmorphism",
+        "dark",
+        "animated",
+        "framer-motion",
+        "landing",
+        "editorial",
+        "navbar"
+      ],
+      "installUrl": "https://zepa.design/r/card-hero.json"
+    },
+    {
       "slug": "crnacura-hero",
       "title": "Crnacura Hero",
       "category": "hero-sections",
@@ -330,6 +352,28 @@
         "cta"
       ],
       "installUrl": "https://zepa.design/r/vercel-hero.json"
+    },
+    {
+      "slug": "wave-hero",
+      "title": "Wave Hero",
+      "category": "hero-sections",
+      "description": "Originally created by @franky-adl. An instanced 40×40 grid of tall cubes that ripple with expanding Gaussian wavefronts following the cursor. Built with Three.js — custom vertex shader injection, MouseTrail float texture, vignette + RGB-shift post-processing, and a GSAP staggered intro.",
+      "github": "franky-adl",
+      "tags": [
+        "hero",
+        "3d",
+        "threejs",
+        "webgl",
+        "shader",
+        "wave",
+        "grid",
+        "cursor",
+        "interactive",
+        "dark",
+        "gsap",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/wave-hero.json"
     },
     {
       "slug": "zoom-hero",
