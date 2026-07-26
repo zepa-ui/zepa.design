@@ -1,0 +1,25 @@
+export const meta = {
+  slug: "video1-hero",
+  title: "Video Hero",
+  description:
+    "An editorial full-screen video hero inspired by animusstudios.com. Oversized staggered display type wraps a centred 16:9 video panel with a scale-in entrance animation. Features a subtle SVG contour-wave background, corner-bracket hamburger, vertical side typography, and a bottom tagline — all animating in with staggered ease curves.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/video1-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "video",
+    "dark",
+    "animated",
+    "typography",
+    "editorial",
+    "landing",
+    "entrance",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

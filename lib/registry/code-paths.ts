@@ -60,6 +60,9 @@ export const codePaths: Record<string, string[]> = {
   "osmos-hero": [
     "hero-sections/osmos-hero/demo.tsx",
   ],
+  "oyo-hero": [
+    "hero-sections/oyo-hero/demo.tsx",
+  ],
   "paper-hero": [
     "hero-sections/paper-hero/demo.tsx",
     "hero-sections/paper-hero/ui/paper-card.tsx",
@@ -81,6 +84,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "vercel-hero": [
     "hero-sections/vercel-hero/demo.tsx",
+  ],
+  "video1-hero": [
+    "hero-sections/video1-hero/demo.tsx",
   ],
   "wave-hero": [
     "hero-sections/wave-hero/demo.tsx",

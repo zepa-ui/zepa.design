@@ -45,4 +45,6 @@ export const publishedDates: Record<string, string> = {
   "clipped-navbar": "2026-07-22T09:05:07.152Z",
   "card-hero": "2026-07-24T14:09:49.960Z",
   "wave-hero": "2026-07-24T14:09:49.961Z",
+  "oyo-hero": "2026-07-26T17:30:13.599Z",
+  "video1-hero": "2026-07-26T17:30:13.600Z",
 }

@@ -1,4 +1,6 @@
 import CardHero from "@/content/registry/hero-sections/card-hero/demo"
+import OyoHero from "@/content/registry/hero-sections/oyo-hero/demo"
+import Video1Hero from "@/content/registry/hero-sections/video1-hero/demo"
 import CrnacuraHero from "@/content/registry/hero-sections/crnacura-hero/demo"
 import DropsHero from "@/content/registry/hero-sections/drops-hero/demo"
 import LenaHero from "@/content/registry/hero-sections/lena-hero/demo"
@@ -18,6 +20,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "osmos-hero": OsmosHero,
   "paper-hero": PaperHero,
   "pop-hero": PopHero,
+  "oyo-hero": OyoHero,
+  "video1-hero": Video1Hero,
   "wave-hero": WaveHero,
   "zoom-hero": ZoomHero,
 } as const
@@ -30,6 +34,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "osmos-hero": "#efeeec",
   "paper-hero": "#e4e4e4",
   "pop-hero": "#ffffff",
+  "oyo-hero": "#ccd8e4",
+  "video1-hero": "#232322",
   "wave-hero": "#808080",
   "zoom-hero": "#f7f5f0",
 }

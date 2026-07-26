@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "oyo-hero",
+  title: "Oyo Hero",
+  description:
+    "Originally created by Codrops. An editorial CSS Grid slideshow hero with curtain-wipe revealer animations. Three irregular grid layouts cycle via prev/next navigation — each layout repositions 13 grayscale photo cells, a large display name, vertical title, and body copy. Built with pure CSS animations and no external dependencies.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/oyo-hero/preview.mov",
+  github: "codrops",
+  tags: [
+    "hero",
+    "grid",
+    "slideshow",
+    "editorial",
+    "dark",
+    "animated",
+    "css-grid",
+    "reveal",
+    "photography",
+    "landing",
+    "navigation",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -53,6 +53,9 @@ export const registryLoaders: Record<
   "osmos-hero": {
     demo: () => import("./hero-sections/osmos-hero/demo"),
   },
+  "oyo-hero": {
+    demo: () => import("./hero-sections/oyo-hero/demo"),
+  },
   "paper-hero": {
     demo: () => import("./hero-sections/paper-hero/demo"),
   },
@@ -70,6 +73,9 @@ export const registryLoaders: Record<
   },
   "vercel-hero": {
     demo: () => import("./hero-sections/vercel-hero/demo"),
+  },
+  "video1-hero": {
+    demo: () => import("./hero-sections/video1-hero/demo"),
   },
   "wave-hero": {
     demo: () => import("./hero-sections/wave-hero/demo"),
