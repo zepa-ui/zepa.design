@@ -4,6 +4,27 @@
   "homepage": "https://zepa.design",
   "items": [
     {
+      "slug": "air-hero",
+      "title": "Air Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the air.inc website design — a cinematic full-screen hero with a looping sky video background, transparent floating navbar, and a 3D spring-tilt product video card. Tab pills (Organize / Approve / Multiply) swap the card video with AnimatePresence fade transitions. Built with motion/react springs (useMotionValue, useSpring) for ±8° rotateX/Y tilt on hover, plus staggered entrance animations on headline, CTA, card, and tabs.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "video",
+        "saas",
+        "animated",
+        "tabs",
+        "landing",
+        "sky",
+        "transparent",
+        "tilt",
+        "spring",
+        "editorial"
+      ],
+      "installUrl": "https://zepa.design/r/air-hero.json"
+    },
+    {
       "slug": "amero-hero",
       "title": "Amero Hero",
       "category": "hero-sections",
@@ -34,6 +55,28 @@
         "animation"
       ],
       "installUrl": "https://zepa.design/r/amind-hero.json"
+    },
+    {
+      "slug": "bevel-hero",
+      "title": "Bevel Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the bevel.health website design — a clean white editorial hero with a bold Georgia serif headline, eyebrow social-proof text, and an infinite auto-scrolling strip of portrait reel cards (Instagram-style). Each card shows a Cloudinary image with a user avatar, like/comment counts, and caption overlays. Left and right white gradient fades complete the marquee effect. Entrance animations powered by motion/react with staggered delays on eyebrow, headline, sub-copy, and the reel strip.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "light",
+        "white",
+        "scrolling",
+        "marquee",
+        "social",
+        "cards",
+        "reels",
+        "animated",
+        "serif",
+        "editorial",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/bevel-hero.json"
     },
     {
       "slug": "brutal-hero",

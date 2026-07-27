@@ -11,11 +11,17 @@ export const registryLoaders: Record<
     demo: () => Promise<DemoModule>
   }
 > = {
+  "air-hero": {
+    demo: () => import("./hero-sections/air-hero/demo"),
+  },
   "amero-hero": {
     demo: () => import("./hero-sections/amero-hero/demo"),
   },
   "amind-hero": {
     demo: () => import("./hero-sections/amind-hero/demo"),
+  },
+  "bevel-hero": {
+    demo: () => import("./hero-sections/bevel-hero/demo"),
   },
   "brutal-hero": {
     demo: () => import("./hero-sections/brutal-hero/demo"),

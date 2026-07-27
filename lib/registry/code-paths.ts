@@ -2,6 +2,9 @@
 // Run: npm run build:registry
 
 export const codePaths: Record<string, string[]> = {
+  "air-hero": [
+    "hero-sections/air-hero/demo.tsx",
+  ],
   "amero-hero": [
     "hero-sections/amero-hero/demo.tsx",
   ],
@@ -11,6 +14,9 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/amind-hero/ui/header.tsx",
     "hero-sections/amind-hero/ui/hero.tsx",
     "hero-sections/amind-hero/ui/videosection.tsx",
+  ],
+  "bevel-hero": [
+    "hero-sections/bevel-hero/demo.tsx",
   ],
   "brutal-hero": [
     "hero-sections/brutal-hero/demo.tsx",
