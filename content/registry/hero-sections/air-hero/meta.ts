@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "air-hero",
+  title: "Air Hero",
+  description:
+    "Inspired by the air.inc website design — a cinematic full-screen hero with a looping sky video background, transparent floating navbar, and a 3D spring-tilt product video card. Tab pills (Organize / Approve / Multiply) swap the card video with AnimatePresence fade transitions. Built with motion/react springs (useMotionValue, useSpring) for ±8° rotateX/Y tilt on hover, plus staggered entrance animations on headline, CTA, card, and tabs.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/air-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "video",
+    "saas",
+    "animated",
+    "tabs",
+    "landing",
+    "sky",
+    "transparent",
+    "tilt",
+    "spring",
+    "editorial",
+  ],
+  dependencies: ["motion"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
