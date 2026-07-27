@@ -15,12 +15,14 @@ import { meta as heroSectionsLenaHero } from "./hero-sections/lena-hero/meta"
 import { meta as heroSectionsMainframeHero } from "./hero-sections/mainframe-hero/meta"
 import { meta as heroSectionsNewHero } from "./hero-sections/new-hero/meta"
 import { meta as heroSectionsOsmosHero } from "./hero-sections/osmos-hero/meta"
+import { meta as heroSectionsOyoHero } from "./hero-sections/oyo-hero/meta"
 import { meta as heroSectionsPaperHero } from "./hero-sections/paper-hero/meta"
 import { meta as heroSectionsPopHero } from "./hero-sections/pop-hero/meta"
 import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscroll-hero/meta"
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
+import { meta as heroSectionsVideo1Hero } from "./hero-sections/video1-hero/meta"
 import { meta as heroSectionsWaveHero } from "./hero-sections/wave-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 import { meta as navbarSectionsClippedNavbar } from "./navbar-sections/clipped-navbar/meta"
@@ -60,12 +62,14 @@ export const registryItems = [
   heroSectionsMainframeHero,
   heroSectionsNewHero,
   heroSectionsOsmosHero,
+  heroSectionsOyoHero,
   heroSectionsPaperHero,
   heroSectionsPopHero,
   heroSectionsPosterscrollHero,
   heroSectionsSliderHero,
   heroSectionsVaultHero,
   heroSectionsVercelHero,
+  heroSectionsVideo1Hero,
   heroSectionsWaveHero,
   heroSectionsZoomHero,
   navbarSectionsClippedNavbar,

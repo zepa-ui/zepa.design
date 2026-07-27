@@ -246,6 +246,27 @@
       "installUrl": "https://zepa.design/r/osmos-hero.json"
     },
     {
+      "slug": "oyo-hero",
+      "title": "Oyo Hero",
+      "category": "hero-sections",
+      "description": "Originally created by Codrops. An editorial CSS Grid slideshow hero with curtain-wipe revealer animations. Three irregular grid layouts cycle via prev/next navigation — each layout repositions 13 grayscale photo cells, a large display name, vertical title, and body copy. Built with pure CSS animations and no external dependencies.",
+      "github": "codrops",
+      "tags": [
+        "hero",
+        "grid",
+        "slideshow",
+        "editorial",
+        "dark",
+        "animated",
+        "css-grid",
+        "reveal",
+        "photography",
+        "landing",
+        "navigation"
+      ],
+      "installUrl": "https://zepa.design/r/oyo-hero.json"
+    },
+    {
       "slug": "paper-hero",
       "title": "Paper Hero",
       "category": "hero-sections",
@@ -352,6 +373,24 @@
         "cta"
       ],
       "installUrl": "https://zepa.design/r/vercel-hero.json"
+    },
+    {
+      "slug": "video1-hero",
+      "title": "Video Hero",
+      "category": "hero-sections",
+      "description": "An editorial full-screen video hero inspired by animusstudios.com. Oversized staggered display type wraps a centred 16:9 video panel with a scale-in entrance animation. Features a subtle SVG contour-wave background, corner-bracket hamburger, vertical side typography, and a bottom tagline — all animating in with staggered ease curves.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "video",
+        "dark",
+        "animated",
+        "typography",
+        "editorial",
+        "landing",
+        "entrance"
+      ],
+      "installUrl": "https://zepa.design/r/video1-hero.json"
     },
     {
       "slug": "wave-hero",

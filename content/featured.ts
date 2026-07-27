@@ -15,6 +15,7 @@ export const featuredSlugs: string[] = [
   "cat-unicorn",
   "ramp-unicorn",
   "drops-hero",
+  "oyo-hero",
   "wave-hero",
   "crnacura-hero",
   "hand-unicorn",
