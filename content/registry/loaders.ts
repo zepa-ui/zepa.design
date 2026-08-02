@@ -41,6 +41,9 @@ export const registryLoaders: Record<
   "drops-hero": {
     demo: () => import("./hero-sections/drops-hero/demo"),
   },
+  "figma-hero": {
+    demo: () => import("./hero-sections/figma-hero/demo"),
+  },
   "glean-hero": {
     demo: () => import("./hero-sections/glean-hero/demo"),
   },
@@ -70,6 +73,9 @@ export const registryLoaders: Record<
   },
   "posterscroll-hero": {
     demo: () => import("./hero-sections/posterscroll-hero/demo"),
+  },
+  "scroll1-hero": {
+    demo: () => import("./hero-sections/scroll1-hero/demo"),
   },
   "slider-hero": {
     demo: () => import("./hero-sections/slider-hero/demo"),

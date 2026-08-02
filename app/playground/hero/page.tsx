@@ -1,4 +1,6 @@
 import AirHero from "@/content/registry/hero-sections/air-hero/demo"
+import Scroll1Hero from "@/content/registry/hero-sections/scroll1-hero/demo"
+import FigmaHero from "@/content/registry/hero-sections/figma-hero/demo"
 import BevelHero from "@/content/registry/hero-sections/bevel-hero/demo"
 import CardHero from "@/content/registry/hero-sections/card-hero/demo"
 import OyoHero from "@/content/registry/hero-sections/oyo-hero/demo"
@@ -17,6 +19,8 @@ import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 const LOCAL_PLAYGROUND_SLUGS = {
   "air-hero": AirHero,
   "bevel-hero": BevelHero,
+  "scroll1-hero": Scroll1Hero,
+  "figma-hero": FigmaHero,
   "card-hero": CardHero,
   "crnacura-hero": CrnacuraHero,
   "drops-hero": DropsHero,
@@ -33,6 +37,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
   "air-hero": "#7ab8d8",
   "bevel-hero": "#ffffff",
+  "scroll1-hero": "#fffdfc",
+  "figma-hero": "#f5f5f4",
   "card-hero": "#000000",
   "crnacura-hero": "#f7f5f0",
   "drops-hero": "#121212",

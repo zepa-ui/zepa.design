@@ -42,6 +42,9 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/drops-hero/ui/gsap-image-trail.tsx",
     "hero-sections/drops-hero/ui/index.ts",
   ],
+  "figma-hero": [
+    "hero-sections/figma-hero/demo.tsx",
+  ],
   "glean-hero": [
     "hero-sections/glean-hero/demo.tsx",
   ],
@@ -81,6 +84,9 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/posterscroll-hero/ui/peacock-logo.tsx",
     "hero-sections/posterscroll-hero/ui/tmdb-api-key.ts",
     "hero-sections/posterscroll-hero/ui/usePeacockScene.ts",
+  ],
+  "scroll1-hero": [
+    "hero-sections/scroll1-hero/demo.tsx",
   ],
   "slider-hero": [
     "hero-sections/slider-hero/demo.tsx",
