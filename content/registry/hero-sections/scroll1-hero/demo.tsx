@@ -194,7 +194,6 @@ export default function Scroll1Hero() {
             ref={(el) => { itemRefs.current[i] = el }}
             style={{ width: it.w, height: it.h }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={it.img} alt="" draggable={false} />
           </div>
         ))}

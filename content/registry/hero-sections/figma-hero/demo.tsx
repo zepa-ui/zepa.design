@@ -21,7 +21,8 @@ export default function FigmaHero() {
   const pixRef  = useRef<HTMLCanvasElement>(null)
   const curRef  = useRef<HTMLDivElement>(null)
   const meRef   = useRef<HTMLDivElement>(null)
-  const [clock, setClock] = useState("--:--")
+  /* empty until mount — keeps SSR and client markup identical */
+  const [now, setNow] = useState({ clock: "--:--", date: "" })
 
   /* ── your own cursor — black Figma arrow + "You" pill ── */
   useEffect(() => {
@@ -44,31 +45,27 @@ export default function FigmaHero() {
     }
   }, [])
 
-  /* ── live NYC clock ── */
+  /* ── live NYC clock + date ── */
   useEffect(() => {
-    const f = () =>
-      setClock(
-        new Date().toLocaleTimeString("en-US", {
+    const tick = () => {
+      const d = new Date()
+      setNow({
+        clock: d.toLocaleTimeString("en-US", {
           timeZone: "America/New_York",
           hour: "numeric",
           minute: "2-digit",
         }),
-      )
-    f()
-    const id = setInterval(f, 20000)
+        date: d.toLocaleDateString("en-US", {
+          timeZone: "America/New_York",
+          month: "short",
+          day: "numeric",
+          year: "numeric",
+        }),
+      })
+    }
+    tick()
+    const id = setInterval(tick, 20000)
     return () => clearInterval(id)
-  }, [])
-
-  const [dateStr, setDateStr] = useState("")
-  useEffect(() => {
-    setDateStr(
-      new Date().toLocaleDateString("en-US", {
-        timeZone: "America/New_York",
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-      }),
-    )
   }, [])
 
   /* ── MARTÍN — pixelated bitmap text, re-glitched periodically ── */
@@ -177,7 +174,7 @@ export default function FigmaHero() {
 
       {/* ── header ── */}
       <div className="fgm-meta">
-        NYC {clock} · {dateStr}
+        NYC {now.clock} · {now.date}
         <br />
         <span className="fgm-dim">79°F ☼</span>
       </div>
