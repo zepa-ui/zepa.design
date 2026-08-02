@@ -186,6 +186,28 @@
       "installUrl": "https://zepa.design/r/drops-hero.json"
     },
     {
+      "slug": "figma-hero",
+      "title": "Figma Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the David Suárez portfolio — a hero staged as a live Figma canvas. Hovering any text reveals a real selection box with blue outline, corner handles, and a \"Text\" layer tag. A custom black arrow cursor labelled \"You\" replaces the pointer while a purple \"David\" collaborator cursor wanders the canvas on its own with organic wobble. The middle name renders as a glitchy bitmap, re-shuffling its pixel palette every 700ms on a canvas element. Includes a live NYC clock, vertical column guides, and staggered fade-up entrance on the four hero blocks.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "figma",
+        "canvas",
+        "cursor",
+        "collaborative",
+        "portfolio",
+        "glitch",
+        "pixel",
+        "interactive",
+        "light",
+        "animated",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/figma-hero.json"
+    },
+    {
       "slug": "glean-hero",
       "title": "Glean Hero",
       "category": "hero-sections",
@@ -366,6 +388,27 @@
         "streaming"
       ],
       "installUrl": "https://zepa.design/r/posterscroll-hero.json"
+    },
+    {
+      "slug": "scroll1-hero",
+      "title": "Scroll1 Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the voku.studio website design — an infinite horizontal gallery where images drift right to left and rise into a Gaussian arch as they pass the center. Wheel and drag scrub the track with decaying momentum, and the centered project name crossfades in the nav as each image reaches the middle. Opens with a burst of auto-scroll momentum that eases to a slow drift over ~1.5s.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "scroll",
+        "gallery",
+        "marquee",
+        "infinite",
+        "drag",
+        "momentum",
+        "portfolio",
+        "light",
+        "animated",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/scroll1-hero.json"
     },
     {
       "slug": "slider-hero",

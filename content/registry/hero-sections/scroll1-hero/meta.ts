@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "scroll1-hero",
+  title: "Scroll1 Hero",
+  description:
+    "Inspired by the voku.studio website design — an infinite horizontal gallery where images drift right to left and rise into a Gaussian arch as they pass the center. Wheel and drag scrub the track with decaying momentum, and the centered project name crossfades in the nav as each image reaches the middle. Opens with a burst of auto-scroll momentum that eases to a slow drift over ~1.5s.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/scroll1-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "scroll",
+    "gallery",
+    "marquee",
+    "infinite",
+    "drag",
+    "momentum",
+    "portfolio",
+    "light",
+    "animated",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

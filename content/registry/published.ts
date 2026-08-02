@@ -49,4 +49,6 @@ export const publishedDates: Record<string, string> = {
   "video1-hero": "2026-07-26T17:30:13.600Z",
   "air-hero": "2026-07-27T15:14:10.376Z",
   "bevel-hero": "2026-07-27T15:14:10.377Z",
+  "figma-hero": "2026-08-02T17:56:07.864Z",
+  "scroll1-hero": "2026-08-02T17:56:07.865Z",
 }
