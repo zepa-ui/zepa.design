@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "bluish-hero",
+  title: "Bluish Hero",
+  description:
+    "A soft blue SaaS hero with a floating white nav pill, concentric background rings, and a full event-management dashboard mockup. Seven category tabs (Venue, Décor, Food & Beverage, Entertainment, Guest Communications, Logistics, Final Go Live) each swap in their own set of cards, and the tilted label chips flanking the dashboard select the matching tab. Chips deal in from off-canvas with rotation overshoot then settle into a staggered idle float, and the selected tab's icon fills navy to echo the chip styling.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/bluish-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "saas",
+    "dashboard",
+    "tabs",
+    "blue",
+    "light",
+    "gradient",
+    "interactive",
+    "animated",
+    "chips",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

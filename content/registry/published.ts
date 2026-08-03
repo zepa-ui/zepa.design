@@ -51,4 +51,6 @@ export const publishedDates: Record<string, string> = {
   "bevel-hero": "2026-07-27T15:14:10.377Z",
   "figma-hero": "2026-08-02T17:56:07.864Z",
   "scroll1-hero": "2026-08-02T17:56:07.865Z",
+  "bluish-hero": "2026-08-03T18:02:11.753Z",
+  "synthesia-hero": "2026-08-03T18:02:11.754Z",
 }

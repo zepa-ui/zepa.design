@@ -18,6 +18,9 @@ export const codePaths: Record<string, string[]> = {
   "bevel-hero": [
     "hero-sections/bevel-hero/demo.tsx",
   ],
+  "bluish-hero": [
+    "hero-sections/bluish-hero/demo.tsx",
+  ],
   "brutal-hero": [
     "hero-sections/brutal-hero/demo.tsx",
     "hero-sections/brutal-hero/ui/navbar.tsx",
@@ -90,6 +93,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "slider-hero": [
     "hero-sections/slider-hero/demo.tsx",
+  ],
+  "synthesia-hero": [
+    "hero-sections/synthesia-hero/demo.tsx",
   ],
   "vault-hero": [
     "hero-sections/vault-hero/demo.tsx",

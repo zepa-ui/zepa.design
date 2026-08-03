@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "synthesia-hero",
+  title: "Synthesia Hero",
+  description:
+    "Inspired by the synthesia.io website design — an AI video platform hero with an oversized two-tone headline whose accent words carry a periwinkle-to-indigo gradient, a G2 social-proof pill, and a large gradient card holding a product video. One video is split into five equal segments and each tab owns a slice: playback drives the active tab automatically, a white indicator pill springs between labels, and a faint fill inside it tracks progress through the current segment. Segment length is derived from the video's real duration, so swapping the source keeps the slices even. Includes a sticky navbar, staggered entrance choreography, and a mute toggle.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/synthesia-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "video",
+    "saas",
+    "tabs",
+    "gradient",
+    "blue",
+    "light",
+    "animated",
+    "autoplay",
+    "sticky-nav",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
