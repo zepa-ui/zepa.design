@@ -5,6 +5,7 @@ import { meta as heroSectionsAirHero } from "./hero-sections/air-hero/meta"
 import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
 import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
 import { meta as heroSectionsBevelHero } from "./hero-sections/bevel-hero/meta"
+import { meta as heroSectionsBluishHero } from "./hero-sections/bluish-hero/meta"
 import { meta as heroSectionsBrutalHero } from "./hero-sections/brutal-hero/meta"
 import { meta as heroSectionsCaledera } from "./hero-sections/caledera/meta"
 import { meta as heroSectionsCardHero } from "./hero-sections/card-hero/meta"
@@ -24,6 +25,7 @@ import { meta as heroSectionsPopHero } from "./hero-sections/pop-hero/meta"
 import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscroll-hero/meta"
 import { meta as heroSectionsScroll1Hero } from "./hero-sections/scroll1-hero/meta"
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
+import { meta as heroSectionsSynthesiaHero } from "./hero-sections/synthesia-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
 import { meta as heroSectionsVideo1Hero } from "./hero-sections/video1-hero/meta"
@@ -56,6 +58,7 @@ export const registryItems = [
   heroSectionsAmeroHero,
   heroSectionsAmindHero,
   heroSectionsBevelHero,
+  heroSectionsBluishHero,
   heroSectionsBrutalHero,
   heroSectionsCaledera,
   heroSectionsCardHero,
@@ -75,6 +78,7 @@ export const registryItems = [
   heroSectionsPosterscrollHero,
   heroSectionsScroll1Hero,
   heroSectionsSliderHero,
+  heroSectionsSynthesiaHero,
   heroSectionsVaultHero,
   heroSectionsVercelHero,
   heroSectionsVideo1Hero,

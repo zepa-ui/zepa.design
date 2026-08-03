@@ -6,6 +6,9 @@
  * or a removed component never breaks the page.
  */
 export const featuredSlugs: string[] = [
+  "air-hero",
+  "bluish-hero",
+  "scroll1-hero",
   "osmos-hero",
   "lena-hero",
   "paper-hero",

@@ -23,6 +23,9 @@ export const registryLoaders: Record<
   "bevel-hero": {
     demo: () => import("./hero-sections/bevel-hero/demo"),
   },
+  "bluish-hero": {
+    demo: () => import("./hero-sections/bluish-hero/demo"),
+  },
   "brutal-hero": {
     demo: () => import("./hero-sections/brutal-hero/demo"),
   },
@@ -79,6 +82,9 @@ export const registryLoaders: Record<
   },
   "slider-hero": {
     demo: () => import("./hero-sections/slider-hero/demo"),
+  },
+  "synthesia-hero": {
+    demo: () => import("./hero-sections/synthesia-hero/demo"),
   },
   "vault-hero": {
     demo: () => import("./hero-sections/vault-hero/demo"),
