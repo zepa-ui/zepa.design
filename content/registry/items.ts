@@ -24,6 +24,8 @@ import { meta as heroSectionsPaperHero } from "./hero-sections/paper-hero/meta"
 import { meta as heroSectionsPopHero } from "./hero-sections/pop-hero/meta"
 import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscroll-hero/meta"
 import { meta as heroSectionsScroll1Hero } from "./hero-sections/scroll1-hero/meta"
+import { meta as heroSectionsScrolldownHero } from "./hero-sections/scrolldown-hero/meta"
+import { meta as heroSectionsSelfieHero } from "./hero-sections/selfie-hero/meta"
 import { meta as heroSectionsSliderHero } from "./hero-sections/slider-hero/meta"
 import { meta as heroSectionsSynthesiaHero } from "./hero-sections/synthesia-hero/meta"
 import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
@@ -77,6 +79,8 @@ export const registryItems = [
   heroSectionsPopHero,
   heroSectionsPosterscrollHero,
   heroSectionsScroll1Hero,
+  heroSectionsScrolldownHero,
+  heroSectionsSelfieHero,
   heroSectionsSliderHero,
   heroSectionsSynthesiaHero,
   heroSectionsVaultHero,

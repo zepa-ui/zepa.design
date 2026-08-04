@@ -80,6 +80,12 @@ export const registryLoaders: Record<
   "scroll1-hero": {
     demo: () => import("./hero-sections/scroll1-hero/demo"),
   },
+  "scrolldown-hero": {
+    demo: () => import("./hero-sections/scrolldown-hero/demo"),
+  },
+  "selfie-hero": {
+    demo: () => import("./hero-sections/selfie-hero/demo"),
+  },
   "slider-hero": {
     demo: () => import("./hero-sections/slider-hero/demo"),
   },

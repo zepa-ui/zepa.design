@@ -91,6 +91,12 @@ export const codePaths: Record<string, string[]> = {
   "scroll1-hero": [
     "hero-sections/scroll1-hero/demo.tsx",
   ],
+  "scrolldown-hero": [
+    "hero-sections/scrolldown-hero/demo.tsx",
+  ],
+  "selfie-hero": [
+    "hero-sections/selfie-hero/demo.tsx",
+  ],
   "slider-hero": [
     "hero-sections/slider-hero/demo.tsx",
   ],

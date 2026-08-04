@@ -432,6 +432,47 @@
       "installUrl": "https://zepa.design/r/scroll1-hero.json"
     },
     {
+      "slug": "scrolldown-hero",
+      "title": "Scrolldown Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the evanfasquelle.com website design — a trading-card portfolio where cards float up on buttery lenis-style easing while a giant background name marquee drifts sideways and speeds up with your scroll velocity. The component owns its own scroll container (a tall track under a sticky viewport), so it never touches window scroll or position:fixed. On load the deck lands first and each card is dealt out of it, flipping face-up in 3D; the holographic profile card catches light on a slow infinite shimmer. Includes a live progress percentage and a collected-cards counter.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "scroll",
+        "cards",
+        "marquee",
+        "portfolio",
+        "parallax",
+        "holographic",
+        "animated",
+        "light",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/scrolldown-hero.json"
+    },
+    {
+      "slug": "selfie-hero",
+      "title": "Selfie Hero",
+      "category": "hero-sections",
+      "description": "Inspired by Yunus Emre Korkmaz's portfolio (yeqq.com.tr) — a huge thank you for such a wonderful piece of design. An editorial hero where an oversized word loop scrolls across the screen in black and turns white exactly where it crosses the centred video. Two identical marquees are stacked (one behind the video, one clipped to its box with clip-path) so they stay frame-perfect in sync without any JavaScript. The video sits in a frame with an animated colour halo and a pointer-tracked 3D tilt on hover, written straight to the DOM so it never re-renders. Rounded pill navigation, a live ticking clock, and an aperture-style reveal on load.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "video",
+        "marquee",
+        "editorial",
+        "minimal",
+        "light",
+        "tilt",
+        "glow",
+        "portfolio",
+        "animated",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/selfie-hero.json"
+    },
+    {
       "slug": "slider-hero",
       "title": "Slider Hero",
       "category": "hero-sections",

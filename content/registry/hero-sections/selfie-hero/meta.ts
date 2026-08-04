@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "selfie-hero",
+  title: "Selfie Hero",
+  description:
+    "Inspired by Yunus Emre Korkmaz's portfolio (yeqq.com.tr) — a huge thank you for such a wonderful piece of design. An editorial hero where an oversized word loop scrolls across the screen in black and turns white exactly where it crosses the centred video. Two identical marquees are stacked (one behind the video, one clipped to its box with clip-path) so they stay frame-perfect in sync without any JavaScript. The video sits in a frame with an animated colour halo and a pointer-tracked 3D tilt on hover, written straight to the DOM so it never re-renders. Rounded pill navigation, a live ticking clock, and an aperture-style reveal on load.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/selfie-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "video",
+    "marquee",
+    "editorial",
+    "minimal",
+    "light",
+    "tilt",
+    "glow",
+    "portfolio",
+    "animated",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scrolldown-hero",
+  title: "Scrolldown Hero",
+  description:
+    "Inspired by the evanfasquelle.com website design — a trading-card portfolio where cards float up on buttery lenis-style easing while a giant background name marquee drifts sideways and speeds up with your scroll velocity. The component owns its own scroll container (a tall track under a sticky viewport), so it never touches window scroll or position:fixed. On load the deck lands first and each card is dealt out of it, flipping face-up in 3D; the holographic profile card catches light on a slow infinite shimmer. Includes a live progress percentage and a collected-cards counter.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/scrolldown-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "scroll",
+    "cards",
+    "marquee",
+    "portfolio",
+    "parallax",
+    "holographic",
+    "animated",
+    "light",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

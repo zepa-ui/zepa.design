@@ -53,4 +53,6 @@ export const publishedDates: Record<string, string> = {
   "scroll1-hero": "2026-08-02T17:56:07.865Z",
   "bluish-hero": "2026-08-03T18:02:11.753Z",
   "synthesia-hero": "2026-08-03T18:02:11.754Z",
+  "scrolldown-hero": "2026-08-04T18:17:14.068Z",
+  "selfie-hero": "2026-08-04T18:17:14.068Z",
 }
