@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured1-grid",
+  title: "Featured1 Grid",
+  description:
+    "A dark three-up feature grid on a blueprint backdrop. The headline wraps its first word in a Figma-style selection box — hollow stroked type with four corner handles that pop in after the line settles — and the grid pattern is masked so it dissolves before reaching the content. Three ruled columns each hold a panelled screenshot card with corner screws and a caption beneath, lifting on hover. Collapses to a single stacked column with horizontal rules below 900px.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured1-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "features",
+    "bento",
+    "dark",
+    "security",
+    "cards",
+    "blueprint",
+    "three-column",
+    "animated",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

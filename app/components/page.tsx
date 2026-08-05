@@ -12,14 +12,34 @@ import { MobileSidebar } from "@/components/sidebar/mobile-sidebar"
 import { Sidebar } from "@/components/sidebar/sidebar"
 import { ShowcaseGrid } from "@/components/showcase/showcase-grid"
 
-const FEATURED_CATEGORY = "featured-section"
+// Pseudo-category — not a registry category, only used for the sidebar
+// entry and to switch `filteredItems` over to `featuredSlugs`. The label
+// shown in the UI is derived from this string by `formatCategory`.
+const FEATURED_CATEGORY = "featured-components"
+
+// Explicit sidebar order. Anything present in the registry but missing
+// from this list is appended alphabetically, so adding a new category
+// folder can never make it silently disappear from the sidebar.
+const CATEGORY_ORDER = [
+  "hero-sections",
+  "unicorn-section",
+  "grid-sections",
+  "navbar-sections",
+]
 
 export default function ComponentsPage() {
   const [activeCategory, setActiveCategory] = useState(FEATURED_CATEGORY)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const categories = useMemo(() => {
-    return [FEATURED_CATEGORY, ...new Set(registry.map((item) => item.category))]
+    // widened to string: registry categories are a narrowed union, which
+    // would otherwise reject the plain strings in CATEGORY_ORDER
+    const present = new Set<string>(registry.map((item) => item.category))
+    const ordered = CATEGORY_ORDER.filter((c) => present.has(c))
+    const rest = [...present]
+      .filter((c) => !CATEGORY_ORDER.includes(c))
+      .sort()
+    return [FEATURED_CATEGORY, ...ordered, ...rest]
   }, [])
 
   // Components per category — derived from the registry, so it updates
