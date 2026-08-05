@@ -18,7 +18,16 @@ describe("Component Metadata", () => {
   })
 
   it("should have valid categories", () => {
-    const validCategories = ["hero-sections", "cards", "buttons", "navbar-sections", "unicorn-section"]
+    // Keep in sync with the category folders under content/registry/.
+    // "cards" and "buttons" are placeholders — no components use them yet.
+    const validCategories = [
+      "hero-sections",
+      "grid-sections",
+      "navbar-sections",
+      "unicorn-section",
+      "cards",
+      "buttons",
+    ]
     registryItems.forEach((item) => {
       expect(validCategories).toContain(item.category)
     })

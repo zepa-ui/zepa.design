@@ -2,6 +2,9 @@
 // Run: npm run build:registry
 
 export const codePaths: Record<string, string[]> = {
+  "featured1-grid": [
+    "grid-sections/featured1-grid/demo.tsx",
+  ],
   "air-hero": [
     "hero-sections/air-hero/demo.tsx",
   ],

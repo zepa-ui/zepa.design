@@ -11,6 +11,9 @@ export const registryLoaders: Record<
     demo: () => Promise<DemoModule>
   }
 > = {
+  "featured1-grid": {
+    demo: () => import("./grid-sections/featured1-grid/demo"),
+  },
   "air-hero": {
     demo: () => import("./hero-sections/air-hero/demo"),
   },
