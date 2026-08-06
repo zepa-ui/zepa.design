@@ -1,10 +1,13 @@
 name: CI
 
+# `branches:` filters the BASE branch of a PR, not the head. Without V1.0
+# listed, a PR targeting V1.0 never queues a run and the checks list shows
+# nothing at all — not even a skipped entry.
 on:
   pull_request:
-    branches: [main]
+    branches: [main, V1.0]
   push:
-    branches: [main]
+    branches: [main, V1.0]
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
