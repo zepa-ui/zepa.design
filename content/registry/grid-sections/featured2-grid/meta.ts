@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured2-grid",
+  title: "Featured2 Grid",
+  description:
+    "Inspired by the air.inc website design — a frosted-glass bento grid floating over a looping sky video. Seven cards across a 12-column layout (7/5, then 5/7, then a 3-up row) each use backdrop-filter with a light-catching top gradient so the moving clouds read straight through them. Artwork bleeds past the card padding to the bottom edge, and the three closing cards are text-only. Collapses to a single stacked column below 1100px.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured2-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "glass",
+    "glassmorphism",
+    "video",
+    "sky",
+    "features",
+    "blue",
+    "animated",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

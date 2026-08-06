@@ -7,7 +7,9 @@
  */
 export const featuredSlugs: string[] = [
   "selfie-hero",
+  "featured2-grid",
   "air-hero",
+  "featured4-grid",
   "bluish-hero",
   "scroll1-hero",
   "osmos-hero",

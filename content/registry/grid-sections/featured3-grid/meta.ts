@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "featured3-grid",
+  title: "Featured3 Grid",
+  description:
+    "Three tall AI feature cards on black, each with a photographic background and a live interactive surface. The first holds a frosted glass panel whose question-and-answer pair crossfades through a blur every four seconds; the second draws an SVG forecast chart that wipes in behind an animated clip-path with a marker that pops on the peak; the third builds a categorization tree whose connectors are measured from live DOM positions via ResizeObserver, with light pulses travelling along each path on a loop. Everything animates once the section scrolls into view.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured3-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "dark",
+    "ai",
+    "cards",
+    "chart",
+    "svg",
+    "glass",
+    "animated",
+    "fintech",
+    "marketing",
+  ],
+  dependencies: ["framer-motion", "lucide-react"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
