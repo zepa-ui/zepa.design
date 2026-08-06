@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured4-grid",
+  title: "Featured4 Grid",
+  description:
+    "Two analytics cards on black, sliding in from opposite sides as the section scrolls into view. The wider card holds a frosted glass overview panel with a currency figure that counts up on a rAF cubic ease and three gradient progress bars that fill in behind it; the second layers a floating white stat card, a portrait cutout, and a glass action row over a photographic background. Numbers use tabular figures so the counter doesn't jitter as digits change.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured4-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "dark",
+    "analytics",
+    "cards",
+    "glass",
+    "counter",
+    "animated",
+    "fintech",
+    "marketing",
+  ],
+  dependencies: ["framer-motion", "lucide-react"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

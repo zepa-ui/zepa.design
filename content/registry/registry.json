@@ -24,6 +24,67 @@
       "installUrl": "https://zepa.design/r/featured1-grid.json"
     },
     {
+      "slug": "featured2-grid",
+      "title": "Featured2 Grid",
+      "category": "grid-sections",
+      "description": "Inspired by the air.inc website design — a frosted-glass bento grid floating over a looping sky video. Seven cards across a 12-column layout (7/5, then 5/7, then a 3-up row) each use backdrop-filter with a light-catching top gradient so the moving clouds read straight through them. Artwork bleeds past the card padding to the bottom edge, and the three closing cards are text-only. Collapses to a single stacked column below 1100px.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "glass",
+        "glassmorphism",
+        "video",
+        "sky",
+        "features",
+        "blue",
+        "animated",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured2-grid.json"
+    },
+    {
+      "slug": "featured3-grid",
+      "title": "Featured3 Grid",
+      "category": "grid-sections",
+      "description": "Three tall AI feature cards on black, each with a photographic background and a live interactive surface. The first holds a frosted glass panel whose question-and-answer pair crossfades through a blur every four seconds; the second draws an SVG forecast chart that wipes in behind an animated clip-path with a marker that pops on the peak; the third builds a categorization tree whose connectors are measured from live DOM positions via ResizeObserver, with light pulses travelling along each path on a loop. Everything animates once the section scrolls into view.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dark",
+        "ai",
+        "cards",
+        "chart",
+        "svg",
+        "glass",
+        "animated",
+        "fintech",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured3-grid.json"
+    },
+    {
+      "slug": "featured4-grid",
+      "title": "Featured4 Grid",
+      "category": "grid-sections",
+      "description": "Two analytics cards on black, sliding in from opposite sides as the section scrolls into view. The wider card holds a frosted glass overview panel with a currency figure that counts up on a rAF cubic ease and three gradient progress bars that fill in behind it; the second layers a floating white stat card, a portrait cutout, and a glass action row over a photographic background. Numbers use tabular figures so the counter doesn't jitter as digits change.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dark",
+        "analytics",
+        "cards",
+        "glass",
+        "counter",
+        "animated",
+        "fintech",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured4-grid.json"
+    },
+    {
       "slug": "air-hero",
       "title": "Air Hero",
       "category": "hero-sections",

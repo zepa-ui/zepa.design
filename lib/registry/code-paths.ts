@@ -5,6 +5,15 @@ export const codePaths: Record<string, string[]> = {
   "featured1-grid": [
     "grid-sections/featured1-grid/demo.tsx",
   ],
+  "featured2-grid": [
+    "grid-sections/featured2-grid/demo.tsx",
+  ],
+  "featured3-grid": [
+    "grid-sections/featured3-grid/demo.tsx",
+  ],
+  "featured4-grid": [
+    "grid-sections/featured4-grid/demo.tsx",
+  ],
   "air-hero": [
     "hero-sections/air-hero/demo.tsx",
   ],
