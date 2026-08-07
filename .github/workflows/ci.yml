@@ -1,13 +1,14 @@
 name: CI
 
-# `branches:` filters the BASE branch of a PR, not the head. Without V1.0
-# listed, a PR targeting V1.0 never queues a run and the checks list shows
-# nothing at all — not even a skipped entry.
+# `branches:` filters the BASE branch of a PR, not the head — so this runs on
+# PRs merging INTO main (from V1.0 or anywhere else) and on pushes to main.
+# PRs that target V1.0, such as back-merges from main, are deliberately not
+# checked: that work is verified when V1.0 is PR'd into main.
 on:
   pull_request:
-    branches: [main, V1.0]
+    branches: [main]
   push:
-    branches: [main, V1.0]
+    branches: [main]
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
