@@ -59,4 +59,5 @@ export const publishedDates: Record<string, string> = {
   "featured2-grid": "2026-08-06T18:18:19.147Z",
   "featured3-grid": "2026-08-06T18:18:19.148Z",
   "featured4-grid": "2026-08-06T18:18:19.148Z",
+  "featured5-grid": "2026-08-07T17:43:27.300Z",
 }

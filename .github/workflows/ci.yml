@@ -1,5 +1,9 @@
 name: CI
 
+# `branches:` filters the BASE branch of a PR, not the head — so this runs on
+# PRs merging INTO main (from V1.0 or anywhere else) and on pushes to main.
+# PRs that target V1.0, such as back-merges from main, are deliberately not
+# checked: that work is verified when V1.0 is PR'd into main.
 on:
   pull_request:
     branches: [main]
