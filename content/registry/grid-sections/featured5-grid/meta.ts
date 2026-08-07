@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "featured5-grid",
+  title: "Featured5 Grid",
+  description:
+    "A six-column highlights grid on near-black, laid out 4+2 then 2+4 across two rows. Cards use 48px radii, a hairline border and a top-to-bottom translucent wash. One card renders a layered concentric-arc mark built entirely in SVG — a blurred glow pass, a hairline pass, a mid-weight body and a white radial highlight, all sharing the same four arc paths. Another holds a working command palette whose rows highlight on hover, click, and arrow-key navigation, wired up with listbox semantics. The entrance lands each empty card frame first, then settles its contents in: the keyboard is set down onto the surface, the marks bloom out of a blur, and the palette results cascade in one row at a time. Collapses to a horizontal scroller below 991px.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured5-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "features",
+    "bento",
+    "dark",
+    "svg",
+    "command-palette",
+    "interactive",
+    "highlights",
+    "animated",
+    "saas",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
