@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured8-grid",
+  title: "Featured8 Grid",
+  description:
+    "A warm off-white dashboard grid on a blueprint frame — two inset vertical rails crossed by a single bottom rule, with a hairline crosshair on each intersection. A bordered pill badge with a red PRO chip sits above a heavy tight-tracked two-line headline. Three columns follow: single tall cards left and right that read copy-first, and a centre column stacking two cards that lead with their artwork. Cards lift and their artwork scales gently on hover. On appear the outer columns swing in from their own edges while the stacked pair rises, so the composition closes inward.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured8-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "dashboard",
+    "features",
+    "light",
+    "blueprint",
+    "saas",
+    "cards",
+    "animated",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured6-grid",
+  title: "Featured6 Grid",
+  description:
+    "Inspired by the madewithgsap.com website design — a light showcase section with an oversized two-tone headline and a rail of three black video cards. The rail is deliberately wider than the viewport: three cards at 40vw plus gaps overflow past 100vw, so the middle card sits centred while the outer two clip against the section edges, reading as a carousel without any scroll logic. A floating white pill nav with a count badge and a lime CTA sits above, and a meta pill row underneath. Headline set in LayGrotesk 500 with the stack falling back to Helvetica Neue and Inter.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured6-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "showcase",
+    "video",
+    "carousel",
+    "light",
+    "editorial",
+    "rail",
+    "animated",
+    "gallery",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

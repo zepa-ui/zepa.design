@@ -6,6 +6,10 @@ import { meta as gridSectionsFeatured2Grid } from "./grid-sections/featured2-gri
 import { meta as gridSectionsFeatured3Grid } from "./grid-sections/featured3-grid/meta"
 import { meta as gridSectionsFeatured4Grid } from "./grid-sections/featured4-grid/meta"
 import { meta as gridSectionsFeatured5Grid } from "./grid-sections/featured5-grid/meta"
+import { meta as gridSectionsFeatured6Grid } from "./grid-sections/featured6-grid/meta"
+import { meta as gridSectionsFeatured7Grid } from "./grid-sections/featured7-grid/meta"
+import { meta as gridSectionsFeatured8Grid } from "./grid-sections/featured8-grid/meta"
+import { meta as gridSectionsFeatured9Grid } from "./grid-sections/featured9-grid/meta"
 import { meta as heroSectionsAirHero } from "./hero-sections/air-hero/meta"
 import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
 import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
@@ -66,6 +70,10 @@ export const registryItems = [
   gridSectionsFeatured3Grid,
   gridSectionsFeatured4Grid,
   gridSectionsFeatured5Grid,
+  gridSectionsFeatured6Grid,
+  gridSectionsFeatured7Grid,
+  gridSectionsFeatured8Grid,
+  gridSectionsFeatured9Grid,
   heroSectionsAirHero,
   heroSectionsAmeroHero,
   heroSectionsAmindHero,

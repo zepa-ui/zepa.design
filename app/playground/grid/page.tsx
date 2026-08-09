@@ -3,6 +3,10 @@ import Featured2Grid from "@/content/registry/grid-sections/featured2-grid/demo"
 import Featured3Grid from "@/content/registry/grid-sections/featured3-grid/demo"
 import Featured4Grid from "@/content/registry/grid-sections/featured4-grid/demo"
 import Featured5Grid from "@/content/registry/grid-sections/featured5-grid/demo"
+import Featured6Grid from "@/content/registry/grid-sections/featured6-grid/demo"
+import Featured7Grid from "@/content/registry/grid-sections/featured7-grid/demo"
+import Featured8Grid from "@/content/registry/grid-sections/featured8-grid/demo"
+import Featured9Grid from "@/content/registry/grid-sections/featured9-grid/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -12,6 +16,10 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "featured3-grid": Featured3Grid,
   "featured4-grid": Featured4Grid,
   "featured5-grid": Featured5Grid,
+  "featured6-grid": Featured6Grid,
+  "featured7-grid": Featured7Grid,
+  "featured8-grid": Featured8Grid,
+  "featured9-grid": Featured9Grid,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -20,6 +28,10 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "featured3-grid": "#000000",
   "featured4-grid": "#000000",
   "featured5-grid": "#000212",
+  "featured6-grid": "#f0f0f0",
+  "featured7-grid": "#faf9f7",
+  "featured8-grid": "#faf9f7",
+  "featured9-grid": "#000000",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
