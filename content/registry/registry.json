@@ -106,6 +106,86 @@
       "installUrl": "https://zepa.design/r/featured5-grid.json"
     },
     {
+      "slug": "featured6-grid",
+      "title": "Featured6 Grid",
+      "category": "grid-sections",
+      "description": "Inspired by the madewithgsap.com website design — a light showcase section with an oversized two-tone headline and a rail of three black video cards. The rail is deliberately wider than the viewport: three cards at 40vw plus gaps overflow past 100vw, so the middle card sits centred while the outer two clip against the section edges, reading as a carousel without any scroll logic. A floating white pill nav with a count badge and a lime CTA sits above, and a meta pill row underneath. Headline set in LayGrotesk 500 with the stack falling back to Helvetica Neue and Inter.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "showcase",
+        "video",
+        "carousel",
+        "light",
+        "editorial",
+        "rail",
+        "animated",
+        "gallery",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured6-grid.json"
+    },
+    {
+      "slug": "featured7-grid",
+      "title": "Featured7 Grid",
+      "category": "grid-sections",
+      "description": "A warm off-white feature section framed like a blueprint — full-bleed top and bottom rules crossed by two inset vertical rails, with a hairline crosshair sitting on each of the four intersections. A bordered pill badge with a green FREE chip sits above a heavy tight-tracked headline. Three white cards follow, each with a rounded icon tile, title, copy and artwork flush at the bottom. Rails and crosshairs are positioned from a single custom property, so the frame stays aligned at any width and pulls in on mobile.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "features",
+        "cards",
+        "light",
+        "blueprint",
+        "saas",
+        "three-column",
+        "minimal",
+        "animated",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured7-grid.json"
+    },
+    {
+      "slug": "featured8-grid",
+      "title": "Featured8 Grid",
+      "category": "grid-sections",
+      "description": "A warm off-white dashboard grid on a blueprint frame — two inset vertical rails crossed by a single bottom rule, with a hairline crosshair on each intersection. A bordered pill badge with a red PRO chip sits above a heavy tight-tracked two-line headline. Three columns follow: single tall cards left and right that read copy-first, and a centre column stacking two cards that lead with their artwork. Cards lift and their artwork scales gently on hover. On appear the outer columns swing in from their own edges while the stacked pair rises, so the composition closes inward.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dashboard",
+        "features",
+        "light",
+        "blueprint",
+        "saas",
+        "cards",
+        "animated",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured8-grid.json"
+    },
+    {
+      "slug": "featured9-grid",
+      "title": "Featured9 Grid",
+      "category": "grid-sections",
+      "description": "A black next-project rail with an oversized pale-blue headline that the video row rides up and over — a negative margin crops the second word exactly the way the reference does. Each clip stays paused until its own card is hovered; the other two then fall behind a black shade and their labels drop to grey, so nothing competes with what is playing. Cards are full-bleed with 3px seams, each carrying an index, title and FULL PROJECT link underneath. On appear the two headline words push up from under each other and the rail wipes upward via clip-path, so it reads as sliding over the type.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "video",
+        "dark",
+        "portfolio",
+        "hover",
+        "showcase",
+        "editorial",
+        "full-bleed",
+        "animated",
+        "agency"
+      ],
+      "installUrl": "https://zepa.design/r/featured9-grid.json"
+    },
+    {
       "slug": "air-hero",
       "title": "Air Hero",
       "category": "hero-sections",

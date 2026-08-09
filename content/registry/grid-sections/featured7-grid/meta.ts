@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured7-grid",
+  title: "Featured7 Grid",
+  description:
+    "A warm off-white feature section framed like a blueprint — full-bleed top and bottom rules crossed by two inset vertical rails, with a hairline crosshair sitting on each of the four intersections. A bordered pill badge with a green FREE chip sits above a heavy tight-tracked headline. Three white cards follow, each with a rounded icon tile, title, copy and artwork flush at the bottom. Rails and crosshairs are positioned from a single custom property, so the frame stays aligned at any width and pulls in on mobile.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured7-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "features",
+    "cards",
+    "light",
+    "blueprint",
+    "saas",
+    "three-column",
+    "minimal",
+    "animated",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

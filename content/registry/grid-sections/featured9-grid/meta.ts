@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured9-grid",
+  title: "Featured9 Grid",
+  description:
+    "A black next-project rail with an oversized pale-blue headline that the video row rides up and over — a negative margin crops the second word exactly the way the reference does. Each clip stays paused until its own card is hovered; the other two then fall behind a black shade and their labels drop to grey, so nothing competes with what is playing. Cards are full-bleed with 3px seams, each carrying an index, title and FULL PROJECT link underneath. On appear the two headline words push up from under each other and the rail wipes upward via clip-path, so it reads as sliding over the type.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured9-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "video",
+    "dark",
+    "portfolio",
+    "hover",
+    "showcase",
+    "editorial",
+    "full-bleed",
+    "animated",
+    "agency",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
