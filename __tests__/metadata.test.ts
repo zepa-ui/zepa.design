@@ -25,6 +25,7 @@ describe("Component Metadata", () => {
       "grid-sections",
       "navbar-sections",
       "unicorn-section",
+      "interactive-illustrations",
       "cards",
       "buttons",
     ]

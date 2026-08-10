@@ -42,6 +42,8 @@ import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta
 import { meta as heroSectionsVideo1Hero } from "./hero-sections/video1-hero/meta"
 import { meta as heroSectionsWaveHero } from "./hero-sections/wave-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
+import { meta as interactiveIllustrationsZepaDiagram } from "./interactive-illustrations/zepa-diagram/meta"
+import { meta as interactiveIllustrationsZepaFolder } from "./interactive-illustrations/zepa-folder/meta"
 import { meta as navbarSectionsClippedNavbar } from "./navbar-sections/clipped-navbar/meta"
 import { meta as navbarSectionsCohortNavbar } from "./navbar-sections/cohort-navbar/meta"
 import { meta as navbarSectionsCurvedNavbar } from "./navbar-sections/curved-navbar/meta"
@@ -106,6 +108,8 @@ export const registryItems = [
   heroSectionsVideo1Hero,
   heroSectionsWaveHero,
   heroSectionsZoomHero,
+  interactiveIllustrationsZepaDiagram,
+  interactiveIllustrationsZepaFolder,
   navbarSectionsClippedNavbar,
   navbarSectionsCohortNavbar,
   navbarSectionsCurvedNavbar,

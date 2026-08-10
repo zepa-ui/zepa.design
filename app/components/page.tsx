@@ -25,6 +25,7 @@ const CATEGORY_ORDER = [
   "unicorn-section",
   "grid-sections",
   "navbar-sections",
+  "interactive-illustrations",
 ]
 
 export default function ComponentsPage() {
