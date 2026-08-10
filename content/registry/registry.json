@@ -784,6 +784,46 @@
       "installUrl": "https://zepa.design/r/zoom-hero.json"
     },
     {
+      "slug": "zepa-diagram",
+      "title": "Zepa Diagram",
+      "category": "interactive-illustrations",
+      "description": "Interactive data-viz illustration — a caption chip and a half-hidden donut at rest; on hover the chip drops away, the donut lifts and fills, six labelled nodes fly out around it, and a gradient rises from the floor. Container-query sized and re-colourable, so it drops into a bento tile, a feature card or a hero.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "interactive",
+        "diagram",
+        "chart",
+        "donut",
+        "data",
+        "hover",
+        "card",
+        "micro-interaction",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/zepa-diagram.json"
+    },
+    {
+      "slug": "zepa-folder",
+      "title": "Zepa Folder",
+      "category": "interactive-illustrations",
+      "description": "Interactive 3D folder illustration — files peek above the rim at rest, fan out on hover, and expand into a FLIP-animated lightbox on click. Re-colours and re-sizes from two props, so the same component drops into a bento tile, a feature card or a hero.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "interactive",
+        "folder",
+        "files",
+        "hover",
+        "lightbox",
+        "gallery",
+        "3d",
+        "micro-interaction",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/zepa-folder.json"
+    },
+    {
       "slug": "clipped-navbar",
       "title": "Clipped Navbar",
       "category": "navbar-sections",

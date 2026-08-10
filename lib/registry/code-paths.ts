@@ -146,6 +146,14 @@ export const codePaths: Record<string, string[]> = {
     "hero-sections/zoom-hero/demo.tsx",
     "hero-sections/zoom-hero/ui/telescope-zoom.tsx",
   ],
+  "zepa-diagram": [
+    "interactive-illustrations/zepa-diagram/demo.tsx",
+    "interactive-illustrations/zepa-diagram/ui/zepa-diagram.tsx",
+  ],
+  "zepa-folder": [
+    "interactive-illustrations/zepa-folder/demo.tsx",
+    "interactive-illustrations/zepa-folder/ui/zepa-folder.tsx",
+  ],
   "clipped-navbar": [
     "navbar-sections/clipped-navbar/demo.tsx",
   ],

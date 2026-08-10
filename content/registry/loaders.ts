@@ -134,6 +134,12 @@ export const registryLoaders: Record<
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
   },
+  "zepa-diagram": {
+    demo: () => import("./interactive-illustrations/zepa-diagram/demo"),
+  },
+  "zepa-folder": {
+    demo: () => import("./interactive-illustrations/zepa-folder/demo"),
+  },
   "clipped-navbar": {
     demo: () => import("./navbar-sections/clipped-navbar/demo"),
   },

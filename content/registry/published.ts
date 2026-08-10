@@ -64,4 +64,6 @@ export const publishedDates: Record<string, string> = {
   "featured7-grid": "2026-08-09T16:21:37.889Z",
   "featured8-grid": "2026-08-09T16:21:37.889Z",
   "featured9-grid": "2026-08-09T16:21:37.889Z",
+  "zepa-folder": "2026-08-10T15:38:39.062Z",
+  "zepa-diagram": "2026-08-10T16:01:22.245Z",
 }
