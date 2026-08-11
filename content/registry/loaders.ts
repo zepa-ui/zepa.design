@@ -134,6 +134,9 @@ export const registryLoaders: Record<
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
   },
+  "beam-zepa": {
+    demo: () => import("./interactive-illustrations/beam-zepa/demo"),
+  },
   "zepa-diagram": {
     demo: () => import("./interactive-illustrations/zepa-diagram/demo"),
   },

@@ -784,6 +784,26 @@
       "installUrl": "https://zepa.design/r/zoom-hero.json"
     },
     {
+      "slug": "beam-zepa",
+      "title": "Beam Zepa",
+      "category": "interactive-illustrations",
+      "description": "Integration-beam illustration — six satellite nodes wired into a central hub, with a lit segment travelling along each curve. Left nodes feed inward, right nodes feed outward. Paths are measured from the live DOM with a ResizeObserver, so the curves stay correct at any width, and the travel is a CSS dash animation rather than an animation library.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "beam",
+        "integrations",
+        "connections",
+        "network",
+        "animated",
+        "svg",
+        "hub",
+        "micro-interaction",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/beam-zepa.json"
+    },
+    {
       "slug": "zepa-diagram",
       "title": "Zepa Diagram",
       "category": "interactive-illustrations",
