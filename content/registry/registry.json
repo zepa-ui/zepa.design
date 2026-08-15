@@ -804,6 +804,126 @@
       "installUrl": "https://zepa.design/r/beam-zepa.json"
     },
     {
+      "slug": "cards-zepa",
+      "title": "Cards Zepa",
+      "category": "interactive-illustrations",
+      "description": "A fanned card stack with pointer tilt — three cards splayed left, centre and right, each tilting in 3D as the pointer crosses it. Clicking a side card promotes it to the centre and the stack reshuffles. Placement and tilt live on separate elements so the interaction never fights the animation, and the reorder animates from transform alone with no layout projection.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "cards",
+        "stack",
+        "tilt",
+        "3d",
+        "hover",
+        "interactive",
+        "fan",
+        "micro-interaction",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/cards-zepa.json"
+    },
+    {
+      "slug": "half-zepa",
+      "title": "Half Zepa",
+      "category": "interactive-illustrations",
+      "description": "Report card pairing a horizontal bar chart with a divided metrics list. Bars grow from the left when the card scrolls into view, metric rows rise in behind them, and hovering a row reveals its value at the bar's end. The chart is a two-column CSS grid with an overlaid gridline layer, so there is no charting library behind it.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "chart",
+        "bar",
+        "horizontal",
+        "report",
+        "metrics",
+        "dashboard",
+        "analytics",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/half-zepa.json"
+    },
+    {
+      "slug": "report-zepa",
+      "title": "Report Zepa",
+      "category": "interactive-illustrations",
+      "description": "Stacked area report card — three series drawn as smooth gradient areas with glowing top lines. The plot wipes in when it scrolls into view, and moving the pointer across it snaps a dashed marker to the nearest column with a readout. Paths are Catmull-Rom splines computed from the data, so there is no charting library behind it.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "chart",
+        "area",
+        "stacked",
+        "report",
+        "analytics",
+        "dashboard",
+        "svg",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/report-zepa.json"
+    },
+    {
+      "slug": "ring-zepa",
+      "title": "Ring Zepa",
+      "category": "interactive-illustrations",
+      "description": "Concentric progress rings — three nested arcs that sweep to their values when the illustration scrolls into view, with the readouts counting up alongside them. Radii are derived from size, thickness and gap so any ring count works, and the resting state is the finished state, so the values still render correctly with motion reduced.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "rings",
+        "progress",
+        "chart",
+        "stats",
+        "dashboard",
+        "animated",
+        "svg",
+        "micro-interaction",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/ring-zepa.json"
+    },
+    {
+      "slug": "threat-zepa",
+      "title": "Threat Zepa",
+      "category": "interactive-illustrations",
+      "description": "Detection card — a status banner with a spinning scanner, a signal beam curving down a rail, and a list of flagged entries. At rest the rows sit blurred behind grey markers; on hover the beam runs, each marker flips to an alert badge and the rows resolve in sequence. The rail path is measured and rebuilt on resize so the curve keeps its proportions at any height.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "security",
+        "detection",
+        "alert",
+        "beam",
+        "list",
+        "hover",
+        "reveal",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/threat-zepa.json"
+    },
+    {
+      "slug": "timeline-zepa",
+      "title": "Timeline Zepa",
+      "category": "interactive-illustrations",
+      "description": "Status timeline — a rail of nodes joined by connectors, each with a timestamp, title, description and optional content block. Steps reveal in sequence when the timeline scrolls into view, connectors draw down behind them, and the active node keeps a soft pulse. Vertical or horizontal, three densities, five statuses.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "timeline",
+        "steps",
+        "status",
+        "progress",
+        "activity",
+        "vertical",
+        "horizontal",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/timeline-zepa.json"
+    },
+    {
       "slug": "zepa-diagram",
       "title": "Zepa Diagram",
       "category": "interactive-illustrations",

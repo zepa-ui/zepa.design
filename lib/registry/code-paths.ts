@@ -150,6 +150,30 @@ export const codePaths: Record<string, string[]> = {
     "interactive-illustrations/beam-zepa/demo.tsx",
     "interactive-illustrations/beam-zepa/ui/beam-zepa.tsx",
   ],
+  "cards-zepa": [
+    "interactive-illustrations/cards-zepa/demo.tsx",
+    "interactive-illustrations/cards-zepa/ui/cards-zepa.tsx",
+  ],
+  "half-zepa": [
+    "interactive-illustrations/half-zepa/demo.tsx",
+    "interactive-illustrations/half-zepa/ui/half-zepa.tsx",
+  ],
+  "report-zepa": [
+    "interactive-illustrations/report-zepa/demo.tsx",
+    "interactive-illustrations/report-zepa/ui/report-zepa.tsx",
+  ],
+  "ring-zepa": [
+    "interactive-illustrations/ring-zepa/demo.tsx",
+    "interactive-illustrations/ring-zepa/ui/ring-zepa.tsx",
+  ],
+  "threat-zepa": [
+    "interactive-illustrations/threat-zepa/demo.tsx",
+    "interactive-illustrations/threat-zepa/ui/threat-zepa.tsx",
+  ],
+  "timeline-zepa": [
+    "interactive-illustrations/timeline-zepa/demo.tsx",
+    "interactive-illustrations/timeline-zepa/ui/timeline-zepa.tsx",
+  ],
   "zepa-diagram": [
     "interactive-illustrations/zepa-diagram/demo.tsx",
     "interactive-illustrations/zepa-diagram/ui/zepa-diagram.tsx",

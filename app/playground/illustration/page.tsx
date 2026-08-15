@@ -1,6 +1,12 @@
 import ZepaFolder from "@/content/registry/interactive-illustrations/zepa-folder/demo"
 import ZepaDiagram from "@/content/registry/interactive-illustrations/zepa-diagram/demo"
 import BeamZepa from "@/content/registry/interactive-illustrations/beam-zepa/demo"
+import RingZepa from "@/content/registry/interactive-illustrations/ring-zepa/demo"
+import CardsZepa from "@/content/registry/interactive-illustrations/cards-zepa/demo"
+import ReportZepa from "@/content/registry/interactive-illustrations/report-zepa/demo"
+import TimelineZepa from "@/content/registry/interactive-illustrations/timeline-zepa/demo"
+import HalfZepa from "@/content/registry/interactive-illustrations/half-zepa/demo"
+import ThreatZepa from "@/content/registry/interactive-illustrations/threat-zepa/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -8,12 +14,24 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "zepa-folder": ZepaFolder,
   "zepa-diagram": ZepaDiagram,
   "beam-zepa": BeamZepa,
+  "ring-zepa": RingZepa,
+  "cards-zepa": CardsZepa,
+  "report-zepa": ReportZepa,
+  "timeline-zepa": TimelineZepa,
+  "half-zepa": HalfZepa,
+  "threat-zepa": ThreatZepa,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
   "zepa-folder": "#08080a",
   "zepa-diagram": "#08080a",
   "beam-zepa": "#08080a",
+  "ring-zepa": "#08080a",
+  "cards-zepa": "#08080a",
+  "report-zepa": "#0b0b0e",
+  "timeline-zepa": "#08080a",
+  "half-zepa": "#0b0b0e",
+  "threat-zepa": "#08080a",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
