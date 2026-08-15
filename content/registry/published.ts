@@ -67,4 +67,10 @@ export const publishedDates: Record<string, string> = {
   "zepa-folder": "2026-08-10T15:38:39.062Z",
   "zepa-diagram": "2026-08-10T16:01:22.245Z",
   "beam-zepa": "2026-08-11T18:48:24.169Z",
+  "cards-zepa": "2026-08-15T17:39:21.027Z",
+  "half-zepa": "2026-08-15T17:39:21.027Z",
+  "report-zepa": "2026-08-15T17:39:21.027Z",
+  "ring-zepa": "2026-08-15T17:39:21.027Z",
+  "threat-zepa": "2026-08-15T17:39:21.027Z",
+  "timeline-zepa": "2026-08-15T17:39:21.027Z",
 }

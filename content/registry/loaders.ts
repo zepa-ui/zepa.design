@@ -137,6 +137,24 @@ export const registryLoaders: Record<
   "beam-zepa": {
     demo: () => import("./interactive-illustrations/beam-zepa/demo"),
   },
+  "cards-zepa": {
+    demo: () => import("./interactive-illustrations/cards-zepa/demo"),
+  },
+  "half-zepa": {
+    demo: () => import("./interactive-illustrations/half-zepa/demo"),
+  },
+  "report-zepa": {
+    demo: () => import("./interactive-illustrations/report-zepa/demo"),
+  },
+  "ring-zepa": {
+    demo: () => import("./interactive-illustrations/ring-zepa/demo"),
+  },
+  "threat-zepa": {
+    demo: () => import("./interactive-illustrations/threat-zepa/demo"),
+  },
+  "timeline-zepa": {
+    demo: () => import("./interactive-illustrations/timeline-zepa/demo"),
+  },
   "zepa-diagram": {
     demo: () => import("./interactive-illustrations/zepa-diagram/demo"),
   },
