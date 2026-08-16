@@ -43,14 +43,19 @@ import { meta as heroSectionsVideo1Hero } from "./hero-sections/video1-hero/meta
 import { meta as heroSectionsWaveHero } from "./hero-sections/wave-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 import { meta as interactiveIllustrationsBeamZepa } from "./interactive-illustrations/beam-zepa/meta"
+import { meta as interactiveIllustrationsCalendarZepa } from "./interactive-illustrations/calendar-zepa/meta"
 import { meta as interactiveIllustrationsCardsZepa } from "./interactive-illustrations/cards-zepa/meta"
+import { meta as interactiveIllustrationsGithubZepa } from "./interactive-illustrations/github-zepa/meta"
 import { meta as interactiveIllustrationsHalfZepa } from "./interactive-illustrations/half-zepa/meta"
+import { meta as interactiveIllustrationsNotificationZepa } from "./interactive-illustrations/notification-zepa/meta"
+import { meta as interactiveIllustrationsNotifyZepa } from "./interactive-illustrations/notify-zepa/meta"
 import { meta as interactiveIllustrationsReportZepa } from "./interactive-illustrations/report-zepa/meta"
 import { meta as interactiveIllustrationsRingZepa } from "./interactive-illustrations/ring-zepa/meta"
 import { meta as interactiveIllustrationsThreatZepa } from "./interactive-illustrations/threat-zepa/meta"
 import { meta as interactiveIllustrationsTimelineZepa } from "./interactive-illustrations/timeline-zepa/meta"
 import { meta as interactiveIllustrationsZepaDiagram } from "./interactive-illustrations/zepa-diagram/meta"
 import { meta as interactiveIllustrationsZepaFolder } from "./interactive-illustrations/zepa-folder/meta"
+import { meta as interactiveIllustrationsZoomZepa } from "./interactive-illustrations/zoom-zepa/meta"
 import { meta as navbarSectionsClippedNavbar } from "./navbar-sections/clipped-navbar/meta"
 import { meta as navbarSectionsCohortNavbar } from "./navbar-sections/cohort-navbar/meta"
 import { meta as navbarSectionsCurvedNavbar } from "./navbar-sections/curved-navbar/meta"
@@ -116,14 +121,19 @@ export const registryItems = [
   heroSectionsWaveHero,
   heroSectionsZoomHero,
   interactiveIllustrationsBeamZepa,
+  interactiveIllustrationsCalendarZepa,
   interactiveIllustrationsCardsZepa,
+  interactiveIllustrationsGithubZepa,
   interactiveIllustrationsHalfZepa,
+  interactiveIllustrationsNotificationZepa,
+  interactiveIllustrationsNotifyZepa,
   interactiveIllustrationsReportZepa,
   interactiveIllustrationsRingZepa,
   interactiveIllustrationsThreatZepa,
   interactiveIllustrationsTimelineZepa,
   interactiveIllustrationsZepaDiagram,
   interactiveIllustrationsZepaFolder,
+  interactiveIllustrationsZoomZepa,
   navbarSectionsClippedNavbar,
   navbarSectionsCohortNavbar,
   navbarSectionsCurvedNavbar,

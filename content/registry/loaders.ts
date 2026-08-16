@@ -137,11 +137,23 @@ export const registryLoaders: Record<
   "beam-zepa": {
     demo: () => import("./interactive-illustrations/beam-zepa/demo"),
   },
+  "calendar-zepa": {
+    demo: () => import("./interactive-illustrations/calendar-zepa/demo"),
+  },
   "cards-zepa": {
     demo: () => import("./interactive-illustrations/cards-zepa/demo"),
   },
+  "github-zepa": {
+    demo: () => import("./interactive-illustrations/github-zepa/demo"),
+  },
   "half-zepa": {
     demo: () => import("./interactive-illustrations/half-zepa/demo"),
+  },
+  "notification-zepa": {
+    demo: () => import("./interactive-illustrations/notification-zepa/demo"),
+  },
+  "notify-zepa": {
+    demo: () => import("./interactive-illustrations/notify-zepa/demo"),
   },
   "report-zepa": {
     demo: () => import("./interactive-illustrations/report-zepa/demo"),
@@ -160,6 +172,9 @@ export const registryLoaders: Record<
   },
   "zepa-folder": {
     demo: () => import("./interactive-illustrations/zepa-folder/demo"),
+  },
+  "zoom-zepa": {
+    demo: () => import("./interactive-illustrations/zoom-zepa/demo"),
   },
   "clipped-navbar": {
     demo: () => import("./navbar-sections/clipped-navbar/demo"),
