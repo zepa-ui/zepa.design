@@ -73,4 +73,9 @@ export const publishedDates: Record<string, string> = {
   "ring-zepa": "2026-08-15T17:39:21.027Z",
   "threat-zepa": "2026-08-15T17:39:21.027Z",
   "timeline-zepa": "2026-08-15T17:39:21.027Z",
+  "calendar-zepa": "2026-08-16T17:10:55.134Z",
+  "github-zepa": "2026-08-16T17:10:55.134Z",
+  "notification-zepa": "2026-08-16T17:10:55.134Z",
+  "notify-zepa": "2026-08-16T17:10:55.134Z",
+  "zoom-zepa": "2026-08-16T17:10:55.134Z",
 }

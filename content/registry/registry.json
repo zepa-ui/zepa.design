@@ -804,6 +804,25 @@
       "installUrl": "https://zepa.design/r/beam-zepa.json"
     },
     {
+      "slug": "calendar-zepa",
+      "title": "Calendar Zepa",
+      "category": "interactive-illustrations",
+      "description": "Month picker card — a graphite appointment tile with a six-week grid that never reflows, a brass disc that slides to the selected day, event ticks under busy dates, and a time strip whose period pill glides between AM and PM. Click the month name to pick another month without leaving the card.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "calendar",
+        "datepicker",
+        "schedule",
+        "time",
+        "grid",
+        "picker",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/calendar-zepa.json"
+    },
+    {
       "slug": "cards-zepa",
       "title": "Cards Zepa",
       "category": "interactive-illustrations",
@@ -824,6 +843,26 @@
       "installUrl": "https://zepa.design/r/cards-zepa.json"
     },
     {
+      "slug": "github-zepa",
+      "title": "Github Zepa",
+      "category": "interactive-illustrations",
+      "description": "Contribution calendar — a year of activity as a seven-row grid of levelled cells, with month labels, a hover tooltip, a legend and a stats line. Columns align to real calendar weeks and crowded month labels are dropped automatically. Data arrives as a prop with a deterministic generated default, so nothing is requested at runtime.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "calendar",
+        "heatmap",
+        "contributions",
+        "github",
+        "grid",
+        "activity",
+        "tooltip",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/github-zepa.json"
+    },
+    {
       "slug": "half-zepa",
       "title": "Half Zepa",
       "category": "interactive-illustrations",
@@ -842,6 +881,46 @@
         "reusable"
       ],
       "installUrl": "https://zepa.design/r/half-zepa.json"
+    },
+    {
+      "slug": "notification-zepa",
+      "title": "Notification Zepa",
+      "category": "interactive-illustrations",
+      "description": "Lock-screen notification stack — two alerts rest on a wallpaper card, then the rest arrive one at a time, landing on top and pushing the stack down before the sequence loops. Cards are placed by transform rather than document flow, so the shuffle animates without any layout projection.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "notification",
+        "stack",
+        "ios",
+        "lock-screen",
+        "alerts",
+        "toast",
+        "loop",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/notification-zepa.json"
+    },
+    {
+      "slug": "notify-zepa",
+      "title": "Notify Zepa",
+      "category": "interactive-illustrations",
+      "description": "Notification card — a slowly turning aurora behind a halftone screen, a bell sitting in the dark eye at its centre, and a badge that ticks up every time the pointer crosses the bell. The backdrop is built from blurred gradients rather than a hosted clip, so it renders with nothing to download; pass a video source to swap it.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "notification",
+        "bell",
+        "badge",
+        "counter",
+        "aurora",
+        "gradient",
+        "hover",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/notify-zepa.json"
     },
     {
       "slug": "report-zepa",
@@ -962,6 +1041,25 @@
         "reusable"
       ],
       "installUrl": "https://zepa.design/r/zepa-folder.json"
+    },
+    {
+      "slug": "zoom-zepa",
+      "title": "Zoom Zepa",
+      "category": "interactive-illustrations",
+      "description": "Catalog loupe — three rivers of tags scroll past each other, and a glass sits on top. Drag it (or nudge it with the arrow keys) and the chips under the aperture sharpen, pick up colour, and enlarge around the point you are looking at. The rivers are CSS; the lens writes its position to custom properties, so a drag never re-renders.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "illustration",
+        "magnifier",
+        "loupe",
+        "marquee",
+        "catalog",
+        "clip-path",
+        "drag",
+        "interactive",
+        "reusable"
+      ],
+      "installUrl": "https://zepa.design/r/zoom-zepa.json"
     },
     {
       "slug": "clipped-navbar",

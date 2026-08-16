@@ -150,13 +150,29 @@ export const codePaths: Record<string, string[]> = {
     "interactive-illustrations/beam-zepa/demo.tsx",
     "interactive-illustrations/beam-zepa/ui/beam-zepa.tsx",
   ],
+  "calendar-zepa": [
+    "interactive-illustrations/calendar-zepa/demo.tsx",
+    "interactive-illustrations/calendar-zepa/ui/calendar-zepa.tsx",
+  ],
   "cards-zepa": [
     "interactive-illustrations/cards-zepa/demo.tsx",
     "interactive-illustrations/cards-zepa/ui/cards-zepa.tsx",
   ],
+  "github-zepa": [
+    "interactive-illustrations/github-zepa/demo.tsx",
+    "interactive-illustrations/github-zepa/ui/github-zepa.tsx",
+  ],
   "half-zepa": [
     "interactive-illustrations/half-zepa/demo.tsx",
     "interactive-illustrations/half-zepa/ui/half-zepa.tsx",
+  ],
+  "notification-zepa": [
+    "interactive-illustrations/notification-zepa/demo.tsx",
+    "interactive-illustrations/notification-zepa/ui/notification-zepa.tsx",
+  ],
+  "notify-zepa": [
+    "interactive-illustrations/notify-zepa/demo.tsx",
+    "interactive-illustrations/notify-zepa/ui/notify-zepa.tsx",
   ],
   "report-zepa": [
     "interactive-illustrations/report-zepa/demo.tsx",
@@ -181,6 +197,10 @@ export const codePaths: Record<string, string[]> = {
   "zepa-folder": [
     "interactive-illustrations/zepa-folder/demo.tsx",
     "interactive-illustrations/zepa-folder/ui/zepa-folder.tsx",
+  ],
+  "zoom-zepa": [
+    "interactive-illustrations/zoom-zepa/demo.tsx",
+    "interactive-illustrations/zoom-zepa/ui/zoom-zepa.tsx",
   ],
   "clipped-navbar": [
     "navbar-sections/clipped-navbar/demo.tsx",
