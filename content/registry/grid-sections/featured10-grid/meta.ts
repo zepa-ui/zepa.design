@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured10-grid",
+  title: "Featured10 Grid",
+  description:
+    "Inspired by the vanlent.dev website design — an engineering-blueprint layout where bordered cells sit over a faint graph-paper backdrop like a technical drawing. Both visuals are drawn rather than imaged: the globe is a dot field clipped to a circle and masked so the dots thin toward the middle, which is what reads as a sphere, and the gear train is generated from a path function that alternates outer and inner radius per tooth, each gear rotating at its own speed and direction. A word row, a marker-style highlight block that sweeps open, a stepped progress indicator, a testimonial carousel and a tick ruler complete the plate. No images and no dependencies.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured10-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "blueprint",
+    "light",
+    "technical",
+    "svg",
+    "carousel",
+    "testimonials",
+    "editorial",
+    "animated",
+    "portfolio",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

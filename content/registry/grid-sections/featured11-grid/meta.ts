@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "featured11-grid",
+  title: "Featured11 Grid",
+  description:
+    "Inspired by the harrisoncarloss.com website design — a rounded media card with a stack of category names down the left. Hovering, focusing or clicking a name cross-fades the background between mixed video and image layers and swaps the panel on the right with its blurb, headline stat and label. Every layer stays mounted and only opacity changes, so a switch never re-decodes an image or re-buffers a clip, and only the active clip is playing. The Discover More control sits as a bare circle at rest and expands into a filled pill with an arrow on hover, the arrow animating on max-width so it grows from nothing without a layout jump. Includes a floating pill navbar and a staggered entrance.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/featured11-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "showcase",
+    "video",
+    "hover",
+    "interactive",
+    "portfolio",
+    "agency",
+    "case-study",
+    "animated",
+    "marketing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

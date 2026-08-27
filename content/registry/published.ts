@@ -78,4 +78,6 @@ export const publishedDates: Record<string, string> = {
   "notification-zepa": "2026-08-16T17:10:55.134Z",
   "notify-zepa": "2026-08-16T17:10:55.134Z",
   "zoom-zepa": "2026-08-16T17:10:55.134Z",
+  "featured10-grid": "2026-08-27T17:44:49.898Z",
+  "featured11-grid": "2026-08-27T17:44:49.898Z",
 }
