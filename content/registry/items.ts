@@ -2,6 +2,8 @@
 // Run: npm run build:registry
 
 import { meta as gridSectionsFeatured1Grid } from "./grid-sections/featured1-grid/meta"
+import { meta as gridSectionsFeatured10Grid } from "./grid-sections/featured10-grid/meta"
+import { meta as gridSectionsFeatured11Grid } from "./grid-sections/featured11-grid/meta"
 import { meta as gridSectionsFeatured2Grid } from "./grid-sections/featured2-grid/meta"
 import { meta as gridSectionsFeatured3Grid } from "./grid-sections/featured3-grid/meta"
 import { meta as gridSectionsFeatured4Grid } from "./grid-sections/featured4-grid/meta"
@@ -80,6 +82,8 @@ import { meta as unicornSectionWalkingUnicorn } from "./unicorn-section/walking-
 
 export const registryItems = [
   gridSectionsFeatured1Grid,
+  gridSectionsFeatured10Grid,
+  gridSectionsFeatured11Grid,
   gridSectionsFeatured2Grid,
   gridSectionsFeatured3Grid,
   gridSectionsFeatured4Grid,

@@ -24,6 +24,46 @@
       "installUrl": "https://zepa.design/r/featured1-grid.json"
     },
     {
+      "slug": "featured10-grid",
+      "title": "Featured10 Grid",
+      "category": "grid-sections",
+      "description": "Inspired by the vanlent.dev website design — an engineering-blueprint layout where bordered cells sit over a faint graph-paper backdrop like a technical drawing. Both visuals are drawn rather than imaged: the globe is a dot field clipped to a circle and masked so the dots thin toward the middle, which is what reads as a sphere, and the gear train is generated from a path function that alternates outer and inner radius per tooth, each gear rotating at its own speed and direction. A word row, a marker-style highlight block that sweeps open, a stepped progress indicator, a testimonial carousel and a tick ruler complete the plate. No images and no dependencies.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "blueprint",
+        "light",
+        "technical",
+        "svg",
+        "carousel",
+        "testimonials",
+        "editorial",
+        "animated",
+        "portfolio"
+      ],
+      "installUrl": "https://zepa.design/r/featured10-grid.json"
+    },
+    {
+      "slug": "featured11-grid",
+      "title": "Featured11 Grid",
+      "category": "grid-sections",
+      "description": "Inspired by the harrisoncarloss.com website design — a rounded media card with a stack of category names down the left. Hovering, focusing or clicking a name cross-fades the background between mixed video and image layers and swaps the panel on the right with its blurb, headline stat and label. Every layer stays mounted and only opacity changes, so a switch never re-decodes an image or re-buffers a clip, and only the active clip is playing. The Discover More control sits as a bare circle at rest and expands into a filled pill with an arrow on hover, the arrow animating on max-width so it grows from nothing without a layout jump. Includes a floating pill navbar and a staggered entrance.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "showcase",
+        "video",
+        "hover",
+        "interactive",
+        "portfolio",
+        "agency",
+        "case-study",
+        "animated",
+        "marketing"
+      ],
+      "installUrl": "https://zepa.design/r/featured11-grid.json"
+    },
+    {
       "slug": "featured2-grid",
       "title": "Featured2 Grid",
       "category": "grid-sections",

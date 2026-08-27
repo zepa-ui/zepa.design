@@ -14,6 +14,12 @@ export const registryLoaders: Record<
   "featured1-grid": {
     demo: () => import("./grid-sections/featured1-grid/demo"),
   },
+  "featured10-grid": {
+    demo: () => import("./grid-sections/featured10-grid/demo"),
+  },
+  "featured11-grid": {
+    demo: () => import("./grid-sections/featured11-grid/demo"),
+  },
   "featured2-grid": {
     demo: () => import("./grid-sections/featured2-grid/demo"),
   },
