@@ -208,6 +208,124 @@ html.preloading .noise-overlay {
   animation: border-beam 8s linear infinite;
 }
 
+/* ── Showcase card border beam ──
+   Two conic gradients masked down to a 1px ring, counter-rotating on hover.
+   `@property` is what makes this work: without registering the angles as
+   <angle> the browser treats them as plain strings, and the keyframes snap
+   from → to instead of interpolating.
+
+   The beam is drawn on the black matte that frames the preview, never on
+   the preview itself. That matters: a light-coloured demo video used to
+   swallow the highlight when the ring sat directly on the media edge. On
+   black the same white arc reads at full strength regardless of the clip. */
+/* 0deg is the top edge, so 315deg is the top-left corner and 135deg the
+   bottom-right — the two arcs launch from diagonally opposite corners */
+@property --beam-a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 315deg;
+}
+
+@property --beam-b {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 135deg;
+}
+
+/* Same direction, same speed, locked 180deg apart: each arc is forever
+   heading toward where the other just was and never closes the gap. Counter-
+   rotating them would make them collide twice a lap, which is not the look. */
+@keyframes card-beam-a {
+  to {
+    --beam-a: 675deg;
+  }
+}
+
+@keyframes card-beam-b {
+  to {
+    --beam-b: 495deg;
+  }
+}
+
+/* resting state: a plain hairline so the frame still has an edge */
+.card-beam {
+  position: relative;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
+  transition: box-shadow 0.4s ease;
+}
+
+/* `.card-beam` sits on the same node as `.group`, so this has to be a
+   plain :hover — `.group:hover .card-beam` would look for a descendant
+   and never match. */
+.card-beam:hover {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+    0 0 34px -12px rgba(255, 255, 255, 0.4);
+}
+
+/* Each arc is a real element, not a pseudo. Two masked conic gradients
+   stacked on ::before and ::after of the same node collapse to one visible
+   ring in Chrome — separate nodes each get their own layer. */
+.card-beam-arc {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: inherit;
+  padding: 1px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  /* ring-only: paint the padding box, punch out the content box */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* The lit peak sits on the gradient's own origin (0deg/360deg, with the
+   falloff wrapping either side), so each angle variable *is* the arc's
+   position on the ring — 315deg really does put it on the top-left corner. */
+.card-beam-a {
+  background: conic-gradient(
+    from var(--beam-a),
+    rgb(255, 255, 255) 0deg,
+    rgba(255, 255, 255, 0.3) 8deg,
+    transparent 34deg,
+    transparent 326deg,
+    rgba(255, 255, 255, 0.3) 352deg,
+    rgb(255, 255, 255) 360deg
+  );
+  animation: card-beam-a 4.5s linear infinite;
+}
+
+.card-beam-b {
+  background: conic-gradient(
+    from var(--beam-b),
+    rgb(255, 255, 255) 0deg,
+    rgba(255, 255, 255, 0.3) 8deg,
+    transparent 34deg,
+    transparent 326deg,
+    rgba(255, 255, 255, 0.3) 352deg,
+    rgb(255, 255, 255) 360deg
+  );
+  animation: card-beam-b 4.5s linear infinite;
+}
+
+/* the arcs *are* descendants, so both forms are valid here */
+.card-beam:hover .card-beam-arc {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-beam-arc {
+    animation: none;
+  }
+}
+
 /* Shimmer animation for CTA */
 @keyframes shimmer {
   0% {
