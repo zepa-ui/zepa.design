@@ -12,16 +12,47 @@ import * as schema from "./schema"
  * stateless request per query, which is the right shape for serverless.
  *
  * DATABASE_URL must be the POOLED string (host contains "-pooler").
+ *
+ * ── WHY THIS IS LAZY ──
+ * The connection was previously built at module scope, so a missing
+ * DATABASE_URL threw on *import*. `next build` imports every route while
+ * collecting page data, which meant the build required a live database string
+ * — and CI, which only needs to lint and typecheck, would fail without holding
+ * a production secret.
+ *
+ * Nothing connects at import time now. The first actual query resolves the
+ * connection and throws then if it is missing, which is where the failure
+ * belongs: loud at runtime, silent at build.
  */
-const connectionString = process.env.DATABASE_URL
+type Database = ReturnType<typeof drizzle<typeof schema>>
 
-if (!connectionString) {
-  throw new Error(
-    "DATABASE_URL is not set. Copy the pooled connection string from the Neon dashboard into .env.local."
-  )
+let instance: Database | null = null
+
+function getDb(): Database {
+  if (instance) return instance
+
+  const connectionString = process.env.DATABASE_URL
+  if (!connectionString) {
+    throw new Error(
+      "DATABASE_URL is not set. Add the pooled Neon connection string to .env.local locally, and to the environment variables of your host in production."
+    )
+  }
+
+  instance = drizzle(neon(connectionString), { schema })
+  return instance
 }
 
-const sql = neon(connectionString)
+/**
+ * Proxy so every existing `db.select(...)` call site keeps working unchanged
+ * while the real client is created on first use. Methods are bound to the
+ * client, since drizzle's builders rely on `this`.
+ */
+export const db = new Proxy({} as Database, {
+  get(_target, prop) {
+    const real = getDb()
+    const value = Reflect.get(real, prop, real)
+    return typeof value === "function" ? value.bind(real) : value
+  },
+})
 
-export const db = drizzle(sql, { schema })
 export { schema }
