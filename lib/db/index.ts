@@ -4,7 +4,7 @@ import { drizzle } from "drizzle-orm/neon-http"
 import * as schema from "./schema"
 
 /**
- * Neon's HTTP driver, not a TCP pool.
+ * Neon's HTTP driver, not a TCP pool. just commenting sameer
  *
  * Each Netlify Function invocation is its own short-lived container. A
  * connection pool there is worse than useless — every invocation would open
