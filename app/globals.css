@@ -194,6 +194,150 @@ html.preloading .noise-overlay {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
+/* ── Clerk surfaces ──
+   Clerk ships its own component CSS, and on the denser surfaces (UserProfile,
+   the account popover) that CSS wins over the `variables` passed to
+   <ClerkProvider> — text stayed near-black on our dark panels. `.cl-*` is
+   Clerk's documented styling hook, so overriding there is stable; the
+   `.cl-internal-*` classes are not and must be left alone. */
+/* A blanket rule rather than a list of element hooks. Clerk's own stylesheet
+   is injected at runtime from its CDN and colours many elements individually,
+   so naming them one at a time kept losing the cascade — and the class list
+   isn't inspectable locally because clerk-js isn't bundled. This claims every
+   text node inside a Clerk surface, then dims the genuinely-secondary ones
+   back down with a more specific rule below.
+   SVG logos (the Google mark) set explicit `fill`, so they're unaffected. */
+:is(.cl-userButtonPopoverCard, .cl-card, .cl-cardBox, .cl-rootBox)
+  :is(p, span, h1, h2, h3, h4, a, button, div, li, label, td, th) {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* The primary button is a light surface, so the blanket rule above would
+   whiten its label into invisibility. Higher specificity pulls it back. */
+:is(.cl-userButtonPopoverCard, .cl-card, .cl-cardBox, .cl-rootBox)
+  :is(.cl-formButtonPrimary, .cl-formButtonPrimary *) {
+  color: #000000 !important;
+}
+
+/* Monochrome provider marks (Apple, GitHub) ship dark for a light theme and
+   disappear on ours. Google is excluded — it's a multi-colour mark with
+   explicit fills and must not be inverted. */
+.cl-socialButtonsProviderIcon:not([class*="google"]),
+.cl-socialButtonsBlockButton:not([class*="google"]) .cl-socialButtonsProviderIcon {
+  filter: invert(1) brightness(1.8);
+}
+
+/* inputs: Clerk's default is a light field */
+.cl-formFieldInput,
+.cl-input {
+  background-color: #000000 !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+  color: #ffffff !important;
+}
+
+.cl-formFieldInput::placeholder {
+  color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* secondary text — higher specificity, so it wins over the rule above */
+:is(.cl-userButtonPopoverCard, .cl-card, .cl-cardBox, .cl-rootBox)
+  :is(
+    .cl-headerSubtitle,
+    .cl-userPreviewSecondaryIdentifier,
+    .cl-userButtonPreviewSecondaryIdentifier,
+    .cl-formFieldHintText,
+    .cl-pageHeaderSubtitle,
+    .cl-breadcrumbsItem,
+    .cl-profileSectionContent
+  ) {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/* The header avatar. Clerk sets an explicit width/height on .cl-avatarBox in
+   its own stylesheet, so a Tailwind `size-*` class on `avatarBox` never took
+   effect — it has to be overridden at the same hook.
+   Scoped to the trigger only, so the smaller avatar inside the popover and
+   anywhere else keeps its own size.
+   40px pairs with the header's py-2 without crowding the border. */
+.cl-userButtonTrigger .cl-avatarBox,
+.cl-userButtonAvatarBox {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.cl-userButtonTrigger {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* Account popover — Clerk's default spacing is generous. Same cascade problem
+   as the avatar, so the sizing lives here rather than in `appearance`. */
+.cl-userButtonPopoverCard {
+  width: 244px !important;
+  min-width: 244px !important;
+}
+
+.cl-userButtonPopoverActionButton {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  font-size: 13px !important;
+  min-height: 0 !important;
+}
+
+.cl-userButtonPopoverActionButtonIcon {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.cl-userButtonPopoverMain,
+.cl-userButtonPopoverActions {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* the identity block at the top of the popover */
+.cl-userPreview {
+  padding: 9px 12px !important;
+  gap: 9px !important;
+}
+
+.cl-userButtonPopoverFooter {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* dividers read as black-on-black without this */
+.cl-dividerLine,
+.cl-profileSection + .cl-profileSection {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* the search palette's scrollbar — the default is a bright white bar that
+   fights the panel */
+.zepa-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.16) transparent;
+}
+
+.zepa-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.zepa-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.zepa-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.zepa-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
 /* Border beam animation for pricing */
 @keyframes border-beam {
   0% {

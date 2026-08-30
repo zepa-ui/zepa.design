@@ -6,7 +6,10 @@ import Link from "next/link"
 import { registry } from "@/content/registry"
 import { featuredSlugs } from "@/content/featured"
 
+import { HeaderAuth } from "@/components/auth/header-auth"
 import { CategoryChips } from "@/components/showcase/category-chips"
+import { HeaderSearch } from "@/components/showcase/header-search"
+import { MobileCategoryMenu } from "@/components/showcase/mobile-category-menu"
 import { ShowcaseGrid } from "@/components/showcase/showcase-grid"
 
 // Pseudo-category — not a registry category, only used for the chip row
@@ -62,8 +65,25 @@ export default function ComponentsPage() {
       <header className="sticky top-0 z-40 border-b border-white/10 bg-black/85 backdrop-blur-md">
         {/* logo, chips and Docs all share one row; the chip strip takes the
             slack and scrolls horizontally when it runs out of space */}
-        <div className="mx-auto flex w-full max-w-[2000px] items-center gap-5 px-4 py-4 lg:px-8">
-          <Link href="/" className="flex shrink-0 items-center">
+        {/* tight vertical padding — the 44px avatar already sets the row
+            height, so py-4 was adding dead space above and below it */}
+        {/* Mobile is a different layout, not a squeezed one: hamburger, centred
+            logo, auth. The chip strip and search pill are desktop-only — a
+            horizontal scroller is a poor way to reach the seventh section on a
+            phone, and the search pill has nowhere to go. */}
+        <div className="mx-auto flex w-full max-w-[2000px] items-center gap-3 px-4 py-2 lg:gap-5 lg:px-5">
+          <MobileCategoryMenu
+            categories={categories}
+            activeCategory={activeCategory}
+            onSelect={setActiveCategory}
+            counts={categoryCounts}
+          />
+
+          {/* centred on mobile via flex-1 either side; static on desktop */}
+          <Link
+            href="/"
+            className="flex flex-1 shrink-0 items-center justify-center lg:flex-none lg:justify-start"
+          >
             <img
               src="/zzepa.png"
               alt="Zepa UI"
@@ -71,7 +91,11 @@ export default function ComponentsPage() {
             />
           </Link>
 
-          <div className="min-w-0 flex-1">
+          <div className="hidden lg:block">
+            <HeaderSearch />
+          </div>
+
+          <div className="hidden min-w-0 flex-1 lg:block">
             <CategoryChips
               categories={categories}
               activeCategory={activeCategory}
@@ -80,12 +104,7 @@ export default function ComponentsPage() {
             />
           </div>
 
-          <Link
-            href="/docs"
-            className="shrink-0 rounded-full border border-white/15 px-4 py-2 text-sm text-white/70 transition hover:border-white/30 hover:text-white"
-          >
-            Docs
-          </Link>
+          <HeaderAuth />
         </div>
       </header>
 

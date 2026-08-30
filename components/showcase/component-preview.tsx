@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 
+import { BookmarkButton } from "@/components/bookmarks/bookmark-button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
 import { publishedDates } from "@/content/registry/published"
@@ -139,6 +140,11 @@ export function ComponentPreview({
       <span aria-hidden className="card-beam-arc card-beam-a" />
       <span aria-hidden className="card-beam-arc card-beam-b" />
 
+      {/* sibling of the Link, not a child — a <button> inside an <a> is invalid
+          HTML and swallows the card's own click target */}
+      <BookmarkButton slug={slug} />
+
+
       <Link href={`/components/${slug}`} className="block w-full">
         {/* the recordings are ~1280x735 (≈1.74), not 16:9 — an aspect-video
             box makes object-cover crop the top and bottom off every clip */}
@@ -168,7 +174,8 @@ export function ComponentPreview({
           <div className="pointer-events-none absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/25" />
 
           {isNew ? (
-            <span className="absolute right-3 top-3 rounded-full bg-white px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-black shadow-lg">
+            /* left corner — the bookmark button owns the right one */
+            <span className="absolute left-3 top-3 rounded-full bg-white px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-black shadow-lg">
               New
             </span>
           ) : null}
