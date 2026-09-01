@@ -81,4 +81,5 @@ export const publishedDates: Record<string, string> = {
   "featured10-grid": "2026-08-27T17:44:49.898Z",
   "featured11-grid": "2026-08-27T17:44:49.898Z",
   "companion-grid": "2026-08-31T10:08:32.945Z",
+  "zaveda-hero": "2026-09-01T19:37:28.172Z",
 }

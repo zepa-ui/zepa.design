@@ -4,6 +4,7 @@ import FigmaHero from "@/content/registry/hero-sections/figma-hero/demo"
 import BluishHero from "@/content/registry/hero-sections/bluish-hero/demo"
 import SynthesiaHero from "@/content/registry/hero-sections/synthesia-hero/demo"
 import ScrolldownHero from "@/content/registry/hero-sections/scrolldown-hero/demo"
+import ZavedaHero from "@/content/registry/hero-sections/zaveda-hero/demo"
 import SelfieHero from "@/content/registry/hero-sections/selfie-hero/demo"
 import BevelHero from "@/content/registry/hero-sections/bevel-hero/demo"
 import CardHero from "@/content/registry/hero-sections/card-hero/demo"
@@ -28,6 +29,7 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "bluish-hero": BluishHero,
   "synthesia-hero": SynthesiaHero,
   "scrolldown-hero": ScrolldownHero,
+  "zaveda-hero": ZavedaHero,
   "selfie-hero": SelfieHero,
   "card-hero": CardHero,
   "crnacura-hero": CrnacuraHero,
@@ -50,6 +52,7 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "bluish-hero": "#fdfdfd",
   "synthesia-hero": "#ffffff",
   "scrolldown-hero": "#d8d6d2",
+  "zaveda-hero": "#ffffff",
   "selfie-hero": "#f7f7f5",
   "card-hero": "#000000",
   "crnacura-hero": "#f7f5f0",

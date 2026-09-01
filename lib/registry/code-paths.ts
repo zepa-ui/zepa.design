@@ -151,6 +151,9 @@ export const codePaths: Record<string, string[]> = {
   "wave-hero": [
     "hero-sections/wave-hero/demo.tsx",
   ],
+  "zaveda-hero": [
+    "hero-sections/zaveda-hero/demo.tsx",
+  ],
   "zoom-hero": [
     "hero-sections/zoom-hero/demo.tsx",
     "hero-sections/zoom-hero/ui/telescope-zoom.tsx",
