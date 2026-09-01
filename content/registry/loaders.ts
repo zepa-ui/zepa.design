@@ -140,6 +140,9 @@ export const registryLoaders: Record<
   "wave-hero": {
     demo: () => import("./hero-sections/wave-hero/demo"),
   },
+  "zaveda-hero": {
+    demo: () => import("./hero-sections/zaveda-hero/demo"),
+  },
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),
   },

@@ -44,6 +44,7 @@ import { meta as heroSectionsVaultHero } from "./hero-sections/vault-hero/meta"
 import { meta as heroSectionsVercelHero } from "./hero-sections/vercel-hero/meta"
 import { meta as heroSectionsVideo1Hero } from "./hero-sections/video1-hero/meta"
 import { meta as heroSectionsWaveHero } from "./hero-sections/wave-hero/meta"
+import { meta as heroSectionsZavedaHero } from "./hero-sections/zaveda-hero/meta"
 import { meta as heroSectionsZoomHero } from "./hero-sections/zoom-hero/meta"
 import { meta as interactiveIllustrationsBeamZepa } from "./interactive-illustrations/beam-zepa/meta"
 import { meta as interactiveIllustrationsCalendarZepa } from "./interactive-illustrations/calendar-zepa/meta"
@@ -125,6 +126,7 @@ export const registryItems = [
   heroSectionsVercelHero,
   heroSectionsVideo1Hero,
   heroSectionsWaveHero,
+  heroSectionsZavedaHero,
   heroSectionsZoomHero,
   interactiveIllustrationsBeamZepa,
   interactiveIllustrationsCalendarZepa,
