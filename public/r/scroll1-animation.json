@@ -3,7 +3,7 @@
   "name": "scroll1-animation",
   "type": "registry:block",
   "title": "Scroll 1 Animation",
-  "description": "A wall of images rotated 25° on the Y axis, each tile parked at a random depth between −1600 and 200px, sweeping right across the viewport as you scroll while the inner picture scales from 2 down to 0.5 — so the frame travels but the photograph inside it settles. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "A perspective wall of images rotated on the Y axis, each tile parked at its own depth and sweeping across the viewport as you scroll. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",

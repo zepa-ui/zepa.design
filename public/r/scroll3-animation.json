@@ -3,7 +3,7 @@
   "name": "scroll3-animation",
   "type": "registry:block",
   "title": "Scroll 3 Animation",
-  "description": "The grid starts 5000px away, pitched back on its top edge and unlit, then flattens and brightens as the whole wrap rushes 6500px toward the camera — a flythrough where the destination assembles itself on approach. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "The grid starts far away and unlit, then flattens and brightens as it rushes toward the camera — a flythrough that assembles itself on approach. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",

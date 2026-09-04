@@ -3,7 +3,7 @@
   "name": "scroll5-animation",
   "type": "registry:block",
   "title": "Scroll 5 Animation",
-  "description": "A gapless field laid almost flat at 50°. Even rows slide left and odd rows slide right, tearing the image apart along its own seams, then every tile drifts vertically once the rows have parted. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "A gapless field laid almost flat. Even rows slide left and odd rows slide right, tearing the image apart along its own seams. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",

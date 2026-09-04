@@ -3,7 +3,7 @@
   "name": "paper-grid",
   "type": "registry:block",
   "title": "Paper Grid",
-  "description": "Three translucent certificates hang side by side over one giant wordmark, each printed on glass and bending like real paper — the curl is integrated along the sheet rather than pushed in Z, so the silhouette genuinely pulls in where the page turns away from the light. Drag a sheet to turn it and the throw carries, decaying to rest on the nearest whole rotation; hover and a point light tracks the cursor while the lit sheet lifts toward the camera to win the overlap. All three share one WebGL context, one renderer and one procedural environment map, and every sheet reads the same bend field at a different phase so they never breathe in lockstep. The type is drawn to canvas, so no webfont is fetched. The component measures its own container and binds pointer events to it, so it never touches window scroll or position:fixed. 3D scene ported from ThreeUI's ThreeDPaper (MIT, Meng To / Design+Code).",
+  "description": "Three translucent certificates printed on glass, hanging side by side and bending like real paper. Drag a sheet to turn it, hover to light it — all three share one WebGL context. Inspired by ThreeUI's ThreeDPaper.",
   "github": "vij-sameerb5",
   "dependencies": [
     "three"

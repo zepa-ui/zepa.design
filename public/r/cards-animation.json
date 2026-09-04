@@ -3,7 +3,7 @@
   "name": "cards-animation",
   "type": "registry:block",
   "title": "Cards Animation",
-  "description": "Eighteen cards fly in from alternating sides, spinning and scaling down from four times their size, then settle onto a giant wheel whose pivot sits 200vh below the stage — so only the top arc is ever on screen and the cards fan out like a hand being dealt. Scrolling turns the wheel: the component owns its own scroll runway under a sticky stage, reads its own scrollTop and eases it, so it never touches window scroll or position:fixed. Most cards are duotoned monochrome with a few warm and cool accents applied through CSS filters, so the palette holds regardless of what each photo looks like, and full colour returns on hover. Click a card and it opens a detail panel — the artwork at full colour beside its title and description, dismissed with the backdrop or Escape. Every selector is scoped through gsap.context to the component's own root, so two instances on one page cannot drive each other. Deal-in choreography after a GSAP study by @deadrabbbbit, itself inspired by the Hyundai site.",
+  "description": "Eighteen cards fly in from alternating sides and settle onto a giant wheel that scrolling turns. Mostly duotone monochrome with warm and cool accents; click a card to open its detail panel. Inspired by @deadrabbbbit.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap"

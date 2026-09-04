@@ -3,7 +3,7 @@
   "name": "scroll6-animation",
   "type": "registry:block",
   "title": "Scroll 6 Animation",
-  "description": "Tiles hinge from a pivot two heights below themselves, swinging up from 400% down while spinning a full 360° on the Y axis, fading to a fifth opacity on a 0.03s stagger — a deck flipping itself into place. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "Tiles hinge from a pivot below themselves, swinging up while spinning a full turn on a stagger — a deck flipping itself into place. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",

@@ -3,7 +3,7 @@
   "name": "scroll4-animation",
   "type": "registry:block",
   "title": "Scroll 4 Animation",
-  "description": "A narrow column seen from its left edge. Each tile hinges on its top edge from −70° to 70° while stepping 500px toward the camera and back again on a 0.04s stagger — pages turning in sequence rather than all at once. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "A narrow column seen from its left edge, each tile hinging on its top edge and stepping toward the camera on a stagger — pages turning in sequence. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",

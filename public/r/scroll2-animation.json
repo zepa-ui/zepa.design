@@ -3,7 +3,7 @@
   "name": "scroll2-animation",
   "type": "registry:block",
   "title": "Scroll 2 Animation",
-  "description": "Tiles rise out of deep space — pushed 1000 to 3000px back — turning from −45° to 45° and dimming from double brightness to black as they pass, while the whole grid counter-rotates and scales up beneath them. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+  "description": "Tiles rise out of deep space, turning and dimming as they pass while the grid counter-rotates and scales beneath them. Inspired by Codrops.",
   "github": "vij-sameerb5",
   "dependencies": [
     "gsap",
