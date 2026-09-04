@@ -4,6 +4,146 @@
   "homepage": "https://zepa.design",
   "items": [
     {
+      "slug": "cards-animation",
+      "title": "Cards Animation",
+      "category": "animations",
+      "description": "Eighteen cards fly in from alternating sides, spinning and scaling down from four times their size, then settle onto a giant wheel whose pivot sits 200vh below the stage — so only the top arc is ever on screen and the cards fan out like a hand being dealt. Scrolling turns the wheel: the component owns its own scroll runway under a sticky stage, reads its own scrollTop and eases it, so it never touches window scroll or position:fixed. Most cards are duotoned monochrome with a few warm and cool accents applied through CSS filters, so the palette holds regardless of what each photo looks like, and full colour returns on hover. Click a card and it opens a detail panel — the artwork at full colour beside its title and description, dismissed with the backdrop or Escape. Every selector is scoped through gsap.context to the component's own root, so two instances on one page cannot drive each other. Deal-in choreography after a GSAP study by @deadrabbbbit, itself inspired by the Hyundai site.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scroll",
+        "carousel",
+        "wheel",
+        "cards",
+        "duotone",
+        "lightbox",
+        "light",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/cards-animation.json"
+    },
+    {
+      "slug": "scroll1-animation",
+      "title": "Scroll 1 Animation",
+      "category": "animations",
+      "description": "A wall of images rotated 25° on the Y axis, each tile parked at a random depth between −1600 and 200px, sweeping right across the viewport as you scroll while the inner picture scales from 2 down to 0.5 — so the frame travels but the photograph inside it settles. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "perspective",
+        "sweep",
+        "depth",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll1-animation.json"
+    },
+    {
+      "slug": "scroll2-animation",
+      "title": "Scroll 2 Animation",
+      "category": "animations",
+      "description": "Tiles rise out of deep space — pushed 1000 to 3000px back — turning from −45° to 45° and dimming from double brightness to black as they pass, while the whole grid counter-rotates and scales up beneath them. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "perspective",
+        "rise",
+        "brightness",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll2-animation.json"
+    },
+    {
+      "slug": "scroll3-animation",
+      "title": "Scroll 3 Animation",
+      "category": "animations",
+      "description": "The grid starts 5000px away, pitched back on its top edge and unlit, then flattens and brightens as the whole wrap rushes 6500px toward the camera — a flythrough where the destination assembles itself on approach. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "flythrough",
+        "depth",
+        "brightness",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll3-animation.json"
+    },
+    {
+      "slug": "scroll4-animation",
+      "title": "Scroll 4 Animation",
+      "category": "animations",
+      "description": "A narrow column seen from its left edge. Each tile hinges on its top edge from −70° to 70° while stepping 500px toward the camera and back again on a 0.04s stagger — pages turning in sequence rather than all at once. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "hinge",
+        "stagger",
+        "pages",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll4-animation.json"
+    },
+    {
+      "slug": "scroll5-animation",
+      "title": "Scroll 5 Animation",
+      "category": "animations",
+      "description": "A gapless field laid almost flat at 50°. Even rows slide left and odd rows slide right, tearing the image apart along its own seams, then every tile drifts vertically once the rows have parted. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "shear",
+        "rows",
+        "flat",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll5-animation.json"
+    },
+    {
+      "slug": "scroll6-animation",
+      "title": "Scroll 6 Animation",
+      "category": "animations",
+      "description": "Tiles hinge from a pivot two heights below themselves, swinging up from 400% down while spinning a full 360° on the Y axis, fading to a fifth opacity on a 0.03s stagger — a deck flipping itself into place. Built with GSAP ScrollTrigger on a scrubbed timeline, with Lenis smoothing the component's own scroll container rather than the page — the root is both the Lenis wrapper and the ScrollTrigger scroller, so it never touches window scroll or position:fixed. One of six on-scroll perspective grid animations from Codrops' Scroll3DGrid (MIT, Codrops), split into a component per animation.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "flip",
+        "stagger",
+        "spin",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll6-animation.json"
+    },
+    {
       "slug": "companion-grid",
       "title": "Companion Grid",
       "category": "grid-sections",
@@ -244,6 +384,28 @@
         "agency"
       ],
       "installUrl": "https://zepa.design/r/featured9-grid.json"
+    },
+    {
+      "slug": "paper-grid",
+      "title": "Paper Grid",
+      "category": "grid-sections",
+      "description": "Three translucent certificates hang side by side over one giant wordmark, each printed on glass and bending like real paper — the curl is integrated along the sheet rather than pushed in Z, so the silhouette genuinely pulls in where the page turns away from the light. Drag a sheet to turn it and the throw carries, decaying to rest on the nearest whole rotation; hover and a point light tracks the cursor while the lit sheet lifts toward the camera to win the overlap. All three share one WebGL context, one renderer and one procedural environment map, and every sheet reads the same bend field at a different phase so they never breathe in lockstep. The type is drawn to canvas, so no webfont is fetched. The component measures its own container and binds pointer events to it, so it never touches window scroll or position:fixed. 3D scene ported from ThreeUI's ThreeDPaper (MIT, Meng To / Design+Code).",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "webgl",
+        "three",
+        "paper",
+        "glass",
+        "certificate",
+        "shader",
+        "drag",
+        "3d",
+        "dark",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/paper-grid.json"
     },
     {
       "slug": "air-hero",

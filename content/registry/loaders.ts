@@ -11,6 +11,27 @@ export const registryLoaders: Record<
     demo: () => Promise<DemoModule>
   }
 > = {
+  "cards-animation": {
+    demo: () => import("./animations/cards-animation/demo"),
+  },
+  "scroll1-animation": {
+    demo: () => import("./animations/scroll1-animation/demo"),
+  },
+  "scroll2-animation": {
+    demo: () => import("./animations/scroll2-animation/demo"),
+  },
+  "scroll3-animation": {
+    demo: () => import("./animations/scroll3-animation/demo"),
+  },
+  "scroll4-animation": {
+    demo: () => import("./animations/scroll4-animation/demo"),
+  },
+  "scroll5-animation": {
+    demo: () => import("./animations/scroll5-animation/demo"),
+  },
+  "scroll6-animation": {
+    demo: () => import("./animations/scroll6-animation/demo"),
+  },
   "companion-grid": {
     demo: () => import("./grid-sections/companion-grid/demo"),
   },
@@ -46,6 +67,9 @@ export const registryLoaders: Record<
   },
   "featured9-grid": {
     demo: () => import("./grid-sections/featured9-grid/demo"),
+  },
+  "paper-grid": {
+    demo: () => import("./grid-sections/paper-grid/demo"),
   },
   "air-hero": {
     demo: () => import("./hero-sections/air-hero/demo"),

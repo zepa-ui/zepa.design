@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll3-animation",
+  title: "Scroll 3 Animation",
+  description:
+    "The grid starts far away and unlit, then flattens and brightens as it rushes toward the camera — a flythrough that assembles itself on approach. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll3-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "flythrough",
+    "depth",
+    "brightness",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
