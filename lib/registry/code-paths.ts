@@ -2,6 +2,27 @@
 // Run: npm run build:registry
 
 export const codePaths: Record<string, string[]> = {
+  "cards-animation": [
+    "animations/cards-animation/demo.tsx",
+  ],
+  "scroll1-animation": [
+    "animations/scroll1-animation/demo.tsx",
+  ],
+  "scroll2-animation": [
+    "animations/scroll2-animation/demo.tsx",
+  ],
+  "scroll3-animation": [
+    "animations/scroll3-animation/demo.tsx",
+  ],
+  "scroll4-animation": [
+    "animations/scroll4-animation/demo.tsx",
+  ],
+  "scroll5-animation": [
+    "animations/scroll5-animation/demo.tsx",
+  ],
+  "scroll6-animation": [
+    "animations/scroll6-animation/demo.tsx",
+  ],
   "companion-grid": [
     "grid-sections/companion-grid/demo.tsx",
   ],
@@ -37,6 +58,10 @@ export const codePaths: Record<string, string[]> = {
   ],
   "featured9-grid": [
     "grid-sections/featured9-grid/demo.tsx",
+  ],
+  "paper-grid": [
+    "grid-sections/paper-grid/demo.tsx",
+    "grid-sections/paper-grid/ui/paper-sheets.tsx",
   ],
   "air-hero": [
     "hero-sections/air-hero/demo.tsx",
