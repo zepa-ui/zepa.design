@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll1-animation",
+  title: "Scroll 1 Animation",
+  description:
+    "A perspective wall of images rotated on the Y axis, each tile parked at its own depth and sweeping across the viewport as you scroll. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll1-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "perspective",
+    "sweep",
+    "depth",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll4-animation",
+  title: "Scroll 4 Animation",
+  description:
+    "A narrow column seen from its left edge, each tile hinging on its top edge and stepping toward the camera on a stagger — pages turning in sequence. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll4-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "hinge",
+    "stagger",
+    "pages",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

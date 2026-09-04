@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll5-animation",
+  title: "Scroll 5 Animation",
+  description:
+    "A gapless field laid almost flat. Even rows slide left and odd rows slide right, tearing the image apart along its own seams. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll5-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "shear",
+    "rows",
+    "flat",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
