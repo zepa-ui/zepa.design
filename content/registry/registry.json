@@ -144,6 +144,26 @@
       "installUrl": "https://zepa.design/r/scroll6-animation.json"
     },
     {
+      "slug": "any-grid",
+      "title": "Any Grid",
+      "category": "grid-sections",
+      "description": "A seven-tile bento board on black where the layout never moves and every card is alive instead — a scan column sweeping a token chart, counters easing and scrambling into place, cycling tool icons and action rows, a portrait swapping with its badge, breathing bars, and a collaborator's cursor dragging a selection across the closing line. Starts when the board scrolls into view, then loops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dashboard",
+        "counter",
+        "chart",
+        "cursor",
+        "scroll",
+        "dark",
+        "animated",
+        "saas"
+      ],
+      "installUrl": "https://zepa.design/r/any-grid.json"
+    },
+    {
       "slug": "companion-grid",
       "title": "Companion Grid",
       "category": "grid-sections",
@@ -162,6 +182,26 @@
         "landing"
       ],
       "installUrl": "https://zepa.design/r/companion-grid.json"
+    },
+    {
+      "slug": "crypto-grid",
+      "title": "Crypto Grid",
+      "category": "grid-sections",
+      "description": "A seven-tile payments bento on white — a purple hero over three partner coins stacked and zooming together, a ring of app tiles sweeping the top arc of a circle whose centre sits below the card, a QR plate riding half off the top edge, a floating report panel whose spend bar fills on wake, a field of glyphs quietly rewriting itself behind the secure card, a QR that gets scanned on hover and a bell that rings. Every tile lifts to the pointer; the whole board wakes when it scrolls into view.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "crypto",
+        "fintech",
+        "orbit",
+        "logos",
+        "hover",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/crypto-grid.json"
     },
     {
       "slug": "featured1-grid",
@@ -384,6 +424,26 @@
         "agency"
       ],
       "installUrl": "https://zepa.design/r/featured9-grid.json"
+    },
+    {
+      "slug": "girl-grid",
+      "title": "Girl Grid",
+      "category": "grid-sections",
+      "description": "A five-tile support-agent bento on soft grey. A portrait under a frosted band carries a conversation that arrives bubble by bubble and starts over; the language card is a real set of switches whose chips swap for flags as you turn them on; the conversations counter sits under a bare ZepaFolder whose files fan out on hover; and the omni-channel tile floats its channels along a dashed arc that keeps tracing itself.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "chat",
+        "toggle",
+        "support",
+        "saas",
+        "glass",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/girl-grid.json"
     },
     {
       "slug": "paper-grid",

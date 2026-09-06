@@ -32,8 +32,14 @@ export const registryLoaders: Record<
   "scroll6-animation": {
     demo: () => import("./animations/scroll6-animation/demo"),
   },
+  "any-grid": {
+    demo: () => import("./grid-sections/any-grid/demo"),
+  },
   "companion-grid": {
     demo: () => import("./grid-sections/companion-grid/demo"),
+  },
+  "crypto-grid": {
+    demo: () => import("./grid-sections/crypto-grid/demo"),
   },
   "featured1-grid": {
     demo: () => import("./grid-sections/featured1-grid/demo"),
@@ -67,6 +73,9 @@ export const registryLoaders: Record<
   },
   "featured9-grid": {
     demo: () => import("./grid-sections/featured9-grid/demo"),
+  },
+  "girl-grid": {
+    demo: () => import("./grid-sections/girl-grid/demo"),
   },
   "paper-grid": {
     demo: () => import("./grid-sections/paper-grid/demo"),
