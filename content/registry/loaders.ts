@@ -14,6 +14,18 @@ export const registryLoaders: Record<
   "cards-animation": {
     demo: () => import("./animations/cards-animation/demo"),
   },
+  "reveal1-animation": {
+    demo: () => import("./animations/reveal1-animation/demo"),
+  },
+  "reveal3-animation": {
+    demo: () => import("./animations/reveal3-animation/demo"),
+  },
+  "reveal4-animation": {
+    demo: () => import("./animations/reveal4-animation/demo"),
+  },
+  "reveal6-animation": {
+    demo: () => import("./animations/reveal6-animation/demo"),
+  },
   "scroll1-animation": {
     demo: () => import("./animations/scroll1-animation/demo"),
   },

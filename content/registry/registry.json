@@ -24,6 +24,86 @@
       "installUrl": "https://zepa.design/r/cards-animation.json"
     },
     {
+      "slug": "reveal1-animation",
+      "title": "Reveal 1 Animation",
+      "category": "animations",
+      "description": "A circular mask blooms from nothing to 820 units under a coarse fractal-noise displacement, while the picture scales to 1.2 and brightens by half. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal1-animation.json"
+    },
+    {
+      "slug": "reveal3-animation",
+      "title": "Reveal 3 Animation",
+      "category": "animations",
+      "description": "The only one masked by a path rather than a circle: a flat line splits into a lens as the two quadratic control points pull apart to 800 and -200. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal3-animation.json"
+    },
+    {
+      "slug": "reveal4-animation",
+      "title": "Reveal 4 Animation",
+      "category": "animations",
+      "description": "The tightest noise of the set — base frequency 0.5 — so the edge dissolves into fine grain instead of large tears. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal4-animation.json"
+    },
+    {
+      "slug": "reveal6-animation",
+      "title": "Reveal 6 Animation",
+      "category": "animations",
+      "description": "The widest noise wavelength of the set, then blurred by ten — the mask opens as one soft swelling blob rather than a ragged hole. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal6-animation.json"
+    },
+    {
       "slug": "scroll1-animation",
       "title": "Scroll 1 Animation",
       "category": "animations",
