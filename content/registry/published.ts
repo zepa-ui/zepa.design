@@ -93,4 +93,8 @@ export const publishedDates: Record<string, string> = {
   "any-grid": "2026-09-06T19:28:09.364Z",
   "crypto-grid": "2026-09-06T19:28:09.365Z",
   "girl-grid": "2026-09-06T19:28:09.365Z",
+  "reveal1-animation": "2026-09-09T16:40:45.811Z",
+  "reveal3-animation": "2026-09-09T16:40:45.811Z",
+  "reveal4-animation": "2026-09-09T16:40:45.811Z",
+  "reveal6-animation": "2026-09-09T16:40:45.811Z",
 }

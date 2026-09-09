@@ -5,6 +5,18 @@ export const codePaths: Record<string, string[]> = {
   "cards-animation": [
     "animations/cards-animation/demo.tsx",
   ],
+  "reveal1-animation": [
+    "animations/reveal1-animation/demo.tsx",
+  ],
+  "reveal3-animation": [
+    "animations/reveal3-animation/demo.tsx",
+  ],
+  "reveal4-animation": [
+    "animations/reveal4-animation/demo.tsx",
+  ],
+  "reveal6-animation": [
+    "animations/reveal6-animation/demo.tsx",
+  ],
   "scroll1-animation": [
     "animations/scroll1-animation/demo.tsx",
   ],
