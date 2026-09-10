@@ -24,6 +24,48 @@
       "installUrl": "https://zepa.design/r/cards-animation.json"
     },
     {
+      "slug": "draggable-animation",
+      "title": "Draggable Animation",
+      "category": "animations",
+      "description": "A drag-to-scrub slider where every slide is a Three.js plane, not an image. Drag velocity bows the geometry and pulls the green and blue channels apart, and the rail wraps forever. Inspired by Jesper Landberg's designs.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "webgl",
+        "threejs",
+        "shader",
+        "drag",
+        "slider",
+        "carousel",
+        "infinite",
+        "gsap",
+        "dark",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/draggable-animation.json"
+    },
+    {
+      "slug": "jiggle-animation",
+      "title": "Jiggle Animation",
+      "category": "animations",
+      "description": "Click anywhere and the photo wobbles like struck water — a cosine ripple runs outward from the exact point you hit, while a hard wipe reveals the next image on the same beat. Raw WebGL, no library. Inspired by Jesper Landberg's designs.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "webgl",
+        "shader",
+        "ripple",
+        "distortion",
+        "slideshow",
+        "transition",
+        "click",
+        "gsap",
+        "light",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/jiggle-animation.json"
+    },
+    {
       "slug": "reveal1-animation",
       "title": "Reveal 1 Animation",
       "category": "animations",

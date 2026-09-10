@@ -2,6 +2,8 @@
 // Run: npm run build:registry
 
 import { meta as animationsCardsAnimation } from "./animations/cards-animation/meta"
+import { meta as animationsDraggableAnimation } from "./animations/draggable-animation/meta"
+import { meta as animationsJiggleAnimation } from "./animations/jiggle-animation/meta"
 import { meta as animationsReveal1Animation } from "./animations/reveal1-animation/meta"
 import { meta as animationsReveal3Animation } from "./animations/reveal3-animation/meta"
 import { meta as animationsReveal4Animation } from "./animations/reveal4-animation/meta"
@@ -99,6 +101,8 @@ import { meta as unicornSectionWalkingUnicorn } from "./unicorn-section/walking-
 
 export const registryItems = [
   animationsCardsAnimation,
+  animationsDraggableAnimation,
+  animationsJiggleAnimation,
   animationsReveal1Animation,
   animationsReveal3Animation,
   animationsReveal4Animation,

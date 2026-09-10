@@ -97,4 +97,6 @@ export const publishedDates: Record<string, string> = {
   "reveal3-animation": "2026-09-09T16:40:45.811Z",
   "reveal4-animation": "2026-09-09T16:40:45.811Z",
   "reveal6-animation": "2026-09-09T16:40:45.811Z",
+  "draggable-animation": "2026-09-10T17:41:12.651Z",
+  "jiggle-animation": "2026-09-10T17:41:12.651Z",
 }
