@@ -9,6 +9,8 @@ import Reveal1Animation from "@/content/registry/animations/reveal1-animation/de
 import Reveal3Animation from "@/content/registry/animations/reveal3-animation/demo"
 import Reveal4Animation from "@/content/registry/animations/reveal4-animation/demo"
 import Reveal6Animation from "@/content/registry/animations/reveal6-animation/demo"
+import DraggableAnimation from "@/content/registry/animations/draggable-animation/demo"
+import JiggleAnimation from "@/content/registry/animations/jiggle-animation/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -24,6 +26,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "reveal3-animation": Reveal3Animation,
   "reveal4-animation": Reveal4Animation,
   "reveal6-animation": Reveal6Animation,
+  "draggable-animation": DraggableAnimation,
+  "jiggle-animation": JiggleAnimation,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -38,6 +42,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "reveal3-animation": "#000000",
   "reveal4-animation": "#000000",
   "reveal6-animation": "#000000",
+  "draggable-animation": "#111111",
+  "jiggle-animation": "#ffffff",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
