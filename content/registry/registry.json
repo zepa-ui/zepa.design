@@ -4,6 +4,328 @@
   "homepage": "https://zepa.design",
   "items": [
     {
+      "slug": "cards-animation",
+      "title": "Cards Animation",
+      "category": "animations",
+      "description": "Eighteen cards fly in from alternating sides and settle onto a giant wheel that scrolling turns. Mostly duotone monochrome with warm and cool accents; click a card to open its detail panel. Inspired by @deadrabbbbit.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scroll",
+        "carousel",
+        "wheel",
+        "cards",
+        "duotone",
+        "lightbox",
+        "light",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/cards-animation.json"
+    },
+    {
+      "slug": "draggable-animation",
+      "title": "Draggable Animation",
+      "category": "animations",
+      "description": "A drag-to-scrub slider where every slide is a Three.js plane, not an image. Drag velocity bows the geometry and pulls the green and blue channels apart, and the rail wraps forever. Inspired by Jesper Landberg's designs.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "webgl",
+        "threejs",
+        "shader",
+        "drag",
+        "slider",
+        "carousel",
+        "infinite",
+        "gsap",
+        "dark",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/draggable-animation.json"
+    },
+    {
+      "slug": "jiggle-animation",
+      "title": "Jiggle Animation",
+      "category": "animations",
+      "description": "Click anywhere and the photo wobbles like struck water — a cosine ripple runs outward from the exact point you hit, while a hard wipe reveals the next image on the same beat. Raw WebGL, no library. Inspired by Jesper Landberg's designs.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "webgl",
+        "shader",
+        "ripple",
+        "distortion",
+        "slideshow",
+        "transition",
+        "click",
+        "gsap",
+        "light",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/jiggle-animation.json"
+    },
+    {
+      "slug": "reveal1-animation",
+      "title": "Reveal 1 Animation",
+      "category": "animations",
+      "description": "A circular mask blooms from nothing to 820 units under a coarse fractal-noise displacement, while the picture scales to 1.2 and brightens by half. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal1-animation.json"
+    },
+    {
+      "slug": "reveal3-animation",
+      "title": "Reveal 3 Animation",
+      "category": "animations",
+      "description": "The only one masked by a path rather than a circle: a flat line splits into a lens as the two quadratic control points pull apart to 800 and -200. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal3-animation.json"
+    },
+    {
+      "slug": "reveal4-animation",
+      "title": "Reveal 4 Animation",
+      "category": "animations",
+      "description": "The tightest noise of the set — base frequency 0.5 — so the edge dissolves into fine grain instead of large tears. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal4-animation.json"
+    },
+    {
+      "slug": "reveal6-animation",
+      "title": "Reveal 6 Animation",
+      "category": "animations",
+      "description": "The widest noise wavelength of the set, then blurred by ten — the mask opens as one soft swelling blob rather than a ragged hole. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "flip",
+        "scrolltrigger",
+        "svg",
+        "filter",
+        "mask",
+        "reveal",
+        "scroll",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/reveal6-animation.json"
+    },
+    {
+      "slug": "scroll1-animation",
+      "title": "Scroll 1 Animation",
+      "category": "animations",
+      "description": "A perspective wall of images rotated on the Y axis, each tile parked at its own depth and sweeping across the viewport as you scroll. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "perspective",
+        "sweep",
+        "depth",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll1-animation.json"
+    },
+    {
+      "slug": "scroll2-animation",
+      "title": "Scroll 2 Animation",
+      "category": "animations",
+      "description": "Tiles rise out of deep space, turning and dimming as they pass while the grid counter-rotates and scales beneath them. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "perspective",
+        "rise",
+        "brightness",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll2-animation.json"
+    },
+    {
+      "slug": "scroll3-animation",
+      "title": "Scroll 3 Animation",
+      "category": "animations",
+      "description": "The grid starts far away and unlit, then flattens and brightens as it rushes toward the camera — a flythrough that assembles itself on approach. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "flythrough",
+        "depth",
+        "brightness",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll3-animation.json"
+    },
+    {
+      "slug": "scroll4-animation",
+      "title": "Scroll 4 Animation",
+      "category": "animations",
+      "description": "A narrow column seen from its left edge, each tile hinging on its top edge and stepping toward the camera on a stagger — pages turning in sequence. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "hinge",
+        "stagger",
+        "pages",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll4-animation.json"
+    },
+    {
+      "slug": "scroll5-animation",
+      "title": "Scroll 5 Animation",
+      "category": "animations",
+      "description": "A gapless field laid almost flat. Even rows slide left and odd rows slide right, tearing the image apart along its own seams. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "shear",
+        "rows",
+        "flat",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll5-animation.json"
+    },
+    {
+      "slug": "scroll6-animation",
+      "title": "Scroll 6 Animation",
+      "category": "animations",
+      "description": "Tiles hinge from a pivot below themselves, swinging up while spinning a full turn on a stagger — a deck flipping itself into place. Inspired by Codrops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "gsap",
+        "scrolltrigger",
+        "scroll",
+        "grid",
+        "3d",
+        "flip",
+        "stagger",
+        "spin",
+        "dark"
+      ],
+      "installUrl": "https://zepa.design/r/scroll6-animation.json"
+    },
+    {
+      "slug": "any-grid",
+      "title": "Any Grid",
+      "category": "grid-sections",
+      "description": "A seven-tile bento board on black where the layout never moves and every card is alive instead — a scan column sweeping a token chart, counters easing and scrambling into place, cycling tool icons and action rows, a portrait swapping with its badge, breathing bars, and a collaborator's cursor dragging a selection across the closing line. Starts when the board scrolls into view, then loops.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dashboard",
+        "counter",
+        "chart",
+        "cursor",
+        "scroll",
+        "dark",
+        "animated",
+        "saas"
+      ],
+      "installUrl": "https://zepa.design/r/any-grid.json"
+    },
+    {
+      "slug": "companion-grid",
+      "title": "Companion Grid",
+      "category": "grid-sections",
+      "description": "Inspired by the companion.uprock.pro website design — a warm, cream editorial section where a headline sits behind a train of polaroid cards. Scrolling drives the train to the right on lenis-style easing, each card zigzagging up and down with a tilt that drifts as it crosses the screen and a sine bob layered on top, so the cards clear away one at a time and the line underneath is revealed. The run starts on the last card and ends on the first. The component owns its own scroll container — a tall track under a sticky viewport — so it never touches window scroll or position:fixed, and two blurred radial glows give the cream backdrop its warmth.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "scroll",
+        "cards",
+        "polaroid",
+        "parallax",
+        "reveal",
+        "editorial",
+        "warm",
+        "light",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/companion-grid.json"
+    },
+    {
+      "slug": "crypto-grid",
+      "title": "Crypto Grid",
+      "category": "grid-sections",
+      "description": "A seven-tile payments bento on white — a purple hero over three partner coins stacked and zooming together, a ring of app tiles sweeping the top arc of a circle whose centre sits below the card, a QR plate riding half off the top edge, a floating report panel whose spend bar fills on wake, a field of glyphs quietly rewriting itself behind the secure card, a QR that gets scanned on hover and a bell that rings. Every tile lifts to the pointer; the whole board wakes when it scrolls into view.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "crypto",
+        "fintech",
+        "orbit",
+        "logos",
+        "hover",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/crypto-grid.json"
+    },
+    {
       "slug": "featured1-grid",
       "title": "Featured1 Grid",
       "category": "grid-sections",
@@ -224,6 +546,48 @@
         "agency"
       ],
       "installUrl": "https://zepa.design/r/featured9-grid.json"
+    },
+    {
+      "slug": "girl-grid",
+      "title": "Girl Grid",
+      "category": "grid-sections",
+      "description": "A five-tile support-agent bento on soft grey. A portrait under a frosted band carries a conversation that arrives bubble by bubble and starts over; the language card is a real set of switches whose chips swap for flags as you turn them on; the conversations counter sits under a bare ZepaFolder whose files fan out on hover; and the omni-channel tile floats its channels along a dashed arc that keeps tracing itself.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "chat",
+        "toggle",
+        "support",
+        "saas",
+        "glass",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/girl-grid.json"
+    },
+    {
+      "slug": "paper-grid",
+      "title": "Paper Grid",
+      "category": "grid-sections",
+      "description": "Three translucent certificates printed on glass, hanging side by side and bending like real paper. Drag a sheet to turn it, hover to light it — all three share one WebGL context. Inspired by ThreeUI's ThreeDPaper.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "webgl",
+        "three",
+        "paper",
+        "glass",
+        "certificate",
+        "shader",
+        "drag",
+        "3d",
+        "dark",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/paper-grid.json"
     },
     {
       "slug": "air-hero",
@@ -804,6 +1168,26 @@
         "animated"
       ],
       "installUrl": "https://zepa.design/r/wave-hero.json"
+    },
+    {
+      "slug": "zaveda-hero",
+      "title": "Zaveda Hero",
+      "category": "hero-sections",
+      "description": "Inspired by the aave.com app landing page — a savings-app hero on a soft lilac gradient with a sticky glass nav, a staggered entrance that lifts the badge, headline, subtitle and buttons in turn, and three phones fanned with the centre one raised and larger in front. Over the middle screen sits a live earnings readout built from real digit wheels: each decimal is its own clipped strip of slots ordered nine to zero, shifted with translateY on a --slot-h variable, and given a shorter transition the further right it sits, so the trailing decimals blur along while the leading ones barely move. Scrolling insets the stage and rounds its corners. The component owns its own scroll container, so it never touches window scroll or position:fixed.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "app",
+        "phone",
+        "odometer",
+        "counter",
+        "gradient",
+        "animated",
+        "fintech",
+        "light",
+        "landing"
+      ],
+      "installUrl": "https://zepa.design/r/zaveda-hero.json"
     },
     {
       "slug": "zoom-hero",

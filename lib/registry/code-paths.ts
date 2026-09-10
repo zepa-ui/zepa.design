@@ -2,6 +2,54 @@
 // Run: npm run build:registry
 
 export const codePaths: Record<string, string[]> = {
+  "cards-animation": [
+    "animations/cards-animation/demo.tsx",
+  ],
+  "draggable-animation": [
+    "animations/draggable-animation/demo.tsx",
+  ],
+  "jiggle-animation": [
+    "animations/jiggle-animation/demo.tsx",
+  ],
+  "reveal1-animation": [
+    "animations/reveal1-animation/demo.tsx",
+  ],
+  "reveal3-animation": [
+    "animations/reveal3-animation/demo.tsx",
+  ],
+  "reveal4-animation": [
+    "animations/reveal4-animation/demo.tsx",
+  ],
+  "reveal6-animation": [
+    "animations/reveal6-animation/demo.tsx",
+  ],
+  "scroll1-animation": [
+    "animations/scroll1-animation/demo.tsx",
+  ],
+  "scroll2-animation": [
+    "animations/scroll2-animation/demo.tsx",
+  ],
+  "scroll3-animation": [
+    "animations/scroll3-animation/demo.tsx",
+  ],
+  "scroll4-animation": [
+    "animations/scroll4-animation/demo.tsx",
+  ],
+  "scroll5-animation": [
+    "animations/scroll5-animation/demo.tsx",
+  ],
+  "scroll6-animation": [
+    "animations/scroll6-animation/demo.tsx",
+  ],
+  "any-grid": [
+    "grid-sections/any-grid/demo.tsx",
+  ],
+  "companion-grid": [
+    "grid-sections/companion-grid/demo.tsx",
+  ],
+  "crypto-grid": [
+    "grid-sections/crypto-grid/demo.tsx",
+  ],
   "featured1-grid": [
     "grid-sections/featured1-grid/demo.tsx",
   ],
@@ -34,6 +82,13 @@ export const codePaths: Record<string, string[]> = {
   ],
   "featured9-grid": [
     "grid-sections/featured9-grid/demo.tsx",
+  ],
+  "girl-grid": [
+    "grid-sections/girl-grid/demo.tsx",
+  ],
+  "paper-grid": [
+    "grid-sections/paper-grid/demo.tsx",
+    "grid-sections/paper-grid/ui/paper-sheets.tsx",
   ],
   "air-hero": [
     "hero-sections/air-hero/demo.tsx",
@@ -147,6 +202,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "wave-hero": [
     "hero-sections/wave-hero/demo.tsx",
+  ],
+  "zaveda-hero": [
+    "hero-sections/zaveda-hero/demo.tsx",
   ],
   "zoom-hero": [
     "hero-sections/zoom-hero/demo.tsx",

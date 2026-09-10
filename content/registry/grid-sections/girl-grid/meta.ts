@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "girl-grid",
+  title: "Girl Grid",
+  description:
+    "A five-tile support-agent bento on soft grey. A portrait under a frosted band carries a conversation that arrives bubble by bubble and starts over; the language card is a real set of switches whose chips swap for flags as you turn them on; the conversations counter sits under a bare ZepaFolder whose files fan out on hover; and the omni-channel tile floats its channels along a dashed arc that keeps tracing itself.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/girl-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "chat",
+    "toggle",
+    "support",
+    "saas",
+    "glass",
+    "light",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: ["https://zepa.design/r/zepa-folder.json"],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll2-animation",
+  title: "Scroll 2 Animation",
+  description:
+    "Tiles rise out of deep space, turning and dimming as they pass while the grid counter-rotates and scales beneath them. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll2-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "perspective",
+    "rise",
+    "brightness",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
