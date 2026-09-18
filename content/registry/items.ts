@@ -14,7 +14,9 @@ import { meta as animationsScroll3Animation } from "./animations/scroll3-animati
 import { meta as animationsScroll4Animation } from "./animations/scroll4-animation/meta"
 import { meta as animationsScroll5Animation } from "./animations/scroll5-animation/meta"
 import { meta as animationsScroll6Animation } from "./animations/scroll6-animation/meta"
+import { meta as animationsSliderAnimation } from "./animations/slider-animation/meta"
 import { meta as gridSectionsAnyGrid } from "./grid-sections/any-grid/meta"
+import { meta as gridSectionsClippedGrid } from "./grid-sections/clipped-grid/meta"
 import { meta as gridSectionsCompanionGrid } from "./grid-sections/companion-grid/meta"
 import { meta as gridSectionsCryptoGrid } from "./grid-sections/crypto-grid/meta"
 import { meta as gridSectionsFeatured1Grid } from "./grid-sections/featured1-grid/meta"
@@ -30,6 +32,7 @@ import { meta as gridSectionsFeatured8Grid } from "./grid-sections/featured8-gri
 import { meta as gridSectionsFeatured9Grid } from "./grid-sections/featured9-grid/meta"
 import { meta as gridSectionsGirlGrid } from "./grid-sections/girl-grid/meta"
 import { meta as gridSectionsPaperGrid } from "./grid-sections/paper-grid/meta"
+import { meta as gridSectionsStickyGrid } from "./grid-sections/sticky-grid/meta"
 import { meta as heroSectionsAirHero } from "./hero-sections/air-hero/meta"
 import { meta as heroSectionsAmeroHero } from "./hero-sections/amero-hero/meta"
 import { meta as heroSectionsAmindHero } from "./hero-sections/amind-hero/meta"
@@ -113,7 +116,9 @@ export const registryItems = [
   animationsScroll4Animation,
   animationsScroll5Animation,
   animationsScroll6Animation,
+  animationsSliderAnimation,
   gridSectionsAnyGrid,
+  gridSectionsClippedGrid,
   gridSectionsCompanionGrid,
   gridSectionsCryptoGrid,
   gridSectionsFeatured1Grid,
@@ -129,6 +134,7 @@ export const registryItems = [
   gridSectionsFeatured9Grid,
   gridSectionsGirlGrid,
   gridSectionsPaperGrid,
+  gridSectionsStickyGrid,
   heroSectionsAirHero,
   heroSectionsAmeroHero,
   heroSectionsAmindHero,

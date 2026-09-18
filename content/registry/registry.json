@@ -266,6 +266,26 @@
       "installUrl": "https://zepa.design/r/scroll6-animation.json"
     },
     {
+      "slug": "slider-animation",
+      "title": "Slider Animation",
+      "category": "animations",
+      "description": "A vertical scroll-snap rail in 2000px of perspective. Each card turns from -40° on both axes, squares up flat as it snaps to centre, then turns away, with the caption drifting on its own track. Inspired by Kevin Haag's MicroMonday.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "scroll",
+        "snap",
+        "3d",
+        "perspective",
+        "slider",
+        "carousel",
+        "gallery",
+        "dark",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/slider-animation.json"
+    },
+    {
       "slug": "any-grid",
       "title": "Any Grid",
       "category": "grid-sections",
@@ -284,6 +304,26 @@
         "saas"
       ],
       "installUrl": "https://zepa.design/r/any-grid.json"
+    },
+    {
+      "slug": "clipped-grid",
+      "title": "Clipped Grid",
+      "category": "grid-sections",
+      "description": "A video stage cut by a seven-point polygon — chamfered at the top-right, with a step bitten out of the bottom-left that the floating tab rail sits inside. Switching a tab crossfades the clip and replays the glass card over it.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "video",
+        "tabs",
+        "clip-path",
+        "glass",
+        "light",
+        "saas",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/clipped-grid.json"
     },
     {
       "slug": "companion-grid",
@@ -588,6 +628,26 @@
         "animated"
       ],
       "installUrl": "https://zepa.design/r/paper-grid.json"
+    },
+    {
+      "slug": "sticky-grid",
+      "title": "Sticky Grid",
+      "category": "grid-sections",
+      "description": "A sticky media frame beside a column of tall scrolling steps. An IntersectionObserver picks the active step and the incoming clip resolves into place — blur and contrast falling away as it settles back from a slight overscale.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "sticky",
+        "scroll",
+        "video",
+        "steps",
+        "showcase",
+        "light",
+        "saas",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/sticky-grid.json"
     },
     {
       "slug": "air-hero",
