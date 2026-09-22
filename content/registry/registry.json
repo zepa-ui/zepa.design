@@ -891,6 +891,27 @@
       "installUrl": "https://zepa.design/r/glean-hero.json"
     },
     {
+      "slug": "globe-hero",
+      "title": "Globe Hero",
+      "category": "hero-sections",
+      "description": "A headline whose middle word swaps every two seconds — each character its own spring, so the line reflows around the new width — beside a dotted WebGL globe carrying spinning edge-region markers and live request counters on every arc. Inspired by CohortData.com.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "globe",
+        "webgl",
+        "map",
+        "text-rotate",
+        "navbar",
+        "cdn",
+        "light",
+        "saas",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/globe-hero.json"
+    },
+    {
       "slug": "glsl-hills-hero",
       "title": "GLSL Hills Hero",
       "category": "hero-sections",
@@ -1018,6 +1039,27 @@
         "animated"
       ],
       "installUrl": "https://zepa.design/r/paper-hero.json"
+    },
+    {
+      "slug": "plane-hero",
+      "title": "Plane Hero",
+      "category": "hero-sections",
+      "description": "A centred headline over a dotted WebGL globe. City chips ride the sphere on CSS anchor positioning and fade as they rotate away, while great-circle arcs redraw on a stagger with a 3D plane at each peak, yawed to its own flight bearing. Plane model: chroma3d on Sketchfab (https://sketchfab.com/vendol21). Globe by cobe, vendored under MIT.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "globe",
+        "webgl",
+        "3d",
+        "map",
+        "arcs",
+        "travel",
+        "light",
+        "saas",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/plane-hero.json"
     },
     {
       "slug": "pop-hero",

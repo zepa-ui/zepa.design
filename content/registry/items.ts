@@ -46,6 +46,7 @@ import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanaly
 import { meta as heroSectionsDropsHero } from "./hero-sections/drops-hero/meta"
 import { meta as heroSectionsFigmaHero } from "./hero-sections/figma-hero/meta"
 import { meta as heroSectionsGleanHero } from "./hero-sections/glean-hero/meta"
+import { meta as heroSectionsGlobeHero } from "./hero-sections/globe-hero/meta"
 import { meta as heroSectionsGlslHillsHero } from "./hero-sections/glsl-hills-hero/meta"
 import { meta as heroSectionsLenaHero } from "./hero-sections/lena-hero/meta"
 import { meta as heroSectionsMainframeHero } from "./hero-sections/mainframe-hero/meta"
@@ -53,6 +54,7 @@ import { meta as heroSectionsNewHero } from "./hero-sections/new-hero/meta"
 import { meta as heroSectionsOsmosHero } from "./hero-sections/osmos-hero/meta"
 import { meta as heroSectionsOyoHero } from "./hero-sections/oyo-hero/meta"
 import { meta as heroSectionsPaperHero } from "./hero-sections/paper-hero/meta"
+import { meta as heroSectionsPlaneHero } from "./hero-sections/plane-hero/meta"
 import { meta as heroSectionsPopHero } from "./hero-sections/pop-hero/meta"
 import { meta as heroSectionsPosterscrollHero } from "./hero-sections/posterscroll-hero/meta"
 import { meta as heroSectionsScroll1Hero } from "./hero-sections/scroll1-hero/meta"
@@ -148,6 +150,7 @@ export const registryItems = [
   heroSectionsDropsHero,
   heroSectionsFigmaHero,
   heroSectionsGleanHero,
+  heroSectionsGlobeHero,
   heroSectionsGlslHillsHero,
   heroSectionsLenaHero,
   heroSectionsMainframeHero,
@@ -155,6 +158,7 @@ export const registryItems = [
   heroSectionsOsmosHero,
   heroSectionsOyoHero,
   heroSectionsPaperHero,
+  heroSectionsPlaneHero,
   heroSectionsPopHero,
   heroSectionsPosterscrollHero,
   heroSectionsScroll1Hero,
