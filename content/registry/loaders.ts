@@ -146,6 +146,9 @@ export const registryLoaders: Record<
   "glean-hero": {
     demo: () => import("./hero-sections/glean-hero/demo"),
   },
+  "globe-hero": {
+    demo: () => import("./hero-sections/globe-hero/demo"),
+  },
   "glsl-hills-hero": {
     demo: () => import("./hero-sections/glsl-hills-hero/demo"),
   },
@@ -166,6 +169,9 @@ export const registryLoaders: Record<
   },
   "paper-hero": {
     demo: () => import("./hero-sections/paper-hero/demo"),
+  },
+  "plane-hero": {
+    demo: () => import("./hero-sections/plane-hero/demo"),
   },
   "pop-hero": {
     demo: () => import("./hero-sections/pop-hero/demo"),

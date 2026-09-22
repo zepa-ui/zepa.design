@@ -148,6 +148,12 @@ export const codePaths: Record<string, string[]> = {
   "glean-hero": [
     "hero-sections/glean-hero/demo.tsx",
   ],
+  "globe-hero": [
+    "hero-sections/globe-hero/demo.tsx",
+    "hero-sections/globe-hero/ui/cobe.ts",
+    "hero-sections/globe-hero/ui/globe-cdn.tsx",
+    "hero-sections/globe-hero/ui/text-rotate.tsx",
+  ],
   "glsl-hills-hero": [
     "hero-sections/glsl-hills-hero/demo.tsx",
     "hero-sections/glsl-hills-hero/ui/glsl-hills.tsx",
@@ -175,6 +181,11 @@ export const codePaths: Record<string, string[]> = {
   "paper-hero": [
     "hero-sections/paper-hero/demo.tsx",
     "hero-sections/paper-hero/ui/paper-card.tsx",
+  ],
+  "plane-hero": [
+    "hero-sections/plane-hero/demo.tsx",
+    "hero-sections/plane-hero/ui/cobe.ts",
+    "hero-sections/plane-hero/ui/globe.tsx",
   ],
   "pop-hero": [
     "hero-sections/pop-hero/demo.tsx",

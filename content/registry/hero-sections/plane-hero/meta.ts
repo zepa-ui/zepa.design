@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "plane-hero",
+  title: "Plane Hero",
+  description:
+    "A centred headline over a dotted WebGL globe. City chips ride the sphere on CSS anchor positioning and fade as they rotate away, while great-circle arcs redraw on a stagger with a 3D plane at each peak, yawed to its own flight bearing. Plane model: chroma3d on Sketchfab (https://sketchfab.com/vendol21). Globe by cobe, vendored under MIT.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/plane-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "globe",
+    "webgl",
+    "3d",
+    "map",
+    "arcs",
+    "travel",
+    "light",
+    "saas",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

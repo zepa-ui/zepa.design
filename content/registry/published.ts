@@ -102,4 +102,6 @@ export const publishedDates: Record<string, string> = {
   "slider-animation": "2026-09-18T18:59:52.173Z",
   "clipped-grid": "2026-09-18T18:59:52.174Z",
   "sticky-grid": "2026-09-18T18:59:52.174Z",
+  "globe-hero": "2026-09-22T17:06:58.313Z",
+  "plane-hero": "2026-09-22T17:06:58.314Z",
 }

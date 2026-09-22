@@ -18,6 +18,8 @@ import PaperHero from "@/content/registry/hero-sections/paper-hero/demo"
 import PopHero from "@/content/registry/hero-sections/pop-hero/demo"
 import WaveHero from "@/content/registry/hero-sections/wave-hero/demo"
 import ZoomHero from "@/content/registry/hero-sections/zoom-hero/demo"
+import PlaneHero from "@/content/registry/hero-sections/plane-hero/demo"
+import GlobeHero from "@/content/registry/hero-sections/globe-hero/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -42,6 +44,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "video1-hero": Video1Hero,
   "wave-hero": WaveHero,
   "zoom-hero": ZoomHero,
+  "plane-hero": PlaneHero,
+  "globe-hero": GlobeHero,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -65,6 +69,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "video1-hero": "#232322",
   "wave-hero": "#808080",
   "zoom-hero": "#f7f5f0",
+  "plane-hero": "#f6f9ff",
+  "globe-hero": "#f3f3f3",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS
