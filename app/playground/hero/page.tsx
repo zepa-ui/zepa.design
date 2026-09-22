@@ -4,6 +4,7 @@ import FigmaHero from "@/content/registry/hero-sections/figma-hero/demo"
 import BluishHero from "@/content/registry/hero-sections/bluish-hero/demo"
 import SynthesiaHero from "@/content/registry/hero-sections/synthesia-hero/demo"
 import ScrolldownHero from "@/content/registry/hero-sections/scrolldown-hero/demo"
+import ZavedaHero from "@/content/registry/hero-sections/zaveda-hero/demo"
 import SelfieHero from "@/content/registry/hero-sections/selfie-hero/demo"
 import BevelHero from "@/content/registry/hero-sections/bevel-hero/demo"
 import CardHero from "@/content/registry/hero-sections/card-hero/demo"
@@ -17,6 +18,8 @@ import PaperHero from "@/content/registry/hero-sections/paper-hero/demo"
 import PopHero from "@/content/registry/hero-sections/pop-hero/demo"
 import WaveHero from "@/content/registry/hero-sections/wave-hero/demo"
 import ZoomHero from "@/content/registry/hero-sections/zoom-hero/demo"
+import PlaneHero from "@/content/registry/hero-sections/plane-hero/demo"
+import GlobeHero from "@/content/registry/hero-sections/globe-hero/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -28,6 +31,7 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "bluish-hero": BluishHero,
   "synthesia-hero": SynthesiaHero,
   "scrolldown-hero": ScrolldownHero,
+  "zaveda-hero": ZavedaHero,
   "selfie-hero": SelfieHero,
   "card-hero": CardHero,
   "crnacura-hero": CrnacuraHero,
@@ -40,6 +44,8 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "video1-hero": Video1Hero,
   "wave-hero": WaveHero,
   "zoom-hero": ZoomHero,
+  "plane-hero": PlaneHero,
+  "globe-hero": GlobeHero,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -50,6 +56,7 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "bluish-hero": "#fdfdfd",
   "synthesia-hero": "#ffffff",
   "scrolldown-hero": "#d8d6d2",
+  "zaveda-hero": "#ffffff",
   "selfie-hero": "#f7f7f5",
   "card-hero": "#000000",
   "crnacura-hero": "#f7f5f0",
@@ -62,6 +69,8 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "video1-hero": "#232322",
   "wave-hero": "#808080",
   "zoom-hero": "#f7f5f0",
+  "plane-hero": "#f6f9ff",
+  "globe-hero": "#f3f3f3",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS

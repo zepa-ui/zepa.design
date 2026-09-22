@@ -11,6 +11,60 @@ export const registryLoaders: Record<
     demo: () => Promise<DemoModule>
   }
 > = {
+  "cards-animation": {
+    demo: () => import("./animations/cards-animation/demo"),
+  },
+  "draggable-animation": {
+    demo: () => import("./animations/draggable-animation/demo"),
+  },
+  "jiggle-animation": {
+    demo: () => import("./animations/jiggle-animation/demo"),
+  },
+  "reveal1-animation": {
+    demo: () => import("./animations/reveal1-animation/demo"),
+  },
+  "reveal3-animation": {
+    demo: () => import("./animations/reveal3-animation/demo"),
+  },
+  "reveal4-animation": {
+    demo: () => import("./animations/reveal4-animation/demo"),
+  },
+  "reveal6-animation": {
+    demo: () => import("./animations/reveal6-animation/demo"),
+  },
+  "scroll1-animation": {
+    demo: () => import("./animations/scroll1-animation/demo"),
+  },
+  "scroll2-animation": {
+    demo: () => import("./animations/scroll2-animation/demo"),
+  },
+  "scroll3-animation": {
+    demo: () => import("./animations/scroll3-animation/demo"),
+  },
+  "scroll4-animation": {
+    demo: () => import("./animations/scroll4-animation/demo"),
+  },
+  "scroll5-animation": {
+    demo: () => import("./animations/scroll5-animation/demo"),
+  },
+  "scroll6-animation": {
+    demo: () => import("./animations/scroll6-animation/demo"),
+  },
+  "slider-animation": {
+    demo: () => import("./animations/slider-animation/demo"),
+  },
+  "any-grid": {
+    demo: () => import("./grid-sections/any-grid/demo"),
+  },
+  "clipped-grid": {
+    demo: () => import("./grid-sections/clipped-grid/demo"),
+  },
+  "companion-grid": {
+    demo: () => import("./grid-sections/companion-grid/demo"),
+  },
+  "crypto-grid": {
+    demo: () => import("./grid-sections/crypto-grid/demo"),
+  },
   "featured1-grid": {
     demo: () => import("./grid-sections/featured1-grid/demo"),
   },
@@ -43,6 +97,15 @@ export const registryLoaders: Record<
   },
   "featured9-grid": {
     demo: () => import("./grid-sections/featured9-grid/demo"),
+  },
+  "girl-grid": {
+    demo: () => import("./grid-sections/girl-grid/demo"),
+  },
+  "paper-grid": {
+    demo: () => import("./grid-sections/paper-grid/demo"),
+  },
+  "sticky-grid": {
+    demo: () => import("./grid-sections/sticky-grid/demo"),
   },
   "air-hero": {
     demo: () => import("./hero-sections/air-hero/demo"),
@@ -83,6 +146,9 @@ export const registryLoaders: Record<
   "glean-hero": {
     demo: () => import("./hero-sections/glean-hero/demo"),
   },
+  "globe-hero": {
+    demo: () => import("./hero-sections/globe-hero/demo"),
+  },
   "glsl-hills-hero": {
     demo: () => import("./hero-sections/glsl-hills-hero/demo"),
   },
@@ -103,6 +169,9 @@ export const registryLoaders: Record<
   },
   "paper-hero": {
     demo: () => import("./hero-sections/paper-hero/demo"),
+  },
+  "plane-hero": {
+    demo: () => import("./hero-sections/plane-hero/demo"),
   },
   "pop-hero": {
     demo: () => import("./hero-sections/pop-hero/demo"),
@@ -136,6 +205,9 @@ export const registryLoaders: Record<
   },
   "wave-hero": {
     demo: () => import("./hero-sections/wave-hero/demo"),
+  },
+  "zaveda-hero": {
+    demo: () => import("./hero-sections/zaveda-hero/demo"),
   },
   "zoom-hero": {
     demo: () => import("./hero-sections/zoom-hero/demo"),

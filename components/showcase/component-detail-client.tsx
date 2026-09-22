@@ -16,7 +16,7 @@ export function ComponentDetailClient({
   ...props
 }: ComponentDetailClientProps) {
   const { recordInstall } = useComponentStats(slug, initialStats, {
-    trackViewOnReload: true,
+    trackView: true,
   })
 
   return (

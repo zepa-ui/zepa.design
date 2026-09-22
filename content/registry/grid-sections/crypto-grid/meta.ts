@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "crypto-grid",
+  title: "Crypto Grid",
+  description:
+    "A seven-tile payments bento on white — a purple hero over three partner coins stacked and zooming together, a ring of app tiles sweeping the top arc of a circle whose centre sits below the card, a QR plate riding half off the top edge, a floating report panel whose spend bar fills on wake, a field of glyphs quietly rewriting itself behind the secure card, a QR that gets scanned on hover and a bell that rings. Every tile lifts to the pointer; the whole board wakes when it scrolls into view.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/crypto-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "crypto",
+    "fintech",
+    "orbit",
+    "logos",
+    "hover",
+    "light",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
