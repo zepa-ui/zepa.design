@@ -65,6 +65,9 @@ export const registryLoaders: Record<
   "crypto-grid": {
     demo: () => import("./grid-sections/crypto-grid/demo"),
   },
+  "do-grid": {
+    demo: () => import("./grid-sections/do-grid/demo"),
+  },
   "featured1-grid": {
     demo: () => import("./grid-sections/featured1-grid/demo"),
   },
@@ -98,6 +101,9 @@ export const registryLoaders: Record<
   "featured9-grid": {
     demo: () => import("./grid-sections/featured9-grid/demo"),
   },
+  "file-grid": {
+    demo: () => import("./grid-sections/file-grid/demo"),
+  },
   "girl-grid": {
     demo: () => import("./grid-sections/girl-grid/demo"),
   },
@@ -106,6 +112,9 @@ export const registryLoaders: Record<
   },
   "sticky-grid": {
     demo: () => import("./grid-sections/sticky-grid/demo"),
+  },
+  "tuple-grid": {
+    demo: () => import("./grid-sections/tuple-grid/demo"),
   },
   "air-hero": {
     demo: () => import("./hero-sections/air-hero/demo"),

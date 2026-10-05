@@ -1,0 +1,26 @@
+export const meta = {
+  slug: "tuple-grid",
+  title: "Tuple Grid",
+  description:
+    "A pairing-tool feature bento where every card responds. Pick a stream quality and watch the pill glide, unlock the end-to-end padlock to scramble the packets, run a live four-person video call with a rotating speaker, mute, camera and leave controls, and flip the shared screen between you and your pair — all rising in on a stagger as it scrolls into view.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/tuple-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "features",
+    "video",
+    "video-call",
+    "saas",
+    "light",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

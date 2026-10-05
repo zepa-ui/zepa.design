@@ -366,6 +366,26 @@
       "installUrl": "https://zepa.design/r/crypto-grid.json"
     },
     {
+      "slug": "do-grid",
+      "title": "Do Grid",
+      "category": "grid-sections",
+      "description": "A dark investor dashboard where every tile responds. Drag the sentiment gauge, switch the performance range and scrub its crosshair, cross-highlight the allocation bar and legend, hover the heatmap by day, and step the protection level up — all rising in on a stagger as it scrolls into view.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "dashboard",
+        "finance",
+        "charts",
+        "heatmap",
+        "gauge",
+        "dark",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/do-grid.json"
+    },
+    {
       "slug": "featured1-grid",
       "title": "Featured1 Grid",
       "category": "grid-sections",
@@ -588,6 +608,27 @@
       "installUrl": "https://zepa.design/r/featured9-grid.json"
     },
     {
+      "slug": "file-grid",
+      "title": "File Grid",
+      "category": "grid-sections",
+      "description": "A three-step upload, settings and storage band where every tile works: a real file picker and drop zone that lists what you add, a ZepaFolder that fans its files out on hover and counts your uploads, and a storage bar that grows by file kind and doubles on upgrade.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "upload",
+        "drag-and-drop",
+        "files",
+        "storage",
+        "folder",
+        "steps",
+        "light",
+        "saas",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/file-grid.json"
+    },
+    {
       "slug": "girl-grid",
       "title": "Girl Grid",
       "category": "grid-sections",
@@ -648,6 +689,25 @@
         "animated"
       ],
       "installUrl": "https://zepa.design/r/sticky-grid.json"
+    },
+    {
+      "slug": "tuple-grid",
+      "title": "Tuple Grid",
+      "category": "grid-sections",
+      "description": "A pairing-tool feature bento where every card responds. Pick a stream quality and watch the pill glide, unlock the end-to-end padlock to scramble the packets, run a live four-person video call with a rotating speaker, mute, camera and leave controls, and flip the shared screen between you and your pair — all rising in on a stagger as it scrolls into view.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "grid",
+        "bento",
+        "features",
+        "video",
+        "video-call",
+        "saas",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/tuple-grid.json"
     },
     {
       "slug": "air-hero",
