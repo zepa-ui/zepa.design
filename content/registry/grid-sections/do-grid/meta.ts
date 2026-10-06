@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "do-grid",
+  title: "Do Grid",
+  description:
+    "A dark investor dashboard where every tile responds. Drag the sentiment gauge, switch the performance range and scrub its crosshair, cross-highlight the allocation bar and legend, hover the heatmap by day, and step the protection level up — all rising in on a stagger as it scrolls into view.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/do-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "dashboard",
+    "finance",
+    "charts",
+    "heatmap",
+    "gauge",
+    "dark",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

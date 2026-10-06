@@ -13,16 +13,16 @@ import { TextRotate } from "./ui/text-rotate"
    rises from below. That line is a block of its own,
    so a longer word widens it without ever rewrapping
    the lines above or below. On the right a dotted
-   WebGL globe with
-   a spinning tetrahedron at every edge region and a
-   request counter drifting over every arc.
+   WebGL globe with a spinning tetrahedron at every
+   edge region and a request counter drifting over
+   every arc.
 
    Both sets of chips ride the sphere on CSS anchor
    positioning — cobe publishes an anchor name and a
    visibility number per point, so they track and
    fade in CSS with no measured coordinates.
 
-   cobe is vendored into ui/cobe.js under its MIT
+   cobe is vendored into ui/cobe.ts under its MIT
    licence rather than installed, so the globe needs
    no npm package. The word rotation uses motion,
    which the project already ships.

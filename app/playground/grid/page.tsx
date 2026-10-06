@@ -16,6 +16,9 @@ import CryptoGrid from "@/content/registry/grid-sections/crypto-grid/demo"
 import GirlGrid from "@/content/registry/grid-sections/girl-grid/demo"
 import ClippedGrid from "@/content/registry/grid-sections/clipped-grid/demo"
 import StickyGrid from "@/content/registry/grid-sections/sticky-grid/demo"
+import DoGrid from "@/content/registry/grid-sections/do-grid/demo"
+import FileGrid from "@/content/registry/grid-sections/file-grid/demo"
+import TupleGrid from "@/content/registry/grid-sections/tuple-grid/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
@@ -38,6 +41,9 @@ const LOCAL_PLAYGROUND_SLUGS = {
   "girl-grid": GirlGrid,
   "clipped-grid": ClippedGrid,
   "sticky-grid": StickyGrid,
+  "do-grid": DoGrid,
+  "file-grid": FileGrid,
+  "tuple-grid": TupleGrid,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
@@ -59,6 +65,9 @@ const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> =
   "girl-grid": "#ececed",
   "clipped-grid": "#f3f3f3",
   "sticky-grid": "#f3f3f3",
+  "do-grid": "#9ca99f",
+  "file-grid": "#ffffff",
+  "tuple-grid": "#ffffff",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS

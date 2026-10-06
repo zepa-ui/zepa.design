@@ -56,6 +56,9 @@ export const codePaths: Record<string, string[]> = {
   "crypto-grid": [
     "grid-sections/crypto-grid/demo.tsx",
   ],
+  "do-grid": [
+    "grid-sections/do-grid/demo.tsx",
+  ],
   "featured1-grid": [
     "grid-sections/featured1-grid/demo.tsx",
   ],
@@ -89,6 +92,9 @@ export const codePaths: Record<string, string[]> = {
   "featured9-grid": [
     "grid-sections/featured9-grid/demo.tsx",
   ],
+  "file-grid": [
+    "grid-sections/file-grid/demo.tsx",
+  ],
   "girl-grid": [
     "grid-sections/girl-grid/demo.tsx",
   ],
@@ -98,6 +104,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "sticky-grid": [
     "grid-sections/sticky-grid/demo.tsx",
+  ],
+  "tuple-grid": [
+    "grid-sections/tuple-grid/demo.tsx",
   ],
   "air-hero": [
     "hero-sections/air-hero/demo.tsx",

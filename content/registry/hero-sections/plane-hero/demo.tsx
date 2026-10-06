@@ -20,7 +20,7 @@ import { Globe, type Arc, type Marker } from "./ui/globe"
    point on a rotating sphere and faded as it passes
    behind, in CSS alone.
 
-   cobe is vendored into ui/cobe.js rather than
+   cobe is vendored into ui/cobe.ts rather than
    installed, so the component owns its own source
    and needs no npm install. Its MIT notice travels
    with it.
