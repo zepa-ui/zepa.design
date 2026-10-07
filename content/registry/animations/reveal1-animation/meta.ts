@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "reveal1-animation",
+  title: "Reveal 1 Animation",
+  description:
+    "A circular mask blooms from nothing to 820 units under a coarse fractal-noise displacement, while the picture scales to 1.2 and brightens by half. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+  category: "animations",
+  preview: "/previews/animations/reveal1-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "flip",
+    "scrolltrigger",
+    "svg",
+    "filter",
+    "mask",
+    "reveal",
+    "scroll",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

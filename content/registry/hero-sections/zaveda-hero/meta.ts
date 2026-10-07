@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "zaveda-hero",
+  title: "Zaveda Hero",
+  description:
+    "Inspired by the aave.com app landing page — a savings-app hero on a soft lilac gradient with a sticky glass nav, a staggered entrance that lifts the badge, headline, subtitle and buttons in turn, and three phones fanned with the centre one raised and larger in front. Over the middle screen sits a live earnings readout built from real digit wheels: each decimal is its own clipped strip of slots ordered nine to zero, shifted with translateY on a --slot-h variable, and given a shorter transition the further right it sits, so the trailing decimals blur along while the leading ones barely move. Scrolling insets the stage and rounds its corners. The component owns its own scroll container, so it never touches window scroll or position:fixed.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/zaveda-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "app",
+    "phone",
+    "odometer",
+    "counter",
+    "gradient",
+    "animated",
+    "fintech",
+    "light",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

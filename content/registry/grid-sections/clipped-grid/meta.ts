@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "clipped-grid",
+  title: "Clipped Grid",
+  description:
+    "A video stage cut by a seven-point polygon — chamfered at the top-right, with a step bitten out of the bottom-left that the floating tab rail sits inside. Switching a tab crossfades the clip and replays the glass card over it.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/clipped-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "video",
+    "tabs",
+    "clip-path",
+    "glass",
+    "light",
+    "saas",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

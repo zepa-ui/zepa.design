@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "sticky-grid",
+  title: "Sticky Grid",
+  description:
+    "A sticky media frame beside a column of tall scrolling steps. An IntersectionObserver picks the active step and the incoming clip resolves into place — blur and contrast falling away as it settles back from a slight overscale.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/sticky-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "sticky",
+    "scroll",
+    "video",
+    "steps",
+    "showcase",
+    "light",
+    "saas",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

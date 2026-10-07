@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "reveal3-animation",
+  title: "Reveal 3 Animation",
+  description:
+    "The only one masked by a path rather than a circle: a flat line splits into a lens as the two quadratic control points pull apart to 800 and -200. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+  category: "animations",
+  preview: "/previews/animations/reveal3-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "flip",
+    "scrolltrigger",
+    "svg",
+    "filter",
+    "mask",
+    "reveal",
+    "scroll",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

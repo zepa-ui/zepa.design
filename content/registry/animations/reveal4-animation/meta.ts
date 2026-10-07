@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "reveal4-animation",
+  title: "Reveal 4 Animation",
+  description:
+    "The tightest noise of the set — base frequency 0.5 — so the edge dissolves into fine grain instead of large tears. The two words start centred on a full screen, then FLIP into the layout below as the mask opens under them — one scrubbed timeline drives the title move, the mask and the image together. One of seven on-scroll SVG filter reveals from Codrops' OnScrollFilter (MIT, Codrops), split into a component per reveal.",
+  category: "animations",
+  preview: "/previews/animations/reveal4-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "flip",
+    "scrolltrigger",
+    "svg",
+    "filter",
+    "mask",
+    "reveal",
+    "scroll",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

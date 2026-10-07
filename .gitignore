@@ -39,6 +39,17 @@ yarn-error.log*
 # private dev journal (local only — not for git)
 dev-journal.md
 
+# backend/architecture notes — local only, same as the journal.
+# Contains no secret VALUES (variable names only), but it maps the whole
+# auth/data architecture and belongs with the journal rather than in a
+# public repo.
+backend.md
+
+# agent skill packs installed by `npx skills add` — tooling, not product code,
+# and it churns on every skills update
+.agents/
+skills-lock.json
+
 # vercel
 .vercel
 

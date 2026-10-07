@@ -9,6 +9,7 @@ import { getShadcnInstallCommand } from "@/lib/site-url"
 import type { HighlightedCodeFile } from "@/lib/registry/highlight"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import { CodeGate } from "@/components/auth/code-gate"
 
 import { CodeBlock } from "./code-block"
 import { ComponentDemo } from "./component-demo"
@@ -92,6 +93,8 @@ export function ComponentDetail({
             Back to components
           </Link>
 
+          {/* the bookmark control lives in DemoToolbar with the other actions —
+              two of them on one screen is a duplicate control, not a shortcut */}
           <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
           <p className="mt-3 text-sm leading-relaxed text-white/60">
             {description}
@@ -101,25 +104,28 @@ export function ComponentDetail({
             <h2 className="text-xs font-medium uppercase tracking-wider text-white/40">
               Install
             </h2>
-            <InstallCommandBlock
-              label="shadcn CLI"
-              command={shadcnInstallCommand}
-              pm={pm}
-              onPmChange={setPm}
-              copyLabel="Copy command"
-              onCopied={onInstallCopy}
-            />
-            {installCommand ? (
-              <div className="pt-2">
-                <InstallCommandBlock
-                  label="Dependencies"
-                  command={installCommand}
-                  pm={pm}
-                  onPmChange={setPm}
-                  copyLabel="Copy install"
-                />
-              </div>
-            ) : null}
+            {/* heading stays legible; only the commands are gated */}
+            <CodeGate>
+              <InstallCommandBlock
+                label="shadcn CLI"
+                command={shadcnInstallCommand}
+                pm={pm}
+                onPmChange={setPm}
+                copyLabel="Copy command"
+                onCopied={onInstallCopy}
+              />
+              {installCommand ? (
+                <div className="pt-2">
+                  <InstallCommandBlock
+                    label="Dependencies"
+                    command={installCommand}
+                    pm={pm}
+                    onPmChange={setPm}
+                    copyLabel="Copy install"
+                  />
+                </div>
+              ) : null}
+            </CodeGate>
           </section>
 
           {codeEntries.length > 0 ? (
@@ -173,11 +179,15 @@ export function ComponentDetail({
                 })}
               </div>
 
+              {/* the filename tabs stay usable — only the source is gated, so
+                  a visitor can still see which files ship with the component */}
               {activeCode ? (
-                <>
+                <CodeGate>
                   <CodeBlock html={activeCode.html} />
-                  <CopyButton value={activeCode.raw} label="Copy code" />
-                </>
+                  <div className="pt-3">
+                    <CopyButton value={activeCode.raw} label="Copy code" />
+                  </div>
+                </CodeGate>
               ) : null}
             </section>
           ) : null}

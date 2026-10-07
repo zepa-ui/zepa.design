@@ -1,6 +1,10 @@
+import { ClerkProvider } from "@clerk/nextjs";
+import { BookmarkProvider } from "@/components/bookmarks/bookmark-provider";
+import { clerkAppearance } from "@/lib/clerk-appearance";
 import type React from "react"
 import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
+import Script from "next/script"
 import { buildMetadata } from "@/lib/seo"
 import { JsonLd } from "@/lib/marketing/json-ld"
 import {
@@ -15,7 +19,12 @@ const manrope = Manrope({
   variable: "--font-manrope",
 })
 
-const GA_MEASUREMENT_ID = "G-SE8GZDHQTT"
+/**
+ * Unset on localhost and preview deploys, which is the point — a hardcoded ID
+ * meant dev traffic was landing in the production property. The scripts below
+ * are skipped entirely when this is absent.
+ */
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zepa.design"),
@@ -50,20 +59,27 @@ export default function RootLayout({
         <JsonLd data={organizationSchema()} />
         <JsonLd data={webSiteSchema()} />
 
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_MEASUREMENT_ID}');
-            `,
-          }}
-        />
+        {/* next/script, not a raw <script>. Raw tags worked as direct children
+            of <head>, but wrapping them in a conditional means React renders
+            them client-side on navigation, where inline scripts never execute —
+            which is exactly what the console error reported. */}
+        {GA_MEASUREMENT_ID ? (
+          <>
+            <Script
+              id="ga-src"
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            />
+            <Script id="ga-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        ) : null}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -83,8 +99,15 @@ export default function RootLayout({
         />
       </head>
       <body className={`${manrope.variable} font-sans antialiased`}>
-        <div className="noise-overlay" aria-hidden="true" />
-        {children}
+        {/* appearance set here so every Clerk surface inherits it — sign-in,
+            sign-up, the avatar popup and the settings panel */}
+        <ClerkProvider appearance={clerkAppearance}>
+          {/* one bookmark fetch per page load, shared by every button */}
+          <BookmarkProvider>
+            <div className="noise-overlay" aria-hidden="true" />
+            {children}
+          </BookmarkProvider>
+        </ClerkProvider>
       </body>
     </html>
   )

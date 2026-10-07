@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "globe-hero",
+  title: "Globe Hero",
+  description:
+    "A headline whose middle word swaps every two seconds — each character its own spring, so the line reflows around the new width — beside a dotted WebGL globe carrying spinning edge-region markers and live request counters on every arc. Inspired by CohortData.com.",
+  category: "hero-sections",
+  preview: "/previews/hero-sections/globe-hero/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "hero",
+    "globe",
+    "webgl",
+    "map",
+    "text-rotate",
+    "navbar",
+    "cdn",
+    "light",
+    "saas",
+    "interactive",
+    "animated",
+  ],
+  dependencies: ["motion"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "cards-animation",
+  title: "Cards Animation",
+  description:
+    "Eighteen cards fly in from alternating sides and settle onto a giant wheel that scrolling turns. Mostly duotone monochrome with warm and cool accents; click a card to open its detail panel. Inspired by @deadrabbbbit.",
+  category: "animations",
+  preview: "/previews/animations/cards-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scroll",
+    "carousel",
+    "wheel",
+    "cards",
+    "duotone",
+    "lightbox",
+    "light",
+    "interactive",
+  ],
+  dependencies: ["gsap"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

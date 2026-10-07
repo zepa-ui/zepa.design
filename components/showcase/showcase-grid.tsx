@@ -6,17 +6,19 @@ interface ComponentItem {
   slug: string
   title: string
   preview?: string
+  category?: string
 }
 
 interface ShowcaseGridProps {
   items: ComponentItem[]
 }
 
-export function ShowcaseGrid({
-  items,
-}: ShowcaseGridProps) {
+export function ShowcaseGrid({ items }: ShowcaseGridProps) {
   return (
-    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+    /* four up from lg. At a fixed column count the only way to grow the
+       tiles is to give back gutter, so the column gap is kept tight and the
+       row gap carries the visual separation instead. */
+    <div className="grid grid-cols-1 gap-x-3 gap-y-7 sm:grid-cols-2 lg:grid-cols-4">
       {items
         .filter((item) => item.preview)
         .map((item) => (
@@ -25,6 +27,7 @@ export function ShowcaseGrid({
             slug={item.slug}
             title={item.title}
             preview={item.preview!}
+            category={item.category}
           />
         ))}
     </div>

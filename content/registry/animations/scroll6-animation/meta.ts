@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "scroll6-animation",
+  title: "Scroll 6 Animation",
+  description:
+    "Tiles hinge from a pivot below themselves, swinging up while spinning a full turn on a stagger — a deck flipping itself into place. Inspired by Codrops.",
+  category: "animations",
+  preview: "/previews/animations/scroll6-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "gsap",
+    "scrolltrigger",
+    "scroll",
+    "grid",
+    "3d",
+    "flip",
+    "stagger",
+    "spin",
+    "dark",
+  ],
+  dependencies: ["gsap", "lenis"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
