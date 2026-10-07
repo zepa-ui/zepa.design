@@ -11,6 +11,12 @@ export const registryLoaders: Record<
     demo: () => Promise<DemoModule>
   }
 > = {
+  "gemini-ai": {
+    demo: () => import("./ai-section/gemini-ai/demo"),
+  },
+  "orangebot-ai": {
+    demo: () => import("./ai-section/orangebot-ai/demo"),
+  },
   "cards-animation": {
     demo: () => import("./animations/cards-animation/demo"),
   },

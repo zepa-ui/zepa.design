@@ -1,0 +1,26 @@
+export const meta = {
+  slug: "orangebot-ai",
+  title: "Orangebot AI",
+  description:
+    "A complete AI assistant chat front-end with no backend required. Zepa-branded website-builder assistant: sidebar with new chat, auto-created projects and profile; an orange bot avatar that rotates through five GIFs (no two neighbours match); streaming replies with markdown, template cards, section cards, plan cards and a design-call card; a contained booking modal with day and time slots; and a glowing composer with Attach, Deep Think and Send.",
+  category: "ai-section",
+  preview: "/previews/ai-section/orangebot-ai/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "ai",
+    "chatbot",
+    "chat",
+    "assistant",
+    "streaming",
+    "sidebar",
+    "light",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
