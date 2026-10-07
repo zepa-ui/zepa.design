@@ -4,6 +4,44 @@
   "homepage": "https://zepa.design",
   "items": [
     {
+      "slug": "gemini-ai",
+      "title": "Gemini AI",
+      "category": "ai-section",
+      "description": "A light assistant home screen that turns into a full chat. Expanding rail with recent chats, model switcher and apps launcher; a gradient greeting that sweeps in; four suggestion cards with live mini illustrations; a prompt pill with file chip, a listening mic and send; and streamed replies with a spinning sparkle, code, outline and interactive chart blocks, plus like, dislike, regenerate and copy.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "ai",
+        "chatbot",
+        "assistant",
+        "chat",
+        "prompt",
+        "streaming",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/gemini-ai.json"
+    },
+    {
+      "slug": "orangebot-ai",
+      "title": "Orangebot AI",
+      "category": "ai-section",
+      "description": "A complete AI assistant chat front-end with no backend required. Zepa-branded website-builder assistant: sidebar with new chat, auto-created projects and profile; an orange bot avatar that rotates through five GIFs (no two neighbours match); streaming replies with markdown, template cards, section cards, plan cards and a design-call card; a contained booking modal with day and time slots; and a glowing composer with Attach, Deep Think and Send.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "ai",
+        "chatbot",
+        "chat",
+        "assistant",
+        "streaming",
+        "sidebar",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/orangebot-ai.json"
+    },
+    {
       "slug": "cards-animation",
       "title": "Cards Animation",
       "category": "animations",

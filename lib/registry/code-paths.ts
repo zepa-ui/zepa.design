@@ -2,6 +2,12 @@
 // Run: npm run build:registry
 
 export const codePaths: Record<string, string[]> = {
+  "gemini-ai": [
+    "ai-section/gemini-ai/demo.tsx",
+  ],
+  "orangebot-ai": [
+    "ai-section/orangebot-ai/demo.tsx",
+  ],
   "cards-animation": [
     "animations/cards-animation/demo.tsx",
   ],

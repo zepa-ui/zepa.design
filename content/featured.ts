@@ -8,6 +8,8 @@
 export const featuredSlugs: string[] = [
   "paper-grid",
   "selfie-hero",
+  "gemini-ai",
+  "do-grid",
   "featured2-grid",
   "air-hero",
   "featured9-grid",

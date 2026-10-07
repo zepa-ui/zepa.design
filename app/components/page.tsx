@@ -25,6 +25,7 @@ const CATEGORY_ORDER = [
   "unicorn-section",
   "grid-sections",
   "navbar-sections",
+  "ai-section",
   "interactive-illustrations",
   "animations",
 ]
