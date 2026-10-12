@@ -15,13 +15,9 @@ Built for developers who care about details.
 
 Shipping new components every day.
 
-<p align="center">
-  <img src="public/read2.png" alt="Zepa UI landing page" width="100%" />
-</p>
+<img width="1458" height="924" alt="Screenshot 2026-06-19 at 8 58 09 PM" src="https://github.com/user-attachments/assets/fd698edb-7944-44d6-983b-675a7c3c2148" />
 
-<p align="center">
-  <img src="public/read3.png" alt="Zepa UI component gallery" width="100%" />
-</p>
+<img width="1701" height="946" alt="Screenshot 2026-06-19 at 8 58 40 PM" src="https://github.com/user-attachments/assets/7bb1e237-31a4-422b-aefb-4639eff39a6f" />
 
 ## Install a component
 

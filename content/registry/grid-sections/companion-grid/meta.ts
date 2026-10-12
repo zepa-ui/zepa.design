@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "companion-grid",
+  title: "Companion Grid",
+  description:
+    "Inspired by the companion.uprock.pro website design — a warm, cream editorial section where a headline sits behind a train of polaroid cards. Scrolling drives the train to the right on lenis-style easing, each card zigzagging up and down with a tilt that drifts as it crosses the screen and a sine bob layered on top, so the cards clear away one at a time and the line underneath is revealed. The run starts on the last card and ends on the first. The component owns its own scroll container — a tall track under a sticky viewport — so it never touches window scroll or position:fixed, and two blurred radial glows give the cream backdrop its warmth.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/companion-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "scroll",
+    "cards",
+    "polaroid",
+    "parallax",
+    "reveal",
+    "editorial",
+    "warm",
+    "light",
+    "landing",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

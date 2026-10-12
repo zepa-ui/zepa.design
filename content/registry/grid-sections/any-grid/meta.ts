@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "any-grid",
+  title: "Any Grid",
+  description:
+    "A seven-tile bento board on black where the layout never moves and every card is alive instead — a scan column sweeping a token chart, counters easing and scrambling into place, cycling tool icons and action rows, a portrait swapping with its badge, breathing bars, and a collaborator's cursor dragging a selection across the closing line. Starts when the board scrolls into view, then loops.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/any-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "bento",
+    "dashboard",
+    "counter",
+    "chart",
+    "cursor",
+    "scroll",
+    "dark",
+    "animated",
+    "saas",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "file-grid",
+  title: "File Grid",
+  description:
+    "A three-step upload, settings and storage band where every tile works: a real file picker and drop zone that lists what you add, a ZepaFolder that fans its files out on hover and counts your uploads, and a storage bar that grows by file kind and doubles on upgrade.",
+  category: "grid-sections",
+  preview: "/previews/grid-sections/file-grid/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "grid",
+    "upload",
+    "drag-and-drop",
+    "files",
+    "storage",
+    "folder",
+    "steps",
+    "light",
+    "saas",
+    "interactive",
+    "animated",
+  ],
+  dependencies: [],
+  registryDependencies: ["https://zepa.design/r/zepa-folder.json"],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

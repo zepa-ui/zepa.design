@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "jiggle-animation",
+  title: "Jiggle Animation",
+  description:
+    "Click anywhere and the photo wobbles like struck water — a cosine ripple runs outward from the exact point you hit, while a hard wipe reveals the next image on the same beat. Raw WebGL, no library. Inspired by Jesper Landberg's designs.",
+  category: "animations",
+  preview: "/previews/animations/jiggle-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "webgl",
+    "shader",
+    "ripple",
+    "distortion",
+    "slideshow",
+    "transition",
+    "click",
+    "gsap",
+    "light",
+    "interactive",
+  ],
+  dependencies: ["gsap"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const

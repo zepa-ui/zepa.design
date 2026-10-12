@@ -1,0 +1,45 @@
+"use client"
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { Bookmark, LayoutGrid, Settings, Upload } from "lucide-react"
+
+const LINKS = [
+  { href: "/dashboard", label: "Overview", icon: LayoutGrid },
+  { href: "/dashboard/bookmarks", label: "Bookmarks", icon: Bookmark },
+  { href: "/dashboard/submissions", label: "Submissions", icon: Upload },
+  { href: "/dashboard/settings", label: "Settings", icon: Settings },
+]
+
+export function DashboardNav() {
+  const pathname = usePathname()
+
+  return (
+    /* horizontal chips on mobile, a rail on desktop — same chip vocabulary as
+       the components gallery so the two pages feel like one product */
+    <nav className="mb-6 flex gap-1.5 overflow-x-auto [scrollbar-width:none] lg:mb-0 lg:w-52 lg:shrink-0 lg:flex-col lg:overflow-visible [&::-webkit-scrollbar]:hidden">
+      {LINKS.map(({ href, label, icon: Icon }) => {
+        // exact match for the index, prefix match for the rest, so
+        // /dashboard/bookmarks doesn't also light up "Overview"
+        const active =
+          href === "/dashboard" ? pathname === href : pathname.startsWith(href)
+
+        return (
+          <Link
+            key={href}
+            href={href}
+            aria-current={active ? "page" : undefined}
+            className={`flex shrink-0 items-center gap-2 rounded-full px-3 py-1.5 text-sm transition lg:rounded-md ${
+              active
+                ? "bg-white text-black lg:bg-white/[0.09] lg:text-white"
+                : "text-white/55 hover:bg-white/[0.05] hover:text-white"
+            }`}
+          >
+            <Icon className="size-3.5 shrink-0" />
+            {label}
+          </Link>
+        )
+      })}
+    </nav>
+  )
+}

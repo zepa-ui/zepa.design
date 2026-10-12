@@ -1,0 +1,28 @@
+export const meta = {
+  slug: "draggable-animation",
+  title: "Draggable Animation",
+  description:
+    "A drag-to-scrub slider where every slide is a Three.js plane, not an image. Drag velocity bows the geometry and pulls the green and blue channels apart, and the rail wraps forever. Inspired by Jesper Landberg's designs.",
+  category: "animations",
+  preview: "/previews/animations/draggable-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "webgl",
+    "threejs",
+    "shader",
+    "drag",
+    "slider",
+    "carousel",
+    "infinite",
+    "gsap",
+    "dark",
+    "interactive",
+  ],
+  dependencies: ["three", "gsap"],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
