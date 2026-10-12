@@ -1,16 +1,19 @@
 import OrangebotAI from "@/content/registry/ai-section/orangebot-ai/demo"
 import GeminiAI from "@/content/registry/ai-section/gemini-ai/demo"
+import PhoneAI from "@/content/registry/ai-section/phone-ai/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
 const LOCAL_PLAYGROUND_SLUGS = {
   "orangebot-ai": OrangebotAI,
   "gemini-ai": GeminiAI,
+  "phone-ai": PhoneAI,
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
   "orangebot-ai": "#f6f7f9",
   "gemini-ai": "#ffffff",
+  "phone-ai": "#f4f4f6",
 }
 
 type LocalPlaygroundSlug = keyof typeof LOCAL_PLAYGROUND_SLUGS

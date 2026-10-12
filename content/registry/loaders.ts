@@ -17,6 +17,9 @@ export const registryLoaders: Record<
   "orangebot-ai": {
     demo: () => import("./ai-section/orangebot-ai/demo"),
   },
+  "phone-ai": {
+    demo: () => import("./ai-section/phone-ai/demo"),
+  },
   "cards-animation": {
     demo: () => import("./animations/cards-animation/demo"),
   },
@@ -157,6 +160,9 @@ export const registryLoaders: Record<
   },
   "figma-hero": {
     demo: () => import("./hero-sections/figma-hero/demo"),
+  },
+  "file-hero": {
+    demo: () => import("./hero-sections/file-hero/demo"),
   },
   "glean-hero": {
     demo: () => import("./hero-sections/glean-hero/demo"),

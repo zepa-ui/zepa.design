@@ -3,6 +3,7 @@
 
 import { meta as aiSectionGeminiAi } from "./ai-section/gemini-ai/meta"
 import { meta as aiSectionOrangebotAi } from "./ai-section/orangebot-ai/meta"
+import { meta as aiSectionPhoneAi } from "./ai-section/phone-ai/meta"
 import { meta as animationsCardsAnimation } from "./animations/cards-animation/meta"
 import { meta as animationsDraggableAnimation } from "./animations/draggable-animation/meta"
 import { meta as animationsJiggleAnimation } from "./animations/jiggle-animation/meta"
@@ -50,6 +51,7 @@ import { meta as heroSectionsCrnacuraHero } from "./hero-sections/crnacura-hero/
 import { meta as heroSectionsDataanalyticsHero } from "./hero-sections/dataanalytics-hero/meta"
 import { meta as heroSectionsDropsHero } from "./hero-sections/drops-hero/meta"
 import { meta as heroSectionsFigmaHero } from "./hero-sections/figma-hero/meta"
+import { meta as heroSectionsFileHero } from "./hero-sections/file-hero/meta"
 import { meta as heroSectionsGleanHero } from "./hero-sections/glean-hero/meta"
 import { meta as heroSectionsGlobeHero } from "./hero-sections/globe-hero/meta"
 import { meta as heroSectionsGlslHillsHero } from "./hero-sections/glsl-hills-hero/meta"
@@ -112,6 +114,7 @@ import { meta as unicornSectionWalkingUnicorn } from "./unicorn-section/walking-
 export const registryItems = [
   aiSectionGeminiAi,
   aiSectionOrangebotAi,
+  aiSectionPhoneAi,
   animationsCardsAnimation,
   animationsDraggableAnimation,
   animationsJiggleAnimation,
@@ -159,6 +162,7 @@ export const registryItems = [
   heroSectionsDataanalyticsHero,
   heroSectionsDropsHero,
   heroSectionsFigmaHero,
+  heroSectionsFileHero,
   heroSectionsGleanHero,
   heroSectionsGlobeHero,
   heroSectionsGlslHillsHero,

@@ -42,6 +42,26 @@
       "installUrl": "https://zepa.design/r/orangebot-ai.json"
     },
     {
+      "slug": "phone-ai",
+      "title": "Phone AI",
+      "category": "ai-section",
+      "description": "A light AI-productivity hero. Concentric rings slowly orbit integration bubbles that stay upright, pause on hover and show their name, and drift with the cursor. Ratings, headline and CTAs rise in on a stagger, and a phone rises from below with a live activity feed where new notifications slide in and can be marked read. Finishes with a trusted-by strip.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "ai",
+        "hero",
+        "saas",
+        "orbit",
+        "integrations",
+        "phone",
+        "mockup",
+        "light",
+        "interactive",
+        "animated"
+      ],
+      "installUrl": "https://zepa.design/r/phone-ai.json"
+    },
+    {
       "slug": "cards-animation",
       "title": "Cards Animation",
       "category": "animations",
@@ -971,6 +991,26 @@
         "landing"
       ],
       "installUrl": "https://zepa.design/r/figma-hero.json"
+    },
+    {
+      "slug": "file-hero",
+      "title": "File Hero",
+      "category": "hero-sections",
+      "description": "A design-components hero on a dashed blueprint grid. A fan of live UI cards flies out of a frosted glass folder, drifts with the cursor in depth, and lifts to the front on hover — each card works: play the video, flip the currency, add calories, reorder the starting grid, toggle stabilization, switch daily / weekly screen time, play the track, start the sprint timer. Side specimens (search, graph, calendar, transactions, bar chart, flight swap) are interactive too.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "hero",
+        "cards",
+        "folder",
+        "glass",
+        "blueprint",
+        "dashboard",
+        "light",
+        "interactive",
+        "animated",
+        "parallax"
+      ],
+      "installUrl": "https://zepa.design/r/file-hero.json"
     },
     {
       "slug": "glean-hero",
