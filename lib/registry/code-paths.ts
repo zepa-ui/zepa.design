@@ -8,6 +8,9 @@ export const codePaths: Record<string, string[]> = {
   "orangebot-ai": [
     "ai-section/orangebot-ai/demo.tsx",
   ],
+  "phone-ai": [
+    "ai-section/phone-ai/demo.tsx",
+  ],
   "cards-animation": [
     "animations/cards-animation/demo.tsx",
   ],
@@ -159,6 +162,9 @@ export const codePaths: Record<string, string[]> = {
   ],
   "figma-hero": [
     "hero-sections/figma-hero/demo.tsx",
+  ],
+  "file-hero": [
+    "hero-sections/file-hero/demo.tsx",
   ],
   "glean-hero": [
     "hero-sections/glean-hero/demo.tsx",

@@ -109,4 +109,6 @@ export const publishedDates: Record<string, string> = {
   "tuple-grid": "2026-10-05T19:45:21.829Z",
   "gemini-ai": "2026-10-07T13:57:29.567Z",
   "orangebot-ai": "2026-10-07T13:57:29.568Z",
+  "phone-ai": "2026-10-12T18:06:48.187Z",
+  "file-hero": "2026-10-12T18:06:48.190Z",
 }
