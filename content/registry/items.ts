@@ -7,6 +7,9 @@ import { meta as aiSectionPhoneAi } from "./ai-section/phone-ai/meta"
 import { meta as animationsCardsAnimation } from "./animations/cards-animation/meta"
 import { meta as animationsDraggableAnimation } from "./animations/draggable-animation/meta"
 import { meta as animationsJiggleAnimation } from "./animations/jiggle-animation/meta"
+import { meta as animationsPixel1Animation } from "./animations/pixel1-animation/meta"
+import { meta as animationsPixel2Animation } from "./animations/pixel2-animation/meta"
+import { meta as animationsPixel3Animation } from "./animations/pixel3-animation/meta"
 import { meta as animationsReveal1Animation } from "./animations/reveal1-animation/meta"
 import { meta as animationsReveal3Animation } from "./animations/reveal3-animation/meta"
 import { meta as animationsReveal4Animation } from "./animations/reveal4-animation/meta"
@@ -118,6 +121,9 @@ export const registryItems = [
   animationsCardsAnimation,
   animationsDraggableAnimation,
   animationsJiggleAnimation,
+  animationsPixel1Animation,
+  animationsPixel2Animation,
+  animationsPixel3Animation,
   animationsReveal1Animation,
   animationsReveal3Animation,
   animationsReveal4Animation,

@@ -12,10 +12,16 @@ import Reveal6Animation from "@/content/registry/animations/reveal6-animation/de
 import DraggableAnimation from "@/content/registry/animations/draggable-animation/demo"
 import JiggleAnimation from "@/content/registry/animations/jiggle-animation/demo"
 import SliderAnimation from "@/content/registry/animations/slider-animation/demo"
+import Pixel1Animation from "@/content/registry/animations/pixel1-animation/demo"
+import Pixel2Animation from "@/content/registry/animations/pixel2-animation/demo"
+import Pixel3Animation from "@/content/registry/animations/pixel3-animation/demo"
 import { PlaygroundDemo } from "@/components/showcase/playground-demo"
 
 /** Slugs tested here before they are added to the registry. */
 const LOCAL_PLAYGROUND_SLUGS = {
+  "pixel1-animation": Pixel1Animation,
+  "pixel2-animation": Pixel2Animation,
+  "pixel3-animation": Pixel3Animation,
   "cards-animation": CardsAnimation,
   "scroll1-animation": Scroll1Animation,
   "scroll2-animation": Scroll2Animation,
@@ -33,6 +39,9 @@ const LOCAL_PLAYGROUND_SLUGS = {
 } as const
 
 const LOCAL_PLAYGROUND_BG: Record<keyof typeof LOCAL_PLAYGROUND_SLUGS, string> = {
+  "pixel1-animation": "#272f2e",
+  "pixel2-animation": "#f9f9f9",
+  "pixel3-animation": "#000000",
   "cards-animation": "#ffffff",
   "scroll1-animation": "#000000",
   "scroll2-animation": "#000000",
