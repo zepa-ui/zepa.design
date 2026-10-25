@@ -20,6 +20,15 @@ export const codePaths: Record<string, string[]> = {
   "jiggle-animation": [
     "animations/jiggle-animation/demo.tsx",
   ],
+  "pixel1-animation": [
+    "animations/pixel1-animation/demo.tsx",
+  ],
+  "pixel2-animation": [
+    "animations/pixel2-animation/demo.tsx",
+  ],
+  "pixel3-animation": [
+    "animations/pixel3-animation/demo.tsx",
+  ],
   "reveal1-animation": [
     "animations/reveal1-animation/demo.tsx",
   ],

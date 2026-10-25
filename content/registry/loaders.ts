@@ -29,6 +29,15 @@ export const registryLoaders: Record<
   "jiggle-animation": {
     demo: () => import("./animations/jiggle-animation/demo"),
   },
+  "pixel1-animation": {
+    demo: () => import("./animations/pixel1-animation/demo"),
+  },
+  "pixel2-animation": {
+    demo: () => import("./animations/pixel2-animation/demo"),
+  },
+  "pixel3-animation": {
+    demo: () => import("./animations/pixel3-animation/demo"),
+  },
   "reveal1-animation": {
     demo: () => import("./animations/reveal1-animation/demo"),
   },

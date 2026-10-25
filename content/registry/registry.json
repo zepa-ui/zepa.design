@@ -124,6 +124,63 @@
       "installUrl": "https://zepa.design/r/jiggle-animation.json"
     },
     {
+      "slug": "pixel1-animation",
+      "title": "Pixel1 Animation",
+      "category": "animations",
+      "description": "A pixel page transition (row cascade). Click an image in the typographic intro and a grid of 8×14 pixel cells covers the view, swaps in that image's page, then clears; the pixel arrow plays it in reverse. Ported from the Codrops Pixel Transition demo 1, rewritten with Zepa content and Cloudinary images.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "transition",
+        "page-transition",
+        "pixel",
+        "grid",
+        "gsap",
+        "stagger",
+        "gallery",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/pixel1-animation.json"
+    },
+    {
+      "slug": "pixel2-animation",
+      "title": "Pixel2 Animation",
+      "category": "animations",
+      "description": "A pixel page transition (center burst). Click an image in the typographic intro and a grid of 9×17 pixel cells covers the view, swaps in that image's page, then clears; the pixel arrow plays it in reverse. Ported from the Codrops Pixel Transition demo 2, rewritten with Zepa content and Cloudinary images.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "transition",
+        "page-transition",
+        "pixel",
+        "grid",
+        "gsap",
+        "stagger",
+        "gallery",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/pixel2-animation.json"
+    },
+    {
+      "slug": "pixel3-animation",
+      "title": "Pixel3 Animation",
+      "category": "animations",
+      "description": "A pixel page transition (diagonal sweep). Click an image in the typographic intro and a grid of 7×13 pixel cells covers the view, swaps in that image's page, then clears; the pixel arrow plays it in reverse. Ported from the Codrops Pixel Transition demo 3, rewritten with Zepa content and Cloudinary images.",
+      "github": "vij-sameerb5",
+      "tags": [
+        "animation",
+        "transition",
+        "page-transition",
+        "pixel",
+        "grid",
+        "gsap",
+        "stagger",
+        "gallery",
+        "interactive"
+      ],
+      "installUrl": "https://zepa.design/r/pixel3-animation.json"
+    },
+    {
       "slug": "reveal1-animation",
       "title": "Reveal 1 Animation",
       "category": "animations",
