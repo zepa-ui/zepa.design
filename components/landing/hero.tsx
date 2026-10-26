@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, ArrowUpRight } from "lucide-react"
 import Link from "next/link"
 import UnicornScene from "unicornstudio-react"
 import { Button } from "@/components/ui/button"
@@ -26,7 +26,7 @@ const textRevealVariants = {
   }),
 }
 
-export function Hero() {
+export function Hero({ play = true }: { play?: boolean }) {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 pb-16 overflow-hidden">
       {/* Background scene */}
@@ -49,6 +49,7 @@ export function Hero() {
       {/* Subtle radial glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-zinc-800/20 rounded-full blur-3xl pointer-events-none" />
 
+      {play && (
       <div className="relative z-10 max-w-5xl mx-auto text-center translate-y-6 sm:translate-y-8 lg:translate-y-10">
         {/* Badge */}
         <motion.div
@@ -115,9 +116,13 @@ export function Hero() {
             asChild
             variant="outline"
             size="lg"
-            className="rounded-full px-8 h-12 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
+            className="group rounded-full px-8 h-12 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
-            <Link href="#demo">View Demo</Link>
+            <Link href="/enterprise">
+              <span className="mr-2 h-1.5 w-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+              Enterprise
+              <ArrowUpRight className="ml-1.5 w-4 h-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </Link>
           </Button>
         </motion.div>
 
@@ -150,6 +155,7 @@ export function Hero() {
           </p>
         </motion.div>
       </div>
+      )}
     </section>
   )
 }

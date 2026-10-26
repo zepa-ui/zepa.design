@@ -54,6 +54,16 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark preloading" suppressHydrationWarning>
       <head>
+        {/* Unicorn Studio WebGL scenes: open the connections and fetch the SDK
+            during HTML parse instead of after hydration */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
+        <link rel="preconnect" href="https://storage.googleapis.com" crossOrigin="" />
+        <link
+          rel="preload"
+          as="script"
+          crossOrigin=""
+          href="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.5/dist/unicornStudio.umd.js"
+        />
         {/* Structured data — teaches Google what "Zepa UI" is (lib/marketing/) */}
         <JsonLd data={softwareApplicationSchema()} />
         <JsonLd data={organizationSchema()} />
@@ -85,7 +95,9 @@ export default function RootLayout({
             __html: `
               (function () {
                 try {
-                  if (window.location.pathname === '/') {
+                  var seen = false;
+                  try { seen = sessionStorage.getItem('zepa-preloaded') === '1'; } catch (e) {}
+                  if (window.location.pathname === '/' && !seen) {
                     document.documentElement.classList.add('preloading');
                   } else {
                     document.documentElement.classList.remove('preloading');

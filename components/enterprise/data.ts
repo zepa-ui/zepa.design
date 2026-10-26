@@ -65,14 +65,15 @@ export const PIPELINE = [
 ] as const
 
 export const STACK: { layer: string; text: string; tools: string[] }[] = [
-  { layer: "Frontend", text: "Fast, accessible interfaces built as typed, reusable components.", tools: ["React", "Next.js", "TypeScript"] },
-  { layer: "Design & Motion", text: "The same design system and motion craft behind Zepa UI — GSAP, WebGL and 3D where it earns its place.", tools: ["Tailwind CSS", "shadcn/ui", "GSAP", "Three.js"] },
-  { layer: "Backend", text: "APIs and business logic that stay simple to extend as your product grows.", tools: ["Next.js API routes", "Node.js"] },
-  { layer: "Database", text: "Relational data modelled around your business — users, orders, bookings, records.", tools: ["PostgreSQL", "Neon", "Supabase"] },
-  { layer: "Authentication", text: "Secure sign-in, social login, email verification and role-based access.", tools: ["Clerk", "Auth.js"] },
-  { layer: "Payments", text: "One-time payments, subscriptions and invoices with reliable status handling.", tools: ["Razorpay", "Stripe"] },
-  { layer: "AI", text: "Assistants, document tools and automated workflows wired into your product.", tools: ["OpenAI API", "Anthropic API"] },
-  { layer: "Deployment", text: "Domains, SSL, environments and production hosting configured for you.", tools: ["Vercel", "Netlify"] },
+  { layer: "Frontend", text: "Fast, accessible interfaces — from typed React apps to classic HTML sites and WordPress builds.", tools: ["React", "Next.js", "Angular", "Vue", "TypeScript", "JavaScript", "Vanilla JS", "HTML & CSS", "WordPress"] },
+  { layer: "Design & Motion", text: "Wireframes and Figma designs first, then the same motion craft behind Zepa UI — GSAP, WebGL and 3D where it earns its place.", tools: ["Figma", "Wireframes", "Prototyping", "Web design", "Tailwind CSS", "shadcn/ui", "Framer Motion", "GSAP", "Three.js"] },
+  { layer: "Backend", text: "APIs and business logic that stay simple to extend as your product grows.", tools: ["Node.js", "Next.js API routes", "Express", "Python", "Go", "Rust"] },
+  { layer: "Mobile", text: "Native and cross-platform mobile apps that share logic with your web product.", tools: ["React Native", "Expo", "Swift"] },
+  { layer: "Database", text: "SQL or NoSQL, modelled around your business — users, orders, bookings, records.", tools: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Supabase", "Neon", "Redis", "SQLite", "Prisma", "Drizzle"] },
+  { layer: "Authentication", text: "Secure sign-in, social login, email verification and role-based access.", tools: ["Auth.js", "Firebase Auth", "Supabase Auth", "Google OAuth", "JWT sessions", "Magic links", "Passkeys"] },
+  { layer: "Payments", text: "One-time payments, UPI, subscriptions and invoices with reliable status handling.", tools: ["Razorpay", "Stripe", "UPI", "PayPal"] },
+  { layer: "AI", text: "Assistants, document tools and automated workflows wired into your product.", tools: ["OpenAI API", "Anthropic API", "Gemini API", "DeepSeek API", "OpenRouter", "Grok API", "Groq"] },
+  { layer: "Deployment", text: "Domains, SSL, environments and production hosting configured for you.", tools: ["Vercel", "Netlify", "Cloudflare", "AWS", "Railway", "Render", "DigitalOcean", "Docker"] },
   { layer: "Integrations", text: "Email, maps, CRM, WhatsApp and the third-party APIs your business runs on.", tools: ["Email services", "Maps", "External APIs"] },
 ]
 

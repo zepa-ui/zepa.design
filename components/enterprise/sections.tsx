@@ -188,9 +188,9 @@ export function Stack() {
                         transition={{ duration: 0.4, ease: EASE }}
                         className="overflow-hidden"
                       >
-                        <div className="grid gap-4 pb-6 pl-9 sm:grid-cols-[1.2fr_1fr]">
-                          <p className="text-sm leading-relaxed text-zinc-400">{row.text}</p>
-                          <div className="flex flex-wrap content-start gap-2 sm:justify-end">
+                        <div className="space-y-4 pb-6 pl-9">
+                          <p className="max-w-md text-sm leading-relaxed text-zinc-400">{row.text}</p>
+                          <div className="flex flex-wrap gap-2">
                             {row.tools.map((t) => (
                               <span key={t} className="rounded-md border border-zinc-800 bg-zinc-950 px-2.5 py-1 font-mono text-xs text-zinc-300">
                                 {t}
@@ -439,18 +439,23 @@ export function Booking() {
 /* ───────────────────────── atmospheric final cta ───────────────────────── */
 
 export function FinalCTA() {
+  // the WebGL scene is heavy — only start loading it when it's a screen away
+  const sceneRef = useRef(null)
+  const sceneNear = useInView(sceneRef, { once: true, margin: "800px 0px" })
   return (
     <section className="px-4 pb-16 pt-8">
       <Reveal className="relative mx-auto max-w-6xl overflow-hidden rounded-3xl border border-zinc-800 bg-landing">
-        <div className="pointer-events-none absolute inset-0 opacity-80">
+        <div ref={sceneRef} className="pointer-events-none absolute inset-0 opacity-80">
+          {sceneNear && (
           <UnicornScene
             projectId="KNn6dlWqGKdy8LDpWCWy"
             width="100%"
             height="100%"
             scale={1}
             dpi={1.5}
-            sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.6/dist/unicornStudio.umd.js"
+            sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.5/dist/unicornStudio.umd.js"
           />
+          )}
         </div>
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-landing via-landing/60 to-landing/20" />
         <div className="pointer-events-none absolute bottom-0 left-1/2 h-64 w-[80%] -translate-x-1/2 translate-y-1/2 rounded-full bg-blue-600/20 blur-[100px]" />

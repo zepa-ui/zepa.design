@@ -10,6 +10,9 @@ import UnicornScene from "unicornstudio-react/next"
 export function FinalCTA() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+  // the WebGL scene is heavy — only start loading it when it's a screen away
+  const sceneRef = useRef(null)
+  const sceneNear = useInView(sceneRef, { once: true, margin: "800px 0px" })
 
   return (
     <section className="px-4 pt-24 pb-8">
@@ -24,10 +27,11 @@ export function FinalCTA() {
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight"
           style={{ fontFamily: "var(--font-cal-sans)" }}
         >
-          Ready to ship faster?
+          Need a complete product built?
         </h2>
         <p className="text-lg sm:text-xl text-zinc-400 mb-10 max-w-2xl mx-auto">
-          Collabrate with thousands of components already built with zepa. start free, no credit card  no fees required.
+          Zepa Enterprise designs and builds full websites and web apps for businesses — frontend,
+          backend, database, authentication, payments and deployment.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -36,8 +40,8 @@ export function FinalCTA() {
             size="lg"
             className="shimmer-btn bg-white text-zinc-950 hover:bg-zinc-200 rounded-full px-8 h-14 text-base font-medium shadow-lg shadow-white/20"
           >
-            <Link href="/components">
-              Get Started for Free
+            <Link href="/enterprise">
+              Explore Enterprise
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
           </Button>
@@ -68,7 +72,7 @@ export function FinalCTA() {
           />
         </div> */}
 
-        <p className="mt-4 text-sm text-zinc-500">100% free and open source. Built for developers who care about details.</p>
+        <p className="mt-4 text-sm text-zinc-500">One partner, end to end — scoped clearly, built properly, owned by you.</p>
       </motion.div>
 
       {/* Unicorn Studio scene */}
@@ -77,17 +81,20 @@ export function FinalCTA() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 1.2, delay: 0.5 }}
+          ref={sceneRef}
           className="mt-12 w-full rounded-2xl overflow-hidden"
           style={{ height: "700px" }}
         >
+          {sceneNear && (
           <UnicornScene
             projectId="KNn6dlWqGKdy8LDpWCWy"
             width="100%"
             height="100%"
             scale={1}
             dpi={1.5}
-            sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.6/dist/unicornStudio.umd.js"
+            sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.5/dist/unicornStudio.umd.js"
           />
+          )}
         </motion.div>
       </div>
     </section>

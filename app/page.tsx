@@ -25,20 +25,18 @@ export default function Home() {
     <SmoothScroll>
       <main className="min-h-screen bg-landing">
         <Preloader onComplete={() => setReady(true)} />
-        {ready && (
-          <>
-            <Navbar />
-            <Hero />
-            <LogoMarquee />
-            
-            <FeatureSection />
-            <DemoSection />
-            <BentoGrid />
-            <FinalCTA />
-            <Testimonials />
-            <Footer />
-          </>
-        )}
+        {/* The page mounts *behind* the preloader so the hero scene, fonts and
+            images load while the intro plays. Only the entrance animations wait. */}
+        {ready && <Navbar />}
+        <Hero play={ready} />
+        <LogoMarquee />
+
+        <FeatureSection />
+        <DemoSection />
+        <BentoGrid />
+        <FinalCTA />
+        <Testimonials />
+        <Footer />
       </main>
     </SmoothScroll>
   )
