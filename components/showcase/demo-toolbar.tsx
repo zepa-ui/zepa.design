@@ -5,6 +5,7 @@ import Link from "next/link"
 import { ExternalLink, Moon, RotateCw, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
+import { BookmarkButton } from "@/components/bookmarks/bookmark-button"
 
 export type DemoTheme = "light" | "dark"
 
@@ -16,6 +17,7 @@ interface DemoToolbarProps {
   showOpenInNewTab?: boolean
   showRefresh?: boolean
   showTheme?: boolean
+  showBookmark?: boolean
   variant?: "inline" | "overlay"
   className?: string
 }
@@ -78,6 +80,7 @@ export function DemoToolbar({
   showOpenInNewTab = true,
   showRefresh = true,
   showTheme = true,
+  showBookmark = true,
   variant = "inline",
   className,
 }: DemoToolbarProps) {
@@ -123,6 +126,10 @@ export function DemoToolbar({
         <ToolbarButton variant="inline" label="Refresh demo" onClick={onRefresh}>
           <RotateCw className="size-4" />
         </ToolbarButton>
+      ) : null}
+
+      {showBookmark ? (
+        <BookmarkButton slug={slug} variant="toolbar" />
       ) : null}
     </div>
   )

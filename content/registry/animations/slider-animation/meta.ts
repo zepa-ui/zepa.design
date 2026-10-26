@@ -1,0 +1,27 @@
+export const meta = {
+  slug: "slider-animation",
+  title: "Slider Animation",
+  description:
+    "A vertical scroll-snap rail in 2000px of perspective. Each card turns from -40° on both axes, squares up flat as it snaps to centre, then turns away, with the caption drifting on its own track. Inspired by Kevin Haag's MicroMonday.",
+  category: "animations",
+  preview: "/previews/animations/slider-animation/preview.mov",
+  github: "vij-sameerb5",
+  tags: [
+    "animation",
+    "scroll",
+    "snap",
+    "3d",
+    "perspective",
+    "slider",
+    "carousel",
+    "gallery",
+    "dark",
+    "interactive",
+  ],
+  dependencies: [],
+  registryDependencies: [],
+  version: 1,
+  views: 0,
+  likes: 0,
+  installs: 0,
+} as const
