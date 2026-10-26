@@ -48,7 +48,7 @@ export function FinalCTA() {
             className="rounded-full px-8 h-14 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
             <Link
-              href="https://calendly.com/shaiksameer8921/30min"
+              href="https://calendly.com/shaiksameer8921/meet-zepa-s-team"
               target="_blank"
               rel="noreferrer"
             >

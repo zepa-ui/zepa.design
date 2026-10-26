@@ -11,6 +11,7 @@ const navItems = [
   { label: "Components", href: "/components" },
   { label: "Templates", href: "https://github.com/zepa-ui/zepa.design" },
   { label: "Docs", href: "/docs" },
+  { label: "Enterprise", href: "/enterprise" },
 ]
 
 export function Navbar() {
